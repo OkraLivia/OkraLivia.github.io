@@ -35,37 +35,66 @@
   </div>
 </nav> -->
 
+<div class="container-fluid bg-2 text-center ocean"></div> 
+
+<div class="col-sm-3">
 <!-- About Container -->
 <div class="container-fluid bg-1 text-center">
   <img src="images/okra-livia-inkeri-dimle.jpg" class="okraImg" style="display:inline" alt="OkraLivia"> <!-- class="img-responsive img-circle margin" -->
   <h3>Okra Livia Inkeri-Dimle</h3>
   <p>dimle@kth.se</p>
-  <p class="description">My name is Okra Livia and I am a fourth year Media Technology student at KTH Royal Institute of Thechnology where I am currently studying my first year of the Interactive Media Technology master. I am interested in design and user interaction, that is UX and UI, but also the field of HCI and ITC.</p>
-  <a href="https://www.linkedin.com/in/okralivia-inkeri-dimle/" target="_blank"><img src="images/linkedin.svg" alt="linkedin" class="linkedin"></a>
+  <p class="description">My name is Okra Livia and I am a fourth year Media Technology student at KTH Royal Institute of Thechnology where I am currently studying my first year of the Interactive Media Technology master. I am interested in design and user interaction, that is UX and UI, but also the field of HCI and ICT.</p>
+  <h3>Skills</h3>
+  <p>HTML, CSS, JavaScript, React, Python, SQL, PHP, Photoshop, Illustrator</p>
+  <h3>Languages</h3>
+  <p>
+    <ul class="list-unstyled">
+      <li>Finnish - native tongue</li>
+      <li>Swedish - native tongue</li>
+      <li>English - fluent</li>
+      <li>Spanish - basic</li>
+    </ul>
+  </p>
+  <br>
+  <a href="https://www.linkedin.com/in/okralivia-inkeri-dimle/" target="_blank"><img src="images/linkedin.svg" alt="linkedin"></a>
+</div>
 </div>
 
 <!-- Projects Container (Grid) -->
-<div class="container-fluid bg-3">  
-  <p class="project">Projects</p><br>
+<div class="col-sm-9">
+<div class="container-fluid bg-3 proj">  
+  <p class="project"><b>Projects</b></p><br>
   <div class="row">
 
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <div class="container" data-toggle="collapse" data-target="#demo">
-        <img src="images/AR-icon-print.png" class="projImg" style="display:inline" alt="Image"/>
+        <img src="images/AR-icon-print.png" class="projImg" alt="Image"/>
         <div class="overlay">
           <div class="text">OsqledARen</div>
         </div>
       </div>
       <div id="demo" class="collapse">
         <h3>OsqledARen</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>OsqledARen is a VR app for the student union paper, Osqledaren, to enhance the experience of reading a traditional paper magazine. The app provides the reader with extra content for some chosen articles, like additional images, videos, music and podcasts.</p>
         <p>OsqledARen is the outcome from a group project of four peopel in the course Multimodal Interaction and Interfaces at KTH.</p>
+      </div>
+      <br>
+      <div class="container" data-toggle="collapse" data-target="#demo4">
+        <img src="images/CozyCorners.png" class="projImg" alt="Image"/>
+        <div class="overlay">
+          <div class="text">Cozy Corners</div>
+        </div>
+      </div>
+      <div id="demo4" class="collapse">
+        <h3>Cozy Corners</h3>
+        <p>Cozy Corners makes sharing your favourit places easier. A user can add a new "cozy corner" to a map by filling in the longitude and latitude. A description, images and tags can also be added.</p>
+        <p>Cozy Corners is the outcome from a group project of three peopel in the course Mobile Development with Web Technologies at KTH.</p>
       </div>
     </div>
 
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <div class="container" data-toggle="collapse" data-target="#demo3">
-        <img src="images/scrollr_logo2.png" class="projImg" style="display:inline" alt="Image"/>
+        <img src="images/scrollr_logo2.png" class="projImg" alt="Image"/>
         <div class="overlay">
           <div class="text">scrollr</div>
         </div>
@@ -75,69 +104,82 @@
         <video class="videos" width="320" height="240" autoplay>
           <source src="images/Logga-loop.mp4" type="video/mp4">
         </video>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>We created scroller as an alternative to regular scrolling. By tilting your phone quickly toward yourself, the socialmedia flow, like Instagram or Facebook, scrolls automatically and no hancs are needed.</p>
         <p>scrollr is the outcome from a group project of four peopel in the course Media Technology and Interaction Design at KTH.</p>
       </div>
     </div>
 
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <div class="container" data-toggle="collapse" data-target="#demo2">
-        <img src="images/M(yFave)Db_gradient.png" class="projImg" style="display:inline" alt="Image"/>
+        <img src="images/M(yFave)Db_gradient.png" class="projImg" alt="Image"/>
         <div class="overlay">
           <div class="text">M(yFave)Db</div>
         </div>
       </div>
       <div id="demo2" class="collapse">
         <h3>M(yFave)Db</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>M(yFab)Db is the crossover between IMDb and Spotify, where one can create a profile and create different themed lists with movies that can be chared with your friends. </p>
         <p>M(yFave)Db is the outcome from a group project of four peopel in the course Interaction Progtamming and the Dynamic Web at KTH.</p>
       </div>
     </div>
 
-    <div class="col-sm-3">
-      <div class="container" data-toggle="collapse" data-target="#demo4">
-        <img src="images/CozyCorners.png" class="projImg" style="display:inline" alt="Image"/>
-        <div class="overlay">
-          <div class="text">Cozy Corners</div>
-        </div>
-      </div>
-      <div id="demo4" class="collapse">
-        <h3>Cozy Corners</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Cozy Corners is the outcome from a group project of three peopel in the course Mobile Development with Web Technologies at KTH.</p>
-      </div>
+  </div>
+
+</div>
+
+
+<!-- edu Container (Grid) -->
+<div class="container-fluid bg-4 edu">    
+  <p class="other"><b>Education</b></p><br>
+
+  <div class="row" style="margin: 10px">
+
+    <div class="col-sm-6">
+      
+      <h3>B.Sc. Media Technology</h3>
+          <h4>KTH - Stockholm, Sweden</h4>
+      <p>2015-2018</p>
+    </div>
+
+    <div class="col-sm-6">
+      
+      <h3>M.Sc.Eng. Media Technology, M.Sc. Interactive Media Technology</h3>
+      <h4>KTH - Stockholm, Sweden</h4>
+      <p>2018-present</p>
     </div>
 
   </div>
 </div>
 
+
 <!-- others Container (Grid) -->
-<div class="container-fluid bg-4">    
-  <p class="other">Other Engagements</p><br>
+<div class="container-fluid bg-4 others">    
+  <p class="other"><b>Other Engagements</b></p><br>
 
   <div class="row" style="margin: 10px">
 
     <div class="col-sm-6">
-      <img src="images/OL.png" class="okraImg2" style="display:inline" alt="OkraLivia">
+      <a href="http://osqledaren.se/" target="_blank"><img src="images/OL.png" class="okraImg2" style="display:inline" alt="OL"></a>
       <p>I am an illustrator at Osqledaren, KTH's student union paper, where I do the illustrations for articles that I am assigned and deliver to a deadline.</p>
     </div>
 
     <div class="col-sm-6"> 
-      <img src="images/studs.png" class="okraImg2" style="display:inline" alt="OkraLivia">
+      <a href="https://studieresan.se/" target="_blank"><img src="images/studs.png" class="okraImg2" style="display:inline" alt="Studs"></a>
       <p>I am part of the travel group in the course Industrial Development and Entrepreneurship, Advanced Course at KTH where our group is responsible of the planning and execution of a 2,5 weeks long studytrip for 30 students to USA in the summer of 2019.</p>
     </div>
 
     <div class="col-sm-6">
-      <img src="images/Netlight.png" class="okraImg2" style="display:inline" alt="OkraLivia">
+      <a href="https://www.netlight.com/" target="_blank"><img src="images/Netlight.png" class="okraImg2" style="display:inline" alt="Netlight"></a>
       <p>I work part time as a graphic designer at IT and management consulting company, Netlight.</p>
     </div>
 
   </div>
 </div>
+</div>
 
 
 <!-- Footer -->
-<footer class="container-fluid bg-2 text-center">
+<footer class="container-fluid bg-2 text-center ocean">
   <!-- <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>  -->
 </footer>
 
