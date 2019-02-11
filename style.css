@@ -2,7 +2,6 @@
     font-family: Montserrat, sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
-    /*background-image: url("bg9.png");*/
     background-repeat: repeat-y;
     background-size: cover;
     overflow-x: hidden !important;
@@ -23,7 +22,6 @@
     width: 250px;
     height: auto;
     margin-top: 20px;
-    /* box-shadow: 0 0 20px #3d3d3d; */
   }
 
  .projImg {
@@ -31,8 +29,6 @@
     width: 220px;
     height: auto;
     margin-top: 20px;
-    /* box-shadow: 0 0 20px #3d3d3d; */
-
   }
 
   .okraImg2 {
@@ -45,21 +41,15 @@
   }
 
   .bg-1, .bg-2 { 
-    /*background-image: url("bg9.png");*/
-    
-     /* background-image: linear-gradient(to bottom right, #4250f4, #a641f4, #41f4f4); */
     color: #555555;
     font-size: 15px;
     background-color: #ffffff;
-
-    /*text-shadow: 2px 2px 3px #3d3d3d;*/
   }
 
   .bg-2 { 
     
-    background-color: #ffffff; /* f7f7f7 */
+    background-color: #ffffff;
     color: #474e5d;
-    /*background-image: url("bg8.png");*/
   }
 
   .ocean {
@@ -70,13 +60,12 @@
   }
 
   .bg-3 { 
-    background-color: #ffffff; /* f7f7f7 */
+    background-color: #ffffff;
     color: #555555;
-    /*margin-bottom: 20px;*/
   }
 
   .bg-4 { 
-    background-color: #ffffff; /* f7f7f7 */
+    background-color: #ffffff;
     color: #555555;
     font-size: 14px; 
   }
