@@ -9,12 +9,12 @@ h1 {
 
 .labelTitle {
   font-size: 24px;
-  font-family: 'Opake Heavy';
+  font-family: 'Opake Heavy', 'Modak', cursive;
   padding-bottom: 10px;
 }
 
 .eduTitle {
-  font-family: 'Sofia Pro', sans-serif;
+  font-family: 'Sofia Pro', 'Spartan', sans-serif;
   font-weight: 900;
   font-style: normal;
   color: #262626;
@@ -34,13 +34,8 @@ h1 {
   margin: 50px 0 45px;
 }
 
-/*.skillCards__items {
-  margin-bottom: 24px;
-}*/
-
 .skillCards__item {
   display: flex;
-  /*flex: 1;*/
   margin: 0 1rem;
   border-radius: 5px;
 }

@@ -6,7 +6,6 @@
   font-weight: 400;
   font-style: normal;
   color: #262626;
-  font-size: 18px;
 }
 
 .home{
@@ -18,8 +17,6 @@
 }
 
 iframe {
-  /*width: 30em;
-  height: 28em;*/
   width: 640px;
   height: 480px;
 }

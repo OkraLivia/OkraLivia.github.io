@@ -93,12 +93,16 @@
   }	
 
   img, .gallery-img {
-    /*width: 100%;*/
     border: 5px solid #fff;
     max-height: 200px;
     width: auto;
   }
   
+}
+
+.title {
+  font-size: 24px;
+  font-family: 'Opake Heavy','Modak', cursive;
 }
 
 .modal-overlay {
