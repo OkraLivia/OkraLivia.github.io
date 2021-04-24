@@ -5,7 +5,7 @@ const imgUrls = [
   
       './images/art/fika2.png',
       './images/art/donut.png',
-      './images/art/2 öl upside down.png',
+      './images/art/2beer.png',
       './images/art/ipa_label.png',
       './images/art/paverka_industrin.png',
       './images/art/lovehate.png',
