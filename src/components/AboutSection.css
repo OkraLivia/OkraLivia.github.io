@@ -99,9 +99,9 @@
     flex-direction: column;
   }
 
-  .about-links {
+  .about-links, .about-link-items {
   width: 60%;
-}
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -116,7 +116,7 @@
   .social-media-wrap {
     flex-direction: column;
   }
-  .about-links {
+  .about-links, .about-link-items {
   width: 60%;
 }
 }

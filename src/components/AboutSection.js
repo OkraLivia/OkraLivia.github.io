@@ -13,7 +13,7 @@ function AboutSection() {
 				    <p>My name is Okra Livia, I'm born and raised on Södermalm in Stockholm. My mother is from Finland
 					so I have grown up with both the Swedish and Finnish culture which has been great. My friends would 
 					say that I'm a calm and fun-loving person. My freetime I like to spend drawing, taking care of 
-					my plants and drinkinig craft beer.</p> <br/>
+					my plants and drinking craft beer.</p> <br/>
 
 					<p>Right now I'm finishing up my M.Sc. in Interactive Media Technology at KTH Royal Institute of 
 					Technology in Stockholm. I have a specialization in Physical Interaction Design and experience in 
