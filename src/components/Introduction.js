@@ -1,0 +1,25 @@
+import React from 'react';
+import '../App.css';
+import './Introduction.css';
+import { Link } from 'react-router-dom';
+
+function Introduction() {
+	return (
+		<div className='hero-container' id='hero'>
+			<img className="me-img" alt='okra' src="images/profile_pic.png" width="500"/>
+			<div className="text-block">
+			    <h1 className="title" style={{marginBottom: "10px"}}>Hi, I'm Okra Livia!</h1>
+			    <p>I love design and I’m all about designing multimodal and creative 
+			    solutions where the user is in focus.</p> <br/>
+
+				<p>I’m currently finishing up my M.Sc. in Interactive Media Technology 
+				at KTH in Stockholm. I have a specialisation in physical interaction 
+				design and I enjoy building experiences for IoT and AR and understanding 
+				the psychology behind user interaction.</p>
+				<Link to="/about" style={{fontWeight: "bold"}}>Read more</Link>
+			</div>
+		</div>
+	)
+}
+
+export default Introduction;
