@@ -73,3 +73,9 @@
   margin: auto;
   }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) { _::-webkit-full-page-media, _:future, 
+  .text-block { 
+    margin-left: -10em; 
+    }
+  }

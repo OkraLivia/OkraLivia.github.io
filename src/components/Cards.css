@@ -117,3 +117,10 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) { _::-webkit-full-page-media, _:future, 
+   .cards__item__text{
+    font-size: 15px;
+    font-weight: 600;
+  }
+  }

@@ -51,20 +51,19 @@ h1 {
   line-height: 24px;
 }
 
-@media only screen and (min-width: 1200px) {
-  .content__blog__container {
-    width: 84%;
-  }
-}
-
 @media only screen and (min-width: 1024px) {
   .skillCards__items {
     display: flex;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .skillCards__item {
     margin-bottom: 2rem;
   }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) { _::-webkit-full-page-media, _:future, 
+  .eduTitle {
+  font-family: 'Sofia Pro', 'Spartan', sans-serif;
+  font-weight: 600;
+}
+  .skillCards__item__text {
+    font-size: 15px;
+  }
+  }

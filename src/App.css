@@ -27,7 +27,7 @@ iframe {
 
 h1, .other {
   font-family: 'Opake Heavy', 'Modak', cursive;
-  font-size: 24px !importantt;
+  font-size: 24px;
 }
 
 .other_item {
@@ -195,8 +195,17 @@ p {
 
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) { _::-webkit-full-page-media, _:future, :root , 
+@media screen and (-webkit-min-device-pixel-ratio: 0) { _::-webkit-full-page-media, _:future, 
   .img-text { 
     margin-top: 20em; 
     }
+    .fa-arrow-right {
+    margin-left: 2em; 
+  }
+
+.fa-arrow-left {
+    margin-right: 2em;
+    }
+  
+
   }
