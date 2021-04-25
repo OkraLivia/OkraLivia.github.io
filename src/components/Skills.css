@@ -38,11 +38,12 @@ h1 {
   display: flex;
   margin: 0 1rem;
   border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 .skillCards__item__info {
   padding: 20px 20px 20px;
-  width: 270px; /*width: 270px;*/
+  width: 270px;
 }
 
 .skillCards__item__text {
@@ -51,6 +52,11 @@ h1 {
   line-height: 24px;
 }
 
+.skillCards__items {
+  display: inline-grid;
+}
+
+
 @media only screen and (min-width: 1024px) {
   .skillCards__items {
     display: flex;
@@ -58,12 +64,30 @@ h1 {
   }
 }
 
+@media only screen and (min-width: 960px) {
+  .skillCards__items {
+    display: flex;
+  }
+}
+/*@media only screen and (min-width: 1024px) {
+  .skillCards__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}*/
+
+
+/*@media only screen and (min-width: 768px) {
+.skillCards__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+*/
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) { _::-webkit-full-page-media, _:future, 
   .eduTitle {
   font-family: 'Sofia Pro', 'Spartan', sans-serif;
   font-weight: 600;
 }
-  .skillCards__item__text {
-    font-size: 15px;
-  }
   }
