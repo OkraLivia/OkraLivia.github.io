@@ -20,12 +20,9 @@
 }
 
 .navbar-logo {
-  color: #262626;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
   display: flex;
   align-items: center;
 }
@@ -159,6 +156,11 @@
     text-align: center;
     width: 200px
   }
+
+  .navbar-logo {
+    padding-bottom: 1em;
+  }
+
 }
 
 .title-name {

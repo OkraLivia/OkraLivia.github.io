@@ -95,8 +95,8 @@ img.hover-zoom:hover {
 
 .fa-arrow-right {
   position: absolute;
-  top: 50%;
-  margin-left: 25em;
+  top: 104%; /*50%*/
+  margin-left: 5em; /*25em*/
   font-size: 1rem;
   color: #262626;
   z-index: 10;
@@ -106,8 +106,8 @@ img.hover-zoom:hover {
 
 .fa-arrow-left {
   position: absolute;
-  top: 50%;
-  margin-right: 25em;
+  top: 104%;
+  margin-right: 5em;
   font-size: 1rem;
   color: #262626;
   z-index: 10;
@@ -141,4 +141,17 @@ img.hover-zoom:hover {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 820px) {
+  .img-text {
+  margin-top: 10em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img-text {
+  margin-top: 10em;
+  }
+
 }
