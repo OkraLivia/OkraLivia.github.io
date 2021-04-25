@@ -7,7 +7,7 @@ function About(props) {
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
-	          <h4 style={{marginBottom: "10px", color:"#F77B80"}}>HAPTICS | GAME DEVELOPMENT | ANDROID</h4>
+	          <h4 className='technologies'>HAPTICS | GAME DEVELOPMENT | ANDROID</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Hunt the Thimble</h1>
 				   <h4>In this project we investigated the difference in performance and whether or not the 
 				   combination of visual and vibrotactile feedback increase the performance of playing a mobile 

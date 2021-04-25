@@ -11,7 +11,7 @@ function About(props) {
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
-	          <h4 style={{marginBottom: "10px", color:"#F77B80"}}>ADOBE XD | REDESIGN | IPHONE</h4>
+	          <h4 className='technologies'>ADOBE XD | REDESIGN | IPHONE</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Redesign of the app Clue</h1>
 				   <h4>This is a project I did on my freetime using Adobe XD. I thought it would be a fun and 
 				   interesting task to redesign the period tracking app Clue giving 

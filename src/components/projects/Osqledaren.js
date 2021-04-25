@@ -7,7 +7,7 @@ function About(props) {
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
-	          <h4 style={{marginBottom: "10px", color:"#F77B80"}}>AR | UNITY | ENTERTAINMENT</h4>
+	          <h4 className='technologies'>AR | UNITY | ENTERTAINMENT</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>OsqledARen</h1>
 				   <h4>OsqledARen is a school project in which we created a mobile 
 				   experience combining AR technology and a printed magazine. The AR functions extended the printed 

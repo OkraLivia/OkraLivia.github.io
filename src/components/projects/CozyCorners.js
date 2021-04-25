@@ -12,7 +12,7 @@ function About(props) {
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
-	          <h4 style={{marginBottom: "10px", color:"#F77B80"}}>JAVASCRIPT | HTML/CSS | UI & UX </h4>
+	          <h4 className='technologies'>JAVASCRIPT | HTML/CSS | UI & UX </h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Cozy Corners</h1>
 				   <h4>Cozy Corners makes sharing your favourite places easier. A user with a profile can add a new 
 				   cozy corner to a map by filling in the longitude and latitude as well as additional information 

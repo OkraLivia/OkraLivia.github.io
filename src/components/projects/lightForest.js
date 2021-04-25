@@ -7,7 +7,7 @@ function About(props) {
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
-	          <h4 style={{marginBottom: "10px", color:"#F77B80"}}>ARDUINO | CONSTRUCTION | PHYSICAL INTERACTION</h4>
+	          <h4 className='technologies'>ARDUINO | CONSTRUCTION | PHYSICAL INTERACTION</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Light Forest</h1>
 				   <h4>The Swedish winters are dark, cold and wet. This however does not affect children’s 
 				   excitement to play outside. Therefore, we created the Interactive Light Forest. A project 

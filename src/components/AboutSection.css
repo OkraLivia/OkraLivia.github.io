@@ -1,4 +1,4 @@
-
+  
 .about-container {
   display: flex;
   flex-direction: column;
@@ -103,6 +103,12 @@
 /*  .about-links, .about-link-items {
   width: 60%;
   }*/
+
+  .about-img {
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -122,4 +128,9 @@
 /*  .about-links, .about-link-items {
   width: 60%;
 }*/
+
+  .about-img {
+  margin-top: -30px;
+  margin-left: 20px;
+}
 }

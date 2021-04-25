@@ -45,13 +45,12 @@
 
   .me-img {
   display: none;
-}
+  }
 
 .text-block {
   width: 400px;
   margin: auto;
-}
-
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -72,6 +71,5 @@
   .text-block {
   width: 400px;
   margin: auto;
-}
-
+  }
 }

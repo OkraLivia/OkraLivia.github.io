@@ -12,7 +12,7 @@ function About(props) {
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
-	          <h4 style={{marginBottom: "10px", color:"#F77B80"}}>FIGMA | UI & UX | USER RESEARCH</h4>
+	          <h4 className='technologies'>FIGMA | UI & UX | USER RESEARCH</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Study Places</h1>
 				   <h4>In this project the task was to define a problem and a target group. To do this we used personas, empathy mapping and 
 				   user journey workshops to find out what a relevant target group and its pain points are. What we decided to work 

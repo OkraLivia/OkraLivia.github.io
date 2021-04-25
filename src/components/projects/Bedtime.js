@@ -7,7 +7,7 @@ function About(props) {
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
-	          <h4 style={{marginBottom: "10px", color:"#F77B80"}}>UX DESIGN | USER RESEARCH | PROBES</h4>
+	          <h4 className='technologies'>UX DESIGN | USER RESEARCH | PROBES</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Bedtime</h1>
 				   <h4>In this project our task was to create an experience for someone else. The lead word for my experience was 
 				   <text style={{backgroundColor: '#d8f2f2'}}> bedtime</text>. With the help of interviews and probes I gathered that my participant usually has a lot on 

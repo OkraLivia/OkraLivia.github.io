@@ -7,7 +7,7 @@ function About(props) {
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
-	          <h4 style={{marginBottom: "10px", color:"#F77B80"}}>SOUNDSCAPE | MAX/MSP | MOTION CAPTURE</h4>
+	          <h4 className='technologies'>SOUNDSCAPE | MAX/MSP | MOTION CAPTURE</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Sonified Map</h1>
 				   <h4>In this project we used Max/MSP and a motion capture system to create a sonified map of 
 				   the KTH campus Valhallavägen with two scenarios. One displays the sounds of the present and 
