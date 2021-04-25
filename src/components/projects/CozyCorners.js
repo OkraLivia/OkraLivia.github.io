@@ -28,8 +28,6 @@ function About(props) {
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ImageSlider slides={CozyCorners} greenglow={true}/>
-					<div style={{width:"500px"}}>
-					</div>
 					</div>
 					</div>
 					</div>

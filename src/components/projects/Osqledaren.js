@@ -18,7 +18,7 @@ function About(props) {
 				   Interfaces at KTH. My part of the project was to create the interaction for the sound modality.</h4>
 	          </div>
 	          <div>
-	            <iframe title="OsqledARen video" src="https://player.vimeo.com/video/451970116" frameborder="0" 
+	            <iframe title="OsqledARen video" src="https://player.vimeo.com/video/451970116" frameBorder="0" 
 	             allow="autoplay; fullscreen" allowfullscreen></iframe>
 	          </div>
 	        </div>

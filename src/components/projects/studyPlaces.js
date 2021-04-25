@@ -30,10 +30,6 @@ function About(props) {
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ImageSlider slides={StudyPlacesData} glow={true}/>
-					<div style={{width:"500px"}}>
-					{/*{SliderData.map(SliderData => <Link slides={ImageSlider}><img src={SliderData.image} 
-											className="thumbnail" alt='study_place'/></Link>)}*/}
-					</div>
 					</div>
 					</div>
 					</div>

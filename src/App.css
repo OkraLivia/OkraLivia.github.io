@@ -96,7 +96,7 @@ img.hover-zoom:hover {
 .fa-arrow-right {
   position: absolute;
   top: 50%;
-  right: 5px;
+  margin-left: 25em;
   font-size: 1rem;
   color: #262626;
   z-index: 10;
@@ -107,7 +107,7 @@ img.hover-zoom:hover {
 .fa-arrow-left {
   position: absolute;
   top: 50%;
-  left: 5px;
+  margin-right: 25em;
   font-size: 1rem;
   color: #262626;
   z-index: 10;

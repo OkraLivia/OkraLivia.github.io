@@ -20,7 +20,7 @@ function About(props) {
 	          </div>
 	          <div>
 	          <iframe title="Light Forest video" src="https://drive.google.com/file/d/15AXryTpEiGn8IqukKAG0wD3YNczVnjry/preview" 
-	          frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+	          frameBorder="0" style={{width:'‪1 920px', height:'1 080px'}} allow="autoplay; fullscreen" allowfullscreen></iframe>
 	          </div>
 	        </div>
 	      </div>
