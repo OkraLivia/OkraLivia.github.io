@@ -42,5 +42,9 @@ h4 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
+  .footer-container {
+    justify-content: center;
+    font-size: 14px;
+  }
 }

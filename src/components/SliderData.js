@@ -9,7 +9,7 @@ export const StudyPlacesData = [
     image:
       './images/studyspots2.png',
       text:
-      'The Landing page. Add a new study place, view your profile or brows through the list of existing places or view them on a map. Each place has the name, address, image and assets presented. It is alos possible to save a place from this view.'
+      'The Landing page. Add a new study place, view your profile or brows through the list of existing places or view them on a map. Each place has the name, address, image and available assets presented. It is alos possible to save a place from this view.'
       },
   {
     image:
@@ -21,31 +21,31 @@ export const StudyPlacesData = [
     image:
       './images/studyspots4.png',
       text:
-      'The map view. All places are displayed on a map. By clicking on a marker one gets a summary of the place and it is possible to go to the details page by clicking the summary.' 
+      'The map view. All places are displayed on a map. By clicking on a marker one gets a summary of the place and it is possible to go to the details page by pressing the summary.' 
   },
   {
     image:
       './images/studyspots5.png',
       text:
-      'Detail page of Kulturhuset. View more pictures, see tags, assets and opening hours. At the top the average rating of the place is displayed and it is possible to save the place.'
+      'Detail page of Kulturhuset (img 1/2). View more pictures, see tags, assets and opening hours. At the top the average rating of the place is displayed and it is possible to save the place.'
   },
   {
     image:
       './images/studyspots6.png',
       text:
-      'Detail page of Kulturhuset. It is also possible to view comments as well as add a review and get directions to the place.'
+      'Detail page of Kulturhuset (img 1/2). It is also possible to view comments as well as add a review and get directions to the place.'
       },
   {
     image:
       './images/studyspots7.png',
       text:
-      'Add a new place. This page can be reached from the map view as well. It is also possible to choose between publishing the location or save it, when it will only be visible for you.'
+      'Add a new place, can be reached from the map view as well by holding down on the map. One can rate how good the available amenities are by pressing the stars or exclude some of them by pressing the correspondnig icon. It is possible to choose between publishing the location or save it, when it will only be visible for you.'
   },
   {
     image:
       './images/studyspots8.png',
       text:
-      'The profile page. Change your settings, view your saved locations, your comments as well as your created location that can be edited from here.' 
+      'The profile page. Change your settings, view your saved locations in a grid or in a list, view your comments as well as your created location that can be edited from here (not viible in the image above).' 
   }
 ];
 
@@ -54,7 +54,7 @@ export const ClueData = [
     image:
       './images/Clue_1.png',
       text:
-      'The landing page before and after. Visualizes your current cycle: where in the cycle you are, the period, the fertile window and what days you have tracked something, which is represented by the small dots.'
+      'The landing page before and after. It visualizes your current cycle: where in the cycle you are, the period, when your fertile window is and what days you have tracked something on, which is represented by the small dots.'
   },
   {
     image:
@@ -75,7 +75,7 @@ export const CozyCorners = [
     image:
       './images/cozyCornersImg.png',
       text:
-      'The splash screen. The color theme for this app is green, because according to color theory green is realted to positivity, trust and peaceful which suits the objective of this app.'
+      'The splash screen. The color theme for this app is green, because according to color theory green is realted to positivity, trust and peacefulnes, qualities that suit the objective of this app.'
   },
   {
     image:
@@ -99,7 +99,7 @@ export const CozyCorners = [
     image:
       './images/cozyCornersImg5.png',
       text:
-      'Add a new cozy corner and provide some information about it. The place gets placed on the map by filling in the longitude and latitude of it.'
+      'Add a new cozy corner and provide some information about it. The new cozy corner gets placed on the map by filling in the longitude and latitude of it (not visible in the image above).'
   },
    {
     image:

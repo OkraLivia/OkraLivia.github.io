@@ -60,9 +60,10 @@ function Skills(props) {
 							<div className="otherCards__item__info2" style={{backgroundColor:"#E4F2F2"}}>
 								<h1 className="labelTitle">Studs</h1>
 								<h5 className="otherCards__item__text">
-									I was part of <a href='https://studieresan.se/' target='_blank' rel="noreferrer">Studs</a> 2018/2019 (the course Industrial Development and Entrepreneurship, 
-									Advanced Course at KTH) where I was a member of the travel group. Our group was responsible 
-									for the planning and execution of a 2,5 weeks long study trip for 30 students to USA in the summer of 2019. 
+									I was part of <a href='https://studieresan.se/' target='_blank' rel="noreferrer">Studs</a> 2018/2019 which is a student driven 
+									project course where we network with relevant companies in the tech industry 
+									and end the course with a study trip. I was a member of the travel group, our responsibilities being 
+									the planning and execution of the 2,5 weeks long trip for 30 engineering students to USA. 
 									The travel group consisted of five students and we did everything from researching cities, booking flights and 
 									hotels as well as coming up with fun activities to do at each destination. On the trip we visited five cities in 
 									USA: New York, New Orleans, Fraser in Rocky Mountains Colorado and San Francisco.
@@ -76,8 +77,8 @@ function Skills(props) {
 								<h5 className="otherCards__item__text">
 									I was part of the reception at the Media Technology chapter for four years. The aim 
 									of the reception is to make the new students feel welcome to the chapter as well as for them 
-									to get to know their classmates and how university studies are. I have been part of the group 
-									KPH who’s main responsibility is to take care of the new students and be there if they have 
+									to get to know their new classmates and how university studies are. I have been part of the group 
+									KPH who’s main responsibility is to be a group leader taking care of the new students and be there if they have 
 									questions or other things they need help with.
 								</h5>
 							</div>

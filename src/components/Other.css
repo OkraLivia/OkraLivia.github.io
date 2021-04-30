@@ -92,3 +92,13 @@
     width: 400px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .otherCards__item__text {
+    font-size: 14px;
+  }
+
+  .labelTitle {
+    font-size: 26px !important;
+  }
+}

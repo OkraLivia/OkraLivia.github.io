@@ -13,6 +13,8 @@ h1 {
   padding-bottom: 10px;
 }
 
+
+
 .eduTitle {
   font-family: 'Sofia Pro', 'Spartan', sans-serif;
   font-weight: 900;
@@ -20,7 +22,7 @@ h1 {
   color: #262626;
 }
 
-.skillCards__container {
+/*.skillCards__container {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -32,13 +34,14 @@ h1 {
 .skillCards__wrapper {
   position: relative;
   margin: 50px 0 45px;
-}
+}*/
 
 .skillCards__item {
   display: flex;
   margin: 0 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
+  justify-content: center;
 }
 
 .skillCards__item__info {
@@ -52,10 +55,27 @@ h1 {
   line-height: 24px;
 }
 
-.skillCards__items {
-  display: inline-grid;
+.title {
+  margin-bottom: 1em;
 }
 
+/*var vi slutade i söndags*/
+/*ta bort css för container och wrapper*/
+
+.skillCards__items {
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.skillGroup {
+  display: flex;
+  justify-content: center;
+}
+
+/*slut*/
 
 @media only screen and (min-width: 1024px) {
   .skillCards__items {
@@ -69,21 +89,46 @@ h1 {
     display: flex;
   }
 }
-/*@media only screen and (min-width: 1024px) {
-  .skillCards__items {
-    flex-wrap: wrap;
-    justify-content: center;
+
+@media screen and (max-width: 400px) {
+  .skillGroup {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .skillCards__items {
+      display: flex;
+    }
+
+  .skillCards__item__info {
+    width: 300px;
   }
-}*/
 
+  .title {
+    font-size: 28px !important;
+  }
 
-/*@media only screen and (min-width: 768px) {
-.skillCards__items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  .labelTitle {
+    font-size: 26px !important;
+  }
 }
-*/
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .skillGroup {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .skillCards__items {
+      display: flex;
+    }
+
+}
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) { _::-webkit-full-page-media, _:future, 
   .eduTitle {

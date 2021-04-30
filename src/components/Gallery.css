@@ -158,6 +158,17 @@
   margin-right: auto;
 }
 
+@media screen and (max-width: 400px) {
+  .gallery-img2 {
+  max-width: 300px;
+}
+
+  .modal{
+    width: 300px;
+  }
+
+}
+
 @media screen and (max-width: 820px) {
   .modal-body {
   position: relative;
@@ -168,9 +179,9 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-    .modal {
+   /* .modal {
       width: 80%;
-    }
+    }*/
 }
 
 @media screen and (max-width: 768px) {
@@ -178,8 +189,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .modal {
+  /*.modal {
       width: 60%;
-    }
+    }*/
 
 }

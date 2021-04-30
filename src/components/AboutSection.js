@@ -10,16 +10,15 @@ function AboutSection() {
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
 	            <h1 className="title" style={{marginBottom: "10px"}}>So, who am I?</h1>
-				    <p>My name is Okra Livia, I'm born and raised on Södermalm in Stockholm. My mother is from Finland
+				    <p>My name is Okra Livia, I'm born and raised on Södermalm in Stockholm. My mother is from Finland and my father is from Sweden
 					so I have grown up with both the Swedish and Finnish culture which has been great. My friends would 
 					say that I'm a calm and fun-loving person. My freetime I like to spend drawing, taking care of 
 					my plants and drinking craft beer.</p> <br/>
 
-					<p>Right now I'm finishing up my M.Sc. in Interactive Media Technology at KTH Royal Institute of 
-					Technology in Stockholm. I have a specialization in Physical Interaction Design and experience in 
-					designing interactive prototypes with multimodality in focus. I also have experience in graphic 
-					design, HCI, web development and user experience design from my time at KTH, personal side projects and from working
-					as a designer at Netlight. This portfolio is an example of a personal project that I have programmed it in 
+					<p>Right now I'm finishing up my M.Sc. in Interactive Media Technology with a specialization in 
+					Physical Interaction Design at KTH in Stockholm. I have experience in designing interactive prototypes with multimodality 
+					in focus as well as HCI, UX design and research, web development and graphic design from my time at KTH, personal side projects and 
+					from working as a designer at Netlight. This portfolio is an example of a personal project that I have programmed it in 
 					React. 
 					</p><br/>
 
@@ -40,7 +39,6 @@ function AboutSection() {
 					className="fa fa-linkedin" rel="noopener noreferrer">
 					</a>
 					</p>
-
 	          </div>
 	          <div className='about-link-items'>
 	            <img className="about-img" src="images/OkraLiviaNew.png" width="250" alt='okra'/>

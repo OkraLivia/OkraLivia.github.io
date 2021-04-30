@@ -21,7 +21,7 @@ const imgTexts = [
 'This image I have created from scratch in Blender.',
 'Here is a close up of the donut that I made in Blender.',
 'I made Mikkeller inspired beer labels for my friends who moved to Australia.',
-'Me and my boyfriend brewed our own IPA and together we designed the label and graphic profile for our Home brewery.',
+'Me and my boyfriend brewed our own IPA and together we designed the label and graphic profile for our home brewery.',
 'Illustration in Osqledaren #4 19/20 for the article Även stora företag behöver ställas till svars för sina handlingar.',
 'Illustration in Osqledaren #3 18/19 for the article Sektionerna tycker till om THS.',
 'Illustration made with Promakers-pens.',

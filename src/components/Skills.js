@@ -15,27 +15,31 @@ function Skills(props) {
 			<div className="skillCards__container">
 				<div className="skillCards__wrapper">
 					<ul className="skillCards__items">
-						<SkillItem backgroundColor="#FDC3BB"
-						text="Finnish - native, Swedish - native
-						English - fluent, Spanish - basic"
-						label="Languages"
-						index="1"
-						/>
-						<SkillItem backgroundColor="#F77B80"
-						text="Illustrator, Photoshop, XD, After Effects, Audition, InDesign, Lightroom"
-						label="Adobe Creative Suit"
-						index="2"
-						/>
-						<SkillItem backgroundColor="#E4F2F2"
-						text="I have experience working with HTML, CSS, JavaScript, React, Python, XML, PHP, SQL"
-						label="Programming"
-						index="3"
-						/>
-						<SkillItem backgroundColor="#FDC3BB"
-						text="Figma, Blender, Unity, Traditional and digital art"
-						label="Other"
-						index="4"
-						/>
+						<div className='skillGroup'>
+							<SkillItem backgroundColor="#FDC3BB"
+							text="Finnish - native, Swedish - native
+							English - fluent, Spanish - basic"
+							label="Languages"
+							index="1"
+							/>
+							<SkillItem backgroundColor="#F77B80"
+							text="Illustrator, Photoshop, XD, After Effects, Audition, InDesign, Lightroom"
+							label="Adobe Creative Suit"
+							index="2"
+							/>
+						</div>
+						<div className='skillGroup'>
+							<SkillItem backgroundColor="#E4F2F2"
+							text="I have experience working with HTML, CSS, JavaScript, React, Python, XML, PHP, SQL"
+							label="Programming"
+							index="3"
+							/>
+							<SkillItem backgroundColor="#FDC3BB"
+							text="Figma, Blender, Unity, traditional and digital art"
+							label="Other"
+							index="4"
+							/>
+						</div>
 					</ul>
 				</div>
 			</div>
