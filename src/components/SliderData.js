@@ -52,19 +52,19 @@ export const StudyPlacesData = [
 export const ClueData = [
   {
     image:
-      './images/Clue_1.png',
+      './images/clue_1.png',
       text:
       'The landing page before and after. It visualizes your current cycle: where in the cycle you are, the period, when your fertile window is and what days you have tracked something on, which is represented by the small dots.'
   },
   {
     image:
-      './images/Clue_2.png',
+      './images/clue_2.png',
       text:
       'The tracking page before and after. From the top row you can chose what day you want to add content to. It is possible to track several different categories, such as bleeding, pain and emotions. You can also read informationa about each category.'
       },
   {
     image:
-      './images/Clue_3.png',
+      './images/clue_3.png',
       text:
       'The calendar page before and after. Get an overview of your cycles, click on a day in the calendar to see what has been tracked that day. In my version I added the possibility to track the intensity of the pain category since it is a function I have missed in the existing application. '
   }
