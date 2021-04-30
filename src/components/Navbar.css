@@ -157,11 +157,10 @@
     width: 200px
   }
 
-.navbar-logo {
-  margin-top: -0.5em;
-  margin-left: -0.2em;
-}
-
+  .navbar-logo {
+    margin-top: -0.5em;
+    margin-left: -0.2em;
+  }
 }
 
 .title-name {

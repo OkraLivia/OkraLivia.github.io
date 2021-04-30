@@ -2,34 +2,33 @@ import React from 'react';
 import './Gallery.css';
 
 const imgUrls = [
-  
-      './images/art/fika2.png',
-      './images/art/donut.png',
-      './images/art/2beer.png',
-      './images/art/ipa_label.png',
-      './images/art/paverka_industrin.png',
-      './images/art/lovehate.png',
-      './images/art/dahlia.png',
-      './images/art/fish2.png',
-      './images/art/dtiys2.png',
-      './images/art/IMG_2499e.jpg',
-      './images/art/sangria.png',
-      './images/art/Cryptocurrency.png'
+  './images/art/fika2.png',
+  './images/art/donut.png',
+  './images/art/2beer.png',
+  './images/art/ipa_label.png',
+  './images/art/paverka_industrin.png',
+  './images/art/lovehate.png',
+  './images/art/dahlia.png',
+  './images/art/fish2.png',
+  './images/art/dtiys2.png',
+  './images/art/IMG_2499e.jpg',
+  './images/art/sangria.png',
+  './images/art/Cryptocurrency.png'
 ];
 
 const imgTexts = [
-'This image I have created from scratch in Blender.',
-'Here is a close up of the donut that I made in Blender.',
-'I made Mikkeller inspired beer labels for my friends who moved to Australia.',
-'Me and my boyfriend brewed our own IPA and together we designed the label and graphic profile for our home brewery.',
-'Illustration in Osqledaren #4 19/20 for the article Även stora företag behöver ställas till svars för sina handlingar.',
-'Illustration in Osqledaren #3 18/19 for the article Sektionerna tycker till om THS.',
-'Illustration made with Promakers-pens.',
-'Illustration made with aquarelle colors and pen.',
-'This is a draw this in your style-challenge piece. The image to the left is my version of the original image to the right.',
-'This is another piece for a draw this in your style-challenge.',
-'Illustration in Osqledaren #4 17/18 for the article M i Madrid.',
-'Illustration in Osqledaren #2 19/20 for the article Utmanarna till Bitcoin.'
+  'This image I have created from scratch in Blender.',
+  'Here is a close up of the donut that I made in Blender.',
+  'I made Mikkeller inspired beer labels for my friends who moved to Australia.',
+  'Me and my boyfriend brewed our own IPA and together we designed the label and graphic profile for our home brewery.',
+  'Illustration in Osqledaren #4 19/20 for the article Även stora företag behöver ställas till svars för sina handlingar.',
+  'Illustration in Osqledaren #3 18/19 for the article Sektionerna tycker till om THS.',
+  'Illustration made with Promakers-pens.',
+  'Illustration made with aquarelle colors and pen.',
+  'This is a draw this in your style-challenge piece. The image to the left is my version of the original image to the right.',
+  'This is another piece for a draw this in your style-challenge.',
+  'Illustration in Osqledaren #4 17/18 for the article M i Madrid.',
+  'Illustration in Osqledaren #2 19/20 for the article Utmanarna till Bitcoin.'
 ];
 
 class Gallery extends React.Component {
@@ -127,7 +126,7 @@ class GalleryModal extends React.Component {
             <a href="/" className='modal-close' onClick={closeModal} onKeyDown={this.handleKeyDown}>&times;</a>
             {hasPrev && <a href="/" className='modal-prev' onClick={findPrev} onKeyDown={this.handleKeyDown}>&lsaquo;</a>}
             {hasNext && <a href="/" className='modal-next' onClick={findNext} onKeyDown={this.handleKeyDown}>&rsaquo;</a>}
-            <img className='gallery-img2' src={src} alt='gallery-img' /><br/>
+            <img className='gallery-img-open' src={src} alt='gallery-img' /><br/>
             <span style={{color:'#fff'}}>{imgText}</span>
           </div>
         </div>

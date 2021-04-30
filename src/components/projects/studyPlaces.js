@@ -3,7 +3,6 @@ import '../../App.css';
 import ImageSlider from '../ImageSlider';
 import { StudyPlacesData } from '../SliderData';
 
-
 function About(props) {
 
 	useEffect(() => {
@@ -30,13 +29,13 @@ function About(props) {
 				   in this project was to conduct user studies and I also created the entire prototype in Figma.</h4></p>
 	          </div>
 
-	          <div className="cards">
-			<div className="cards__container">
-				<div className="cards__wrapper">
-					<ImageSlider slides={StudyPlacesData} glow={true}/>
+	          	<div className="cards">
+					<div className="cards__container">
+						<div className="cards__wrapper">
+							<ImageSlider slides={StudyPlacesData} glow={true}/>
+						</div>
 					</div>
-					</div>
-					</div>
+				</div>
 	        </div>
 	      </div>
     </div>

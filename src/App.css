@@ -50,7 +50,6 @@ img.hover-zoom:hover {
 
 .slider {
   position: relative;
-  /*height: 100vh;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,34 +84,11 @@ img.hover-zoom:hover {
   align-items: center;
   margin-top: 38em;
   font-size: 16px !important;
-
 }
 
 .img-text.active {
-  opacity: 1;
-
+  opacity: 1
 }
-
-/*.fa-arrow-right {
-  position: relative;*/
-  /*top: 104%; 50%*/
-  /*margin-left: 100%; 25em*/
-  /*font-size: 1rem;
-  color: #262626;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}*/
-
-/*.fa-arrow-left {
-  position: relative;
-  margin-right: 100%;
-  font-size: 1rem;
-  color: #262626;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}*/
 
 .fa-arrow-right {
   position: absolute;
@@ -123,7 +99,7 @@ img.hover-zoom:hover {
   z-index: 10;
   cursor: pointer;
   user-select: none;
-  }
+}
 
 .fa-arrow-left {
   position: absolute;
@@ -151,27 +127,25 @@ img.hover-zoom:hover {
   transform: scale(1.08);
 }
 .fa {
-    padding: 1em;
-    /*margin-left: 1em;*/
-    font-size: 1.039em;
-    text-decoration: none;
-    background: #3b5998;
-    opacity: .9;
-    transition: all .5s ease;
-    text-align: center;
-    color: #fff !important;
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  padding: 1em;
+  font-size: 1.039em;
+  text-decoration: none;
+  background: #3b5998;
+  opacity: .9;
+  transition: all .5s ease;
+  text-align: center;
+  color: #fff !important;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .technologies {
    margin-bottom: 10px; 
    color: #F77B80;
-
 }
 
 @media screen and (max-width: 820px) {
@@ -188,18 +162,16 @@ img.hover-zoom:hover {
   .fa-arrow-right {
   /*margin-left: 3em; */
   right: 30%;
-}
+  }
 
-.fa-arrow-left {
-  /*margin-right: 3em;*/
-  left: 30%;
-}
+  .fa-arrow-left {
+    /*margin-right: 3em;*/
+    left: 30%;
+    }
 
-p {
-  font-weight: 400;
-}
-
-
+  p {
+    font-weight: 400;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -216,13 +188,12 @@ p {
    .fa-arrow-right {
   /*margin-left: 3em; */
   right: auto;
-}
+  }
 
-.fa-arrow-left {
-  /*margin-right: 3em;*/
-  left: auto;
-}
-
+  .fa-arrow-left {
+    /*margin-right: 3em;*/
+    left: auto;
+  }
 }
 
 .thimble-img {
@@ -244,7 +215,7 @@ p {
   margin-top: 4em;
 }
 
-/* Portrait */
+/* Portrait iPhone */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
@@ -264,29 +235,32 @@ p {
       margin: 0 auto;
       width: 20em;
       margin-top: -1em;
-  }
+    }
 
-  .thimble-img {
-    width: 95px;
-  }
+    .thimble-img {
+      width: 95px;
+    }
 
+    .thimble_img_container {
+    max-width: 200px;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .bedtimePDF {
-      display: none;
-    }
+    display: none;
+  }
 
-    .perceptionPDF {
-      max-width: 370px;
-      height: auto;
-      position: relative;
-    }
+  .perceptionPDF {
+    max-width: 370px;
+    height: auto;
+    position: relative;
+  }
 
-    .projectCard {
-      margin: 0 auto;
-      width: 20em;
-      margin-top: -1em;
+  .projectCard {
+    margin: 0 auto;
+    width: 20em;
+    margin-top: -1em;
   }
 
   .thimble-img {
@@ -306,39 +280,37 @@ p {
     font-weight: 600;
   }
 
-   .fa-arrow-right {
+ .fa-arrow-right {
   /*margin-left: 3em; */
   right: auto;
-}
-
-.fa-arrow-left {
-  /*margin-right: 3em;*/
-  left: auto;
-}
-
-    p {
-    font-weight: 400;
-    font-size: 15px;
   }
 
+  .fa-arrow-left {
+    /*margin-right: 3em;*/
+    left: auto;
+  }
+
+  p {
+  font-weight: 400;
+  font-size: 15px;
+  }
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) 
 { _::-webkit-full-page-media, _:future, 
   .img-text { 
     margin-top: 20em; 
-    }
-    .fa-arrow-right {
-    right: auto; 
   }
-
-    .fa-arrow-left {
-      left: auto;
-    }
-
-    .title {
-      font-size: 24px;
-    }
   
-
+  .fa-arrow-right {
+  right: auto; 
   }
+
+  .fa-arrow-left {
+    left: auto;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+}

@@ -2,11 +2,9 @@ import React from 'react';
 import SkillItem from './SkillItem';
 import './Skills.css';
 
-// 	var bgColors = { 
-//     "Blue": "#E4F2F2",
-//     "Salmon": "#FDC3BB",
-//     "Red": "#F77B80",
-// };
+/*"Blue": "#E4F2F2",
+"Salmon": "#FDC3BB",
+"Red": "#F77B80",*/
 
 function Skills(props) {
 	return (

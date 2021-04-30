@@ -34,11 +34,12 @@ function About(props) {
 								<img src="/images/blue.png" alt="img" className='thimble-img' />
 								<img src="/images/yellow.png" alt="img" className='thimble-img' />
 								<img src="/images/red.png" alt="img" className='thimble-img' />
-							</ul>
-							<ul>
-							First image: the user is "cold", that is they are far away from the thimble. In the second
+								<p>
+									First image: the user is "cold", that is they are far away from the thimble. In the second
 							image they are closer or "a bit warmer" and in the last image they have found the thimble and 
-							are "warm".</ul>
+							are "warm".
+								</p>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -47,5 +48,5 @@ function About(props) {
     </div>
 	)
 }
- 
+
 export default About;
