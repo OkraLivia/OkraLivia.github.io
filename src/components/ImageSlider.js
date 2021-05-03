@@ -1,7 +1,7 @@
 import React, { useState, memo } from 'react';
 import './Dots.css'
 
-const ImageSlider = ({ slides, glow, greenglow }) => {
+const ImageSlider = ({ slides, glow, greenglow, work }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -11,6 +11,8 @@ const ImageSlider = ({ slides, glow, greenglow }) => {
     sliderClasses += ' glow';
   } if (greenglow) {
     sliderClasses += ' greenglow';
+  } if (work) {
+    sliderClasses += ' netlight';
   }
 
 /*----------DOTS----------*/
@@ -46,13 +48,29 @@ const Dots = ({ slides, activeSlide }) => {
     return null;
   }
 
+
+  var left_arrow = 'fas fa-arrow-left';
+  var right_arrow = 'fas fa-arrow-right';
+
+  if(work) {
+    left_arrow += ' work-left';
+    right_arrow += ' work-right';
+  }
+
   return (
     <section className='slider'>
-    <i className="fas fa-arrow-left" onClick={prevSlide}></i>
-    <i className="fas fa-arrow-right" onClick={nextSlide}></i>
+
+    <i className={left_arrow} onClick={prevSlide}></i>
+    <i className={right_arrow} onClick={nextSlide}></i>
    
 
       {slides.map((slide, index) => {
+
+        var slideText = index === current ? 'img-text active' : 'img-text';
+        if (work) {
+          slideText += ' NLtext'
+        }
+
         return (
           <>
           <div
@@ -64,7 +82,7 @@ const Dots = ({ slides, activeSlide }) => {
             )}
           </div>
           <Dots slides={slides} activeSlide={current} /> 
-          <h5 className={index === current ? 'img-text active' : 'img-text'}>{slide.text}</h5>
+          <h5 className={slideText}>{slide.text}</h5>
           </>
         );
       })}

@@ -39,7 +39,7 @@ export const StudyPlacesData = [
     image:
       './images/studyspots7.png',
       text:
-      'Add a new place, can be reached from the map view as well by holding down on the map. One can rate how good the available amenities are by pressing the stars or exclude some of them by pressing the correspondnig icon. It is possible to choose between publishing the location or save it, when it will only be visible for you.'
+      'Add a new place, can be reached from the map view as well by holding down on the map. Available amenities can be rated by pressing the stars or exclude by pressing its icon. Choose between publishing the location or saving it, when it will only be visible for you.'
   },
   {
     image:
@@ -81,7 +81,7 @@ export const CozyCorners = [
     image:
       './images/cozyCornersImg2.png',
       text:
-      'The home page. We used Google Maps API for the map where all cozy corners are displayed, click on an image to get more info and save the place to your list, if you are logged in. It is also possible to search for a place by address and tags, or filter the places by the same parameters.'
+      'The home page. Google Maps API was used for the map where all cozy corners are displayed, click on an image to get more info and if you are logged in, save the place to your list. Search for a place by address and tags, or filter the places by the same parameters.'
       },
   {
     image:
@@ -141,5 +141,53 @@ export const NlImages = [
     '4',
     text:
     'The logo for the online event Global Talent night that was hoseted in spring 2020. It was used to market the event on social media as well as in the sign up form.' 
+  },
+  {
+    image:
+      './images/nl/winter_breakfast.png',
+    index: 
+    '5',
+    text:
+    'A Confetti invte to the digital Winter Breakfast that was held in 2020 instead of the traditional winter party.'
+  },
+  {
+    image:
+      './images/nl/Boid-Nest-Logo.png',
+    index: 
+    '6',
+    text:
+    "One of the German offices offers daycare services for the children of their employees. It is called Boid Nest after the bird in the Netlight logo."
+  },
+  {
+    image:
+      './images/nl/personal_dev_Flower.png',
+    index: 
+    '7',
+    text:
+    "The Personal Development Flower visualizes the different responsibilities that consultants and senior consultants have at Netlight where each petal represents a different area."
+  },
+  {
+    image:
+      './images/nl/Climate_Compensation.png',
+    index: 
+    '8',
+    text:
+    'This is the Certificate of Climate Action that explains how Netlight compensate for its employees personal carbon footprint.'
+  },
+  {
+    image:
+      './images/nl/Show&Tell-Logo.png',
+    index: 
+    '9',
+    text:
+    'A logo for the weeky show and tell.'
+  },
+  {
+    image:
+      './images/nl/Fredagsmys-goes-live-neon.png',
+    index: 
+    '10',
+    text:
+    'When the Covid-19 pandemic hit the Fredagsmys shifted from being at the Stockholm office to being broadcasted live.'
   }
 ];

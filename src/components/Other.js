@@ -19,22 +19,24 @@ function Skills(props) {
 						<li className="otherCards__item">
 							<div className="otherCards__item__info" style={{backgroundColor:"#FDC3BB"}}>
 								<h1 className="labelTitle">Netlight</h1>
-								<h5 className="otherCards__item__text">
+								<h5 className="otherCards__item__text"><p>
 									I have since February 2019 worked as a graphic designer at IT and management 
 									consulting company, <a href="https://www.netlight.com/" target="_blank" rel="noreferrer">Netlight</a>. 
 									As a graphic designer I consult clients about what 
 									their vision is for a certain design and deliver to a deadline. In my 
 									role I have gained knowledge about Netlight's graphic profile 
-									and adapted my design aestethics to suit it. I have also broadened my knowledge about 
+									and adapted my design aestethics to suit it. I have also had the opportunity to onboard new team menbers and thereby
+									trained my pedagogic skills. Through my work I have broadened my knowledge about 
 									the Adobe suite, in particular Illustrator, Photoshop, Lightroom, After Effects and 
-									InDesign.
+									InDesign.</p>
+									<p>Some of the work that I've done at Netlight is presented in the image gallery.</p>
 								</h5>
 							</div>
 						</li>
 
 						<li className="otherCards__item">
 							<div className="otherCards__nl__info">
-							<h5 className="otherCards__item__text">Here is some of the work I've done at Netlight</h5><br />
+							{/*<h5 className="otherCards__item__text">Here is some of the work I've done at Netlight</h5><br />*/}
 							<ImageSlider slides={NlImages} work={true} className='NLtext' />
 							{/*{NlImages.map(NlImages => <img src={NlImages.image} 
 														className='nl_art' alt='nl_art'/>)}

@@ -22,7 +22,7 @@ function Skills(props) {
 							/>
 							<SkillItem backgroundColor="#F77B80"
 							text="Illustrator, Photoshop, XD, After Effects, Audition, InDesign, Lightroom"
-							label="Adobe Creative Suit"
+							label="Adobe Creative Suite"
 							index="2"
 							/>
 						</div>

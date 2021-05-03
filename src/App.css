@@ -54,6 +54,7 @@ img.hover-zoom:hover {
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  min-width: 300px;
 }
 
 .image {
@@ -79,7 +80,7 @@ img.hover-zoom:hover {
   opacity: 0;
   position: absolute;
   display: flex;
-  min-width: 380px;
+  min-width: 400px;
   justify-content: center;
   align-items: center;
   margin-top: 38em;

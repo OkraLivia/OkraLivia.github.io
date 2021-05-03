@@ -80,8 +80,8 @@
 }
 
 .netlight {
-  max-width: 400px;
-  height: auto;
+  max-height: 210px;
+  width: auto;
 }
 
 .NLtext {
@@ -121,6 +121,28 @@
   left: 0;
 }
 
+.work-right {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  font-size: 1rem;
+  color: #262626;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.work-left {
+  position: absolute;
+  top: 50%;
+  right: 95%;
+  font-size: 1rem;
+  color: #262626;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
 @media only screen and (max-width: 960px) {
   .otherCards__items {
     margin-bottom: 24px;
@@ -128,6 +150,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
 }
 
 
@@ -152,6 +175,18 @@
     margin-bottom: 2rem;
     width: 400px;
   }
+
+  .work-right {
+    left: 105%;
+  }
+
+  .work-left {
+    right: 105%;
+  }
+
+  .netlight {
+    max-width: 400px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -164,8 +199,22 @@
   }
 
   .netlight {
-  max-width: 300px;
-  height: auto;
+  max-height: 180px;
+  width: auto;
 }
+
+  .work-right {
+      left: 100%;
+    }
+
+  .work-left {
+    right: 100%;
+  }
+
+  .NLtext {
+    margin-top: 12em;
+    padding-bottom: 2em;
+    z-index: 999;
+  }
 
 }
