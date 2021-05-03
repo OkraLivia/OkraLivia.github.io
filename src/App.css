@@ -197,10 +197,10 @@ img.hover-zoom:hover {
 }
 
 .thimble-img {
-  width: 140px;
-  border-radius: 7px;
+  width: 480px; /*140*/
+  /*border-radius: 7px;
   margin-right: 0.5em;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);*/
 }
 
 .thimble_img_container {
@@ -238,11 +238,11 @@ img.hover-zoom:hover {
     }
 
     .thimble-img {
-      width: 95px;
+      width: 330px; /*95*/
     }
 
     .thimble_img_container {
-    max-width: 200px;
+    max-width: 380px; /*200*/
   }
 }
 
@@ -264,7 +264,12 @@ img.hover-zoom:hover {
   }
 
   .thimble-img {
-    width: 95px;
+    width: 330px; /*95*/
+  }
+
+  .thimble_img_container {
+    justify-content: center;
+    max-width: 380px;
   }
 
   .img-text {

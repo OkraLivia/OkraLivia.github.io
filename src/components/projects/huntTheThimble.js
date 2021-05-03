@@ -31,13 +31,14 @@ function About(props) {
 					<div className="projectCard">
 						<div className="cards__wrapper">
 							<ul className="thimble_img_container">
-								<img src="/images/blue.png" alt="img" className='thimble-img' />
+								{/*<img src="/images/blue.png" alt="img" className='thimble-img' />
 								<img src="/images/yellow.png" alt="img" className='thimble-img' />
-								<img src="/images/red.png" alt="img" className='thimble-img' />
+								<img src="/images/red.png" alt="img" className='thimble-img' />*/}
+								<img src='/images/thimble.png' alt='thimble' className='thimble-img' />
 								<p>
 									First image: the user is "cold", that is they are far away from the thimble. In the second
-							image they are closer or "a bit warmer" and in the last image they have found the thimble and 
-							are "warm".
+									image they are closer or "a bit warmer" and in the last image they have found the thimble and 
+									are "warm".
 								</p>
 							</ul>
 						</div>

@@ -15,7 +15,7 @@ function Skills(props) {
 					<ul className="skillCards__items">
 						<div className='skillGroup'>
 							<SkillItem backgroundColor="#FDC3BB"
-							text="Finnish - native, Swedish - native
+							text="Finnish - native, Swedish - native,
 							English - fluent, Spanish - basic"
 							label="Languages"
 							index="1"
