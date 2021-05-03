@@ -49,6 +49,11 @@
   width: 400px;
 }
 
+.otherCards__nl__info {
+  padding: 0 20px;
+  width: 600px;
+}
+
 .otherCards__item__text {
   color: #262626;
   font-size: 16px;
@@ -72,6 +77,48 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.netlight {
+  max-width: 400px;
+  height: auto;
+}
+
+.NLtext {
+  margin-top: 22em;
+  z-index: 999;
+}
+
+
+.img-menu {
+    display: none;
+    flex-direction: column;
+    max-width: 400px;
+    height: auto;
+    position: absolute;
+    top: 80px;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .img-menu.active {
+    display: flex;
+    justify-content: center;
+    background: #E4F2F2;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .img-modal {
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
 }
 
 @media only screen and (max-width: 960px) {
@@ -115,4 +162,10 @@
   .labelTitle {
     font-size: 26px !important;
   }
+
+  .netlight {
+  max-width: 300px;
+  height: auto;
+}
+
 }

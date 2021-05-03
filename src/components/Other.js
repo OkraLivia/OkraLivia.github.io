@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Other.css';
+import ImageSlider from './ImageSlider';
 import { NlImages } from './SliderData';
 
 function Skills(props) {
+
+	const [click, setClick] = useState(false);
+
+	const handleClick = () => setClick(!click);
+	const closeMobileMenu = () => setClick(false);
 
 	return (
 		<div className="otherCards" id='other'>
@@ -27,10 +33,16 @@ function Skills(props) {
 						</li>
 
 						<li className="otherCards__item">
-							<div className="otherCards__item__info">
+							<div className="otherCards__nl__info">
 							<h5 className="otherCards__item__text">Here is some of the work I've done at Netlight</h5><br />
-							{NlImages.map(NlImages => <img src={NlImages.image} 
-							className='nl_art' alt='nl_art'/>)}
+							<ImageSlider slides={NlImages} work={true} className='NLtext' />
+							{/*{NlImages.map(NlImages => <img src={NlImages.image} 
+														className='nl_art' alt='nl_art'/>)}
+							<img src='./images/nl/Housewarming Party.png' style={{width:'400px'}} onClick={handleClick}/>	
+							<div className={click ? 'img-menu active' : 'img-menu'}>
+							<div className='img-modal' onClick={closeMobileMenu}>X</div>
+							<ImageSlider slides={NlImages} work={true} className='NLtext' />
+							</div>*/}
 							</div>
 						</li>
 
