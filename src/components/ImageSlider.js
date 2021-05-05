@@ -29,7 +29,7 @@ const Dots = ({ slides, activeSlide }) => {
   return (
     <div className='dots'>
       {slides.map((slide, i) => (
-        <MemoDot key={slide} active={activeSlide === i} />
+        <MemoDot key={i} active={activeSlide === i} />
       ))}
     </div>
   )
@@ -75,13 +75,13 @@ const Dots = ({ slides, activeSlide }) => {
           <>
           <div
             className={index === current ? 'slide active' : 'slide'}
-            key={index}
+            key={index + 'slide'}
             >
             {index === current && (
               <img src={slide.image} alt='project_image' className={sliderClasses}/>
             )}
           </div>
-          <Dots slides={slides} activeSlide={current} /> 
+          <Dots slides={slides} activeSlide={current} key={index + 'dot'} /> 
           <h5 className={slideText}>{slide.text}</h5>
           </>
         );

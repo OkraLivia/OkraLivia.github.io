@@ -15,11 +15,12 @@ function AboutSection() {
 					My friends would describe me as a calm and fun-loving person. My freetime I like to spend drawing, taking care of 
 					my plants and drinking craft beer.</p> <br/>
 
-					<p>Right now I'm finishing up my <a href='https://www.kth.se/en/studies/master/interactivemediatechnology/description-1.593765' target='_blank'>
+					<p>Right now I'm finishing up my <a href='https://www.kth.se/en/studies/master/interactivemediatechnology/description-1.593765' 
+					target='_blank' rel="noreferrer">
 				M.Sc. in Interactive Media Technology </a> with a specialization in 
 					Physical Interaction Design at KTH in Stockholm. I have experience in designing interactive prototypes with multimodality 
 					in focus as well as HCI, UX design and research, web development and graphic design from my time at KTH, personal side projects and 
-					from working as a designer at <a href="https://www.netlight.com/" target="_blank">Netlight</a>. 
+					from working as a designer at <a href="https://www.netlight.com/" target="_blank" rel="noreferrer">Netlight</a>. 
 					This portfolio that I have programmed in React is an example of a personal side project. 
 					</p><br/>
 

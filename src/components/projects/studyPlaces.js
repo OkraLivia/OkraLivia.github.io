@@ -17,16 +17,16 @@ function About(props) {
 	          <div className='about-link-items'>
 	          <h4 className='technologies'>FIGMA | UI & UX | USER RESEARCH</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Study Places</h1>
-				   <p><h4>In this project the task was to define a problem and a target group. To do this we used personas, empathy mapping and 
+				   <p>In this project the task was to define a problem and a target group. To do this we used personas, empathy mapping and 
 				   user journey workshops to find out what a relevant target group and its pain points are. What we decided to work 
 				   with was students at universities and the struggle of finding suitable study spots. A survey conducted in this 
 				   study showed that students had a strong interest in finding new study spots in the city, but with no good means 
 				   to do so. The problem  was thereby defined as a lack of help in discovering study spaces in Stockholm. As a 
 				   solution to this problem we developed a prototype in Figma to help local and international students find proper 
-				   study places.</h4></p>
+				   study places.</p>
 				   <br/>
-				   <p><h4>This app is the outcome from a group project of four people in the course Media Lab at KTH. My responsibility 
-				   in this project was to conduct user studies and I also created the entire prototype in Figma.</h4></p>
+				   <p>This app is the outcome from a group project of four people in the course Media Lab at KTH. My responsibility 
+				   in this project was to conduct user studies and I also created the entire prototype in Figma.</p>
 	          </div>
 
 	          	<div className="cards">

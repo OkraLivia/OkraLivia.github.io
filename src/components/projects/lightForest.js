@@ -14,14 +14,14 @@ function About(props) {
 	          <div className='about-link-items'>
 	          <h4 className='technologies'>ARDUINO | CONSTRUCTION | PHYSICAL INTERACTION</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Light Forest</h1>
-				   <p><h4>The Swedish winters are dark, cold and wet. This however does not affect children’s 
+				   <p>The Swedish winters are dark, cold and wet. This however does not affect children’s 
 				   excitement to play outside. Therefore, we created the Interactive Light Forest. A project 
 				   made for the concept of the Winter Playground. The concept is a prototype of an interactive 
-				   Light Forest where four sensors trigger different types of lights patterns.</h4></p>
+				   Light Forest where four sensors trigger different types of lights patterns.</p>
 				   <br/>
-				   <p><h4>This project is the outcome from a group project of four people in the course Physical 
+				   <p>This project is the outcome from a group project of four people in the course Physical 
 				   Interaction Design at KTH. In this project I did the construction of the physical forest as 
-				   well as a lot of the soldering.</h4></p>
+				   well as a lot of the soldering.</p>
 	          </div>
 	          <div>
 	          	<iframe title="Light Forest video" src="https://drive.google.com/file/d/15AXryTpEiGn8IqukKAG0wD3YNczVnjry/preview" 

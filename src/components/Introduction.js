@@ -12,7 +12,8 @@ function Introduction() {
 			    <p>I love design and I’m all about designing multimodal and creative 
 			    solutions where the user is in focus.</p> <br/>
 
-				<p>I’m currently finishing up my <a href='https://www.kth.se/en/studies/master/interactivemediatechnology/description-1.593765' target='_blank'>
+				<p>I’m currently finishing up my <a href='https://www.kth.se/en/studies/master/interactivemediatechnology/description-1.593765' 
+				target='_blank' rel="noreferrer">
 				M.Sc. in Interactive Media Technology </a> 
 				at KTH in Stockholm. I have a specialisation in physical interaction 
 				design and I enjoy building experiences for IoT and AR and understanding 

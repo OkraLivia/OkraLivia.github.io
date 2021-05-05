@@ -42,7 +42,7 @@ class Gallery extends React.Component {
   }
   renderImageContent(src, index) {
     return (
-      <div onClick={(e) => this.openModal(e, index)}>
+      <div onClick={(e) => this.openModal(e, index)} key={index}>
         <img src={src} key={src} className='gallery-img' alt='gallery-img'/>
       </div>
     ) 
@@ -121,7 +121,7 @@ class GalleryModal extends React.Component {
     return (
       <div>
         <div className="modal-overlay" onClick={closeModal}></div>
-        <div isOpen={!!src} className="modal">
+        <div className="modal">
           <div className='modal-body'>
             <a href="/" className='modal-close' onClick={closeModal} onKeyDown={this.handleKeyDown}>&times;</a>
             {hasPrev && <a href="/" className='modal-prev' onClick={findPrev} onKeyDown={this.handleKeyDown}>&lsaquo;</a>}
