@@ -9,7 +9,7 @@ export const StudyPlacesData = [
     image:
       './images/studyspots2.png',
       text:
-      'The Landing page. Add a new study place, view your profile or brows through the list of existing places or view them on a map. Each place has the name, address, image and available assets presented. It is alos possible to save a place from this view.'
+      'The Landing page. Add a new study place, view your profile or browse through the list of existing places or view them on a map. Each place has the name, address, image and available assets presented. It is also possible to save a place from this view.'
       },
   {
     image:
@@ -33,19 +33,19 @@ export const StudyPlacesData = [
     image:
       './images/studyspots6.png',
       text:
-      'Detail page of Kulturhuset (img 1/2). It is also possible to view comments as well as add a review and get directions to the place.'
+      'Detail page of Kulturhuset (img 2/2). It is also possible to view comments as well as add a review and get directions to the place.'
       },
   {
     image:
       './images/studyspots7.png',
       text:
-      'Add a new place, can be reached from the map view as well by holding down on the map. Available amenities can be rated by pressing the stars or exclude by pressing its icon. Choose between publishing the location or saving it, when it will only be visible for you.'
+      'Add a new place, can be reached from the map view as well by holding down on the map. Available amenities can be rated by pressing the stars or excluded by pressing its icon. Choose between publishing the location or saving it, when it will only be visible for you.'
   },
   {
     image:
       './images/studyspots8.png',
       text:
-      'The profile page. Change your settings, view your saved locations in a grid or in a list, view your comments as well as your created location that can be edited from here (not viible in the image above).' 
+      'The profile page. Change your settings, view your saved locations in a grid or in a list, view your comments as well as your created location that can be edited from here (not visible in the image above).' 
   }
 ];
 
@@ -60,7 +60,7 @@ export const ClueData = [
     image:
       './images/clue_2.png',
       text:
-      'The tracking page before and after. From the top row you can chose what day you want to add content to. It is possible to track several different categories, such as bleeding, pain and emotions. You can also read informationa about each category.'
+      'The tracking page before and after. From the top row you can choose what day you want to add content to. It is possible to track several different categories, such as bleeding, pain and emotions. You can also read information about each category.'
       },
   {
     image:
@@ -75,7 +75,7 @@ export const CozyCorners = [
     image:
       './images/cozyCornersImg.png',
       text:
-      'The splash screen. The color theme for this app is green, because according to color theory green is realted to positivity, trust and peacefulnes, qualities that suit the objective of this app.'
+      'The splash screen. The color theme for this app is green, because according to color theory green is related to positivity, trust and peacefulness, qualities that suit the objective of this app.'
   },
   {
     image:
@@ -87,7 +87,7 @@ export const CozyCorners = [
     image:
       './images/cozyCornersImg3.png',
       text:
-      'The hamburger menu in the top left corner of the map display the log in or sign up page.'
+      'The hamburger menu in the top left corner of the map displays the log in or sign up page.'
   },
    {
     image:
@@ -116,7 +116,7 @@ export const NlImages = [
     index:
       '1',
     text:
-    'This is the invitation to the housewarming party at the Stockholm office when Netlight moved in tto Urban Escape.'
+    'This is the invitation to the housewarming party at the Stockholm office when Netlight moved into Urban Escape.'
   },
   {
     image:
@@ -132,7 +132,7 @@ export const NlImages = [
     index: 
     '3',
     text:
-    "I created this christmas card using Adobe Illustrator, the gingerbread have Netlight's logo on them, that is the stylized bird. The christmas cards are usually sent to Netlight's clients."
+    "I created this christmas card using Adobe Illustrator, the gingerbreads have Netlight's logo on them, that is the stylized bird. The christmas cards are usually sent to Netlight's clients."
   },
   {
     image:
@@ -140,7 +140,7 @@ export const NlImages = [
     index: 
     '4',
     text:
-    'The logo for the online event Global Talent night that was hoseted in spring 2020. It was used to market the event on social media as well as in the sign up form.' 
+    'The logo for the online event Global Talent night that was hosted in spring 2020. It was used to market the event on social media as well as in the sign up form.' 
   },
   {
     image:
@@ -148,7 +148,7 @@ export const NlImages = [
     index: 
     '5',
     text:
-    'A Confetti invte to the digital Winter Breakfast that was held in 2020 instead of the traditional winter party.'
+    'A Confetti invite to the digital Winter Breakfast that was held in 2020 instead of the traditional winter party.'
   },
   {
     image:
@@ -180,7 +180,7 @@ export const NlImages = [
     index: 
     '9',
     text:
-    'A logo for the weeky show and tell.'
+    'A logo for the weekly show and tell.'
   },
   {
     image:

@@ -81,7 +81,11 @@
 .cv {
   font-weight: bold;
   background-color: #E4F2F2;
-  padding: 0.9em;
+  padding: 1.1em 0;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 1024px) {

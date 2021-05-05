@@ -85,8 +85,7 @@
 }
 
 .NLtext {
-  margin-top: 22em;
-  z-index: 999;
+  margin-top: 24em;
 }
 
 
@@ -214,7 +213,14 @@
   .NLtext {
     margin-top: 12em;
     padding-bottom: 2em;
-    z-index: 999;
   }
+}
 
+@media screen and (-webkit-min-device-pixel-ratio: 0) 
+{ _::-webkit-full-page-media, _:future, 
+
+  .NLtext {
+    margin-top: 12em;
+    max-width: 450px;
+  }
 }

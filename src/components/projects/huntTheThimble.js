@@ -23,7 +23,7 @@ function About(props) {
 				   <br/>
 				   <p><h4>This app is the outcome from a group project of two people in the course Haptic, Tactile 
 				   and Tangible Interaction at KTH. To create the app we used JavaScript, DeviceOrientationEvent to keep track
-				   of how the phone is being tilted, Vibration API to crete the vibration patterns and HTML and CSS. In this 
+				   of how the phone is being tilted, Vibration API to create the vibration patterns and HTML and CSS. In this 
 				   project I designed the vibration patterns and the UI.</h4></p>
 	          </div>
 

@@ -11,7 +11,7 @@ function Home(props) {
 	const scrollIntoView = (section) => {
 		const anchor = document.querySelector('#' + section);
 		if (anchor) {
-			anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+			anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
 		}
 	};
 

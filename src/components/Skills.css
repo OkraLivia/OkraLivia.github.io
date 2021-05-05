@@ -128,4 +128,8 @@ h1 {
   font-family: 'Sofia Pro', 'Spartan', sans-serif;
   font-weight: 600;
   }
+
+  .otherCards__item__info {
+    max-width: 500px;
+  }
 }

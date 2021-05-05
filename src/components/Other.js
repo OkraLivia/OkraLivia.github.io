@@ -25,7 +25,7 @@ function Skills(props) {
 									As a graphic designer I consult clients about what 
 									their vision is for a certain design and deliver to a deadline. In my 
 									role I have gained knowledge about Netlight's graphic profile 
-									and adapted my design aestethics to suit it. I have also had the opportunity to onboard new team menbers and thereby
+									and adapted my design aesthetics to suit it. I have also had the opportunity to onboard new team members and thereby
 									trained my pedagogic skills. Through my work I have broadened my knowledge about 
 									the Adobe suite, in particular Illustrator, Photoshop, Lightroom, After Effects and 
 									InDesign.</p>
@@ -64,7 +64,7 @@ function Skills(props) {
 									illustrations for articles that I was assigned and delivered to a deadline. I have worked 
 									with many different types of articles, everything from educational ones to political and 
 									pure entertainment oriented articles. I have also gotten to work with many different writers 
-									as well as quite a few different editor’s in chiefs and art directors, since they have been 
+									as well as quite a few different editors in chiefs and art directors, since they have been 
 									new people each year.
 								</h5>
 							</div>
@@ -77,10 +77,10 @@ function Skills(props) {
 									I was part of <a href='https://studieresan.se/' target='_blank' rel="noreferrer">Studs</a> 2018/2019 which is a student driven 
 									project course where we network with relevant companies in the tech industry 
 									and end the course with a study trip. I was a member of the travel group, our responsibilities being 
-									the planning and execution of the 2,5 weeks long trip for 30 engineering students to USA. 
+									the planning and execution of the 2,5 weeks long trip for 30 engineering students to the USA. 
 									The travel group consisted of five students and we did everything from researching cities, booking flights and 
-									hotels as well as coming up with fun activities to do at each destination. On the trip we visited five cities in 
-									USA: New York, New Orleans, Fraser in Rocky Mountains Colorado and San Francisco.
+									hotels as well as coming up with fun activities to do at each destination. On the trip we visited five cities in the
+									USA: New York, New Orleans, Fraser in Rocky Mountains, Colorado and San Francisco.
 								</h5>
 							</div>
 						</li>
@@ -92,7 +92,7 @@ function Skills(props) {
 									I was part of the reception at the Media Technology chapter for four years. The aim 
 									of the reception is to make the new students feel welcome to the chapter as well as for them 
 									to get to know their new classmates and how university studies are. I have been part of the group 
-									KPH who’s main responsibility is to be a group leader taking care of the new students and be there if they have 
+									KPH whose main responsibility is to be a group leader taking care of the new students and be there if they have 
 									questions or other things they need help with.
 								</h5>
 							</div>

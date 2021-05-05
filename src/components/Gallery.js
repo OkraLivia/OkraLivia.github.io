@@ -23,7 +23,7 @@ const imgTexts = [
   'Me and my boyfriend brewed our own IPA and together we designed the label and graphic profile for our home brewery.',
   'Illustration in Osqledaren #4 19/20 for the article Även stora företag behöver ställas till svars för sina handlingar.',
   'Illustration in Osqledaren #3 18/19 for the article Sektionerna tycker till om THS.',
-  'Illustration made with Promakers-pens.',
+  'Illustration made with Promarkers-pens.',
   'Illustration made with aquarelle colors and pen.',
   'This is a draw this in your style-challenge piece. The image to the left is my version of the original image to the right.',
   'This is another piece for a draw this in your style-challenge.',

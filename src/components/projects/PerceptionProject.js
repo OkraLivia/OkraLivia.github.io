@@ -18,7 +18,7 @@ function About(props) {
 				    creating a product or service. In this study we researched which emotions are related to which color combinations, 
 				    as well as what type of companies are associated with those colors, using five websites with the same design but with 
 				    different color schemes. In the end, each page had at least one emotion that had been chosen by at least half of 
-				    the participants. Also, the majority of the participants perceived the color schemes with differentt hues of one color 
+				    the participants. Also, the majority of the participants perceived the color schemes with different hues of one color 
 				    as harmonic, while the color schemes with contrasting colors were mostly perceived as chaotic.</h4></p>
 				   <br /> 
 				   <p><h4>This study is the outcome from a group project of four people in the course Human Perception for Information 
@@ -27,7 +27,7 @@ function About(props) {
 	          </div>
 	          <div className='about-link-items'>
 	            <embed title="Perception" src="images/DT2350_PerceptionPoster.pdf" frameborder="0" 
-	            width='500px' height='750px' className='perceptionPDF'></embed>
+	            width='500px' height='650px' className='perceptionPDF'></embed>
 	          </div>
 	        </div>
 	      </div>
