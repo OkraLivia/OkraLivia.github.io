@@ -83,7 +83,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
   .skillGroup {
       flex-direction: column;
       justify-content: center;
@@ -93,16 +93,19 @@ h1 {
     display: flex;
   }
 
+  .skillCards__item {
+    margin-bottom: 2em;
+  }
+
   .skillCards__item__info {
-    width: 20em;
+    width: 22em; /*20em*/
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
   }
 
   .title {
     font-size: 28px !important;
-  }
-
-  .labelTitle {
-    font-size: 26px !important;
   }
 }
 
@@ -126,10 +129,10 @@ h1 {
 { _::-webkit-full-page-media, _:future, 
   .eduTitle {
   font-family: 'Sofia Pro', 'Spartan', sans-serif;
-  font-weight: 600;
+  font-weight: 900;
   }
 
   .otherCards__item__info {
-    max-width: 500px;
+    max-width: 600px;
   }
 }

@@ -26,7 +26,7 @@ function About(props) {
 	          <div className="cards">
 				<div className="cards__container">
 					<div className="cards__wrapper">
-						<ImageSlider slides={ClueData} />
+						<ImageSlider slides={ClueData} double={true}/>
 					</div>
 				</div>
 			</div>

@@ -17,7 +17,8 @@ function Skills(props) {
 								<h5 className="otherCards__item__text"><p>
 									I have since February 2019 worked as a graphic designer at IT and management 
 									consulting company, <a href="https://www.netlight.com/" target="_blank" rel="noreferrer">Netlight</a>. 
-									As a graphic designer I consult clients about what 
+									As a graphic designer I'm part of the design studio which is a self driven part of the company where we have
+									the ownership. I consult clients about what 
 									their vision is for a certain design and deliver to a deadline. In my 
 									role I have gained knowledge about Netlight's graphic profile 
 									and adapted my design aesthetics to suit it. I have also had the opportunity to onboard new team members and thereby

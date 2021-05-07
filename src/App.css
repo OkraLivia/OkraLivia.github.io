@@ -16,7 +16,7 @@ p {
   margin-bottom: 1em;
 }
 
-.home{
+.home {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -202,10 +202,7 @@ img.hover-zoom:hover {
 }
 
 .thimble-img {
-  width: 480px; /*140*/
-  /*border-radius: 7px;
-  margin-right: 0.5em;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);*/
+  width: 480px;
 }
 
 .thimble_img_container {
@@ -251,15 +248,14 @@ img.hover-zoom:hover {
   }
 }
 
-@media screen and (max-width: 400px) {
-  .bedtimePDF {
-    display: none;
+@media screen and (max-width: 414px) {
+  .double {
+    width: auto;
+    height: 330px;
   }
 
-  .perceptionPDF {
-    max-width: 370px;
-    height: auto;
-    position: relative;
+  .bedtimePDF, .perceptionPDF {
+    display: none;
   }
 
   .projectCard {
@@ -278,11 +274,11 @@ img.hover-zoom:hover {
   }
 
   .img-text {
-  margin-top: 38em;
-  min-width: 350px;
-  margin-right: 2em;
-  font-size: 15px !important;
-  padding-top: 2em;
+    margin-top: 38em;
+    min-width: 350px;
+    margin-right: 2em;
+    font-size: 15px !important;
+    padding-top: 2em;
   }
 
   .technologies {
@@ -291,23 +287,38 @@ img.hover-zoom:hover {
   }
 
  .fa-arrow-right {
-  /*margin-left: 3em; */
-  right: auto;
+    /*margin-left: 3em; */
+    /*right: auto;*/
+    left: 100%;
+    font-size: 22px;
   }
 
   .fa-arrow-left {
     /*margin-right: 3em;*/
-    left: auto;
+    /*left: auto;*/
+    right: 100%;
+    font-size: 22px;
+  }
+
+  .slider {
+    max-width: 400px;
+    justify-content: center;
   }
 
   p {
-  font-weight: 400;
-  font-size: 15px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  iframe {
+    margin: 0 1em;
+    
   }
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) 
 { _::-webkit-full-page-media, _:future, 
+
   .img-text { 
     margin-top: 20em; 
   }

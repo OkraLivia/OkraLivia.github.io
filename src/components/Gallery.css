@@ -164,7 +164,7 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
   .gallery-img-open {
   max-width: 300px;
   }

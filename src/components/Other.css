@@ -11,7 +11,10 @@
 }
 
 .otherCards {
-  padding: 2rem;
+  /*padding: 2rem;*/
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
 }
 
 .otherCards__container {
@@ -25,7 +28,7 @@
 
 .otherCards__wrapper {
   position: relative;
-  margin: 20px 0 20px;
+  margin-top: 20px; /*20px 0 20px*/
 }
 
 .otherCards__items {
@@ -80,7 +83,7 @@
 }
 
 .netlight {
-  max-height: 210px;
+  max-height: 230px;
   width: auto;
 }
 
@@ -88,29 +91,28 @@
   margin-top: 24em;
 }
 
-
 .img-menu {
-    display: none;
-    flex-direction: column;
-    max-width: 400px;
-    height: auto;
-    position: absolute;
-    top: 80px;
-    opacity: 1;
-    transition: all 0.5s ease;
-  }
+  display: none;
+  flex-direction: column;
+  max-width: 400px;
+  height: auto;
+  position: absolute;
+  top: 80px;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
 
-  .img-menu.active {
-    display: flex;
-    justify-content: center;
-    background: #E4F2F2;
-    left: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
-  }
+.img-menu.active {
+  display: flex;
+  justify-content: center;
+  background: #E4F2F2;
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
 
-  .img-modal {
+.img-modal {
   position: fixed;
   z-index: 1;
   height: 100%;
@@ -172,7 +174,11 @@
 @media only screen and (max-width: 1024px) {
   .otherCards__item {
     margin-bottom: 2rem;
-    width: 400px;
+    /*width: 600px;*/
+  }
+
+  .otherCards__item__info, .otherCards__item__info2 {
+    width: 600px;
   }
 
   .work-right {
@@ -188,9 +194,23 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
+  .otherCards__item__info, .otherCards__item__info2 {
+    overflow: hidden;
+  }
+
+  .otherCards__item {
+    margin-bottom: 2rem;
+    width: 400px;
+  }
+
+  p, a, h5 {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 500;
+}
+
   .otherCards__item__text {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .labelTitle {
@@ -198,21 +218,32 @@
   }
 
   .netlight {
-  max-height: 180px;
-  width: auto;
+    max-height: 180px;
+    width: auto;
 }
 
   .work-right {
-      left: 100%;
-    }
+    left: 100%;
+    font-size: 20px;
+    color: #49a6a6;
+  }
 
   .work-left {
     right: 100%;
+    font-size: 20px;
+    color: #49a6a6;
   }
 
   .NLtext {
-    margin-top: 12em;
-    padding-bottom: 2em;
+    margin-top: 22em;
+    padding-left: 2em;
+    width: 26em;
+  }
+
+  .otherCards__nl__info {
+    padding: 0 20px;
+    width: 400px;
+    margin-bottom: 2.5em;
   }
 }
 
@@ -220,7 +251,8 @@
 { _::-webkit-full-page-media, _:future, 
 
   .NLtext {
-    margin-top: 12em;
-    max-width: 450px;
+    margin-top: 14em;
+    width: 400px;
+    font-size: 14px !important;
   }
 }

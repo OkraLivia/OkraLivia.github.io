@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect } from "react";
 import '../../App.css';
 
 function About(props) {
@@ -30,8 +30,6 @@ function About(props) {
 				   <a href='images/Bedtime - Okra Livia Inkeri Dimle.pdf' target='_blank' style={{fontWeight:'bold'}}>Link to presentation slides</a>
 	          </div>
 	          <div style={{marginTop: '5em'}}>
-	            {/*<iframe title="Bedtime presentation" src="images/Bedtime - Okra Livia Inkeri Dimle.pdf" frameborder="0" 
-	             allowfullscreen></iframe>*/}
 	             <embed className='bedtimePDF' title="Bedtime presentation" src="images/Bedtime - Okra Livia Inkeri Dimle.pdf#toolbar=0&navpanes=0&scrollbar=0"  width="550px" 
 	             height="100%" frameborder="0" type="application/pdf" scrolling='no' ></embed>
 	          </div>

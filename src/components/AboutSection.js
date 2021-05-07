@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import './AboutSection.css';
 import { Link } from 'react-router-dom';
 
 function AboutSection() {
+
+	useEffect(() => {
+	  window.scrollTo(0, 0)
+	}, [])
+
 	return (
 		<div className='about-container'>
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
-	          <div className='about-link-items'>
+	          <div className='about-link-items txt'>
 	            <h1 className="title" style={{marginBottom: "10px"}}>So, who am I?</h1>
 				    <p>My name is Okra Livia, I'm born and raised on Södermalm in Stockholm. My mother is from Finland and my father is from Sweden
 					so I have grown up with both the Finnish and Swedish culture which has been great and given me different perspectives on things. 
@@ -42,10 +47,12 @@ function AboutSection() {
 					</a>
 					</p>
 	          </div>
-	          <div className='about-link-items'>
+	          <div className='about-link-items me'>
 	            <img className="about-img" src="images/OkraLiviaNew.png" width="250" alt='okra'/>
+	            <div  className='squares'>
 	            <div className="square"></div>
 	            <div className="square2"></div>
+	            </div>
 	          </div>
 	        </div>
 	      </div>

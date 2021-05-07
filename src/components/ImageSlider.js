@@ -1,7 +1,7 @@
 import React, { useState, memo } from 'react';
 import './Dots.css'
 
-const ImageSlider = ({ slides, glow, greenglow, work }) => {
+const ImageSlider = ({ slides, glow, greenglow, work, double }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -13,6 +13,8 @@ const ImageSlider = ({ slides, glow, greenglow, work }) => {
     sliderClasses += ' greenglow';
   } if (work) {
     sliderClasses += ' netlight';
+  } if (double) {
+    sliderClasses += ' double';
   }
 
 /*----------DOTS----------*/

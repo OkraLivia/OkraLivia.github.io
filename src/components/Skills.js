@@ -7,6 +7,7 @@ import './Skills.css';
 "Red": "#F77B80",*/
 
 function Skills(props) {
+
 	return (
 		<div className="skillCards" id='skills'>
 			<h1 className="title">Skills</h1>
@@ -15,10 +16,10 @@ function Skills(props) {
 					<ul className="skillCards__items">
 						<div className='skillGroup'>
 							<SkillItem backgroundColor="#FDC3BB"
-							text= {[<span style={{fontWeight: "bold"}}>Finnish -</span>, " native, ", 
-							<span style={{fontWeight: "bold"}}>Swedish -</span>, 
-							" native, ", <span style={{fontWeight: "bold"}}>English -</span>, 
-							" fluent, ", <span style={{fontWeight: "bold"}}>Spanish -</span>, " basic"]}
+							text= {[<span style={{fontWeight: "900"}}>Finnish -</span>, " native, ", 
+							<span style={{fontWeight: "900"}}>Swedish -</span>, 
+							" native, ", <span style={{fontWeight: "900"}}>English -</span>, 
+							" fluent, ", <span style={{fontWeight: "900"}}>Spanish -</span>, " basic"]}
 							label="Languages"
 							index="1"
 							/>
@@ -43,7 +44,7 @@ function Skills(props) {
 					</ul>
 				</div>
 			</div>
-			<h1 className="title">Education</h1>
+			<h1 className="title" style={{marginTop: '1.25em'}}>Education</h1>
 			<div className="skillCards__container">
 				<div className="skillCards__wrapper">
 					<ul className="skillCards__items">

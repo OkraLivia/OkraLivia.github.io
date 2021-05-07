@@ -152,9 +152,11 @@
   }
 
   .title-name {
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
-    width: 200px
+    /*width: 200px;*/
+    color: #262626; 
+    float: right;
   }
 
   .navbar-logo {
@@ -163,7 +165,36 @@
   }
 }
 
-.title-name {
-  color: #262626; 
-  float: right;
+@media screen and (max-width: 414px) {
+  .title-name {
+    width: 8em;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  .navbar {
+    width: 414px;
+    padding: 0 5px;
+  }
+
+  .navbar-logo {
+    margin-top: -0.7em;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    .navbar {
+    width: 422px;
+    padding: 0 5px;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) 
+{ _::-webkit-full-page-media, _:future, 
+  h1 {
+    font-size: 30px !important;
+  }
+
+  .navbar-logo {
+    margin-top: -0.7em;
+  }
 }

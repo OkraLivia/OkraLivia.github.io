@@ -8,6 +8,7 @@ import Other from '../Other';
 import Gallery from '../Gallery';
 
 function Home(props) {
+	
 	const scrollIntoView = (section) => {
 		const anchor = document.querySelector('#' + section);
 		if (anchor) {
