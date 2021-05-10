@@ -62,7 +62,7 @@ function Skills(props) {
 							<div className="otherCards__item__info2" style={{backgroundColor:"#E4F2F2"}}>
 								<h1 className="labelTitle">Studs</h1>
 								<h5 className="otherCards__item__text">
-									I was part of <a href='https://studieresan.se/' target='_blank' rel="noreferrer">Studs</a> 2018/2019 which is a student driven 
+									I was part of <a href='https://studieresan.se/' target='_blank' rel="noreferrer" className='studs'>Studs</a> 2018/2019 which is a student driven 
 									project course where we network with relevant companies in the tech industry 
 									and end the course with a study trip. I was a member of the travel group, our responsibilities being 
 									the planning and execution of the 2,5 weeks long trip for 30 engineering students to the USA. 

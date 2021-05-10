@@ -31,11 +31,16 @@
   color: #fff;
 }
 
-.about-link-items a {
+.nl-link:hover {
+  color: #9d8dff !important;
+  transition: 0.3s ease-out;
+}
+
+/*.about-link-items a {
   color: #262626;
   margin-bottom: 0.5rem;
 }
-
+*/
 .about-link-items a:hover {
   color: #578a8a;
   transition: 0.3s ease-out;
@@ -168,10 +173,15 @@
     max-width: 450px;
   }
 
-  .about-link-items {
+  .about-link-items, .play-link {
     width: 22em;
     margin: auto;
     line-height: 1.6;
+  }
+
+  .play-link {
+    padding-bottom: 2em;
+    margin-top: -1em;
   }
 
   .me {

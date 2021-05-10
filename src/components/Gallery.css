@@ -102,8 +102,10 @@
 }
 
 .title {
-  font-size: 24px;
-  font-family: 'Opake Heavy','Modak', cursive;
+  font-size: 40px;
+  font-family:'Modak', cursive; /*'Opake Heavy',*/
+  letter-spacing: 0.95px;
+  word-spacing: 1.4px;
 }
 
 .modal-overlay {

@@ -4,6 +4,7 @@ import './Introduction.css';
 import { Link } from 'react-router-dom';
 
 function Introduction() {
+
 	return (
 		<div className='hero-container' id='hero'>
 			<img className="me-img" alt='okra' src="images/profile_pic.png" width="500"/>

@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +10,7 @@
 }
 
 html {
-  scroll-padding-top: 80px;
+  scroll-padding-top: 85px;
 }
 
 p {
@@ -30,8 +31,10 @@ iframe {
 }
 
 h1, .other {
-  font-family: 'Opake Heavy', 'Modak', cursive;
-  font-size: 24px;
+  font-family: 'Modak', cursive; /* 'Opake Heavy',*/
+  font-size: 32px;
+  letter-spacing: 0.95px;
+  word-spacing: 1.4px;
 }
 
 .other_item {
@@ -249,6 +252,12 @@ img.hover-zoom:hover {
 }
 
 @media screen and (max-width: 414px) {
+
+  
+  html {
+    scroll-margin-top: 80px;
+  }
+
   .double {
     width: auto;
     height: 330px;

@@ -18,7 +18,7 @@ h4 {
   color: #262626;
 }
 
-.footer-link-items a:hover {
+.footer-link-items:hover {
   color: #578a8a;
   transition: 0.3s ease-out;
 }

@@ -25,7 +25,7 @@ function AboutSection() {
 				M.Sc. in Interactive Media Technology </a> with a specialization in 
 					Physical Interaction Design at KTH in Stockholm. I have experience in designing interactive prototypes with multimodality 
 					in focus as well as HCI, UX design and research, web development and graphic design from my time at KTH, personal side projects and 
-					from working as a designer at <a href="https://www.netlight.com/" target="_blank" rel="noreferrer">Netlight</a>. 
+					from working as a designer at <a href="https://www.netlight.com/" target="_blank" rel="noreferrer" className="nl-link">Netlight</a>. 
 					This portfolio that I have programmed in React is an example of a personal side project. 
 					</p><br/>
 

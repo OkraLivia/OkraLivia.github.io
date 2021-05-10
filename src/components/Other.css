@@ -144,6 +144,15 @@
   user-select: none;
 }
 
+.otherCards__item__text a:hover {
+  color: #fff;
+  transition: 0.3s ease-out;
+}
+
+.studs:hover {
+  color: #578a8a !important;
+}
+
 @media only screen and (max-width: 960px) {
   .otherCards__items {
     margin-bottom: 24px;
@@ -153,7 +162,6 @@
   }
 
 }
-
 
 @media only screen and (max-width: 1200px) {
 

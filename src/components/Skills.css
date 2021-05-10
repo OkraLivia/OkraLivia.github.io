@@ -8,9 +8,12 @@ h1 {
 }
 
 .labelTitle {
-  font-size: 24px;
-  font-family: 'Opake Heavy', 'Modak', cursive;
+  font-size: 32px;
+  font-family:'Modak', cursive; /*'Opake Heavy', */
   padding-bottom: 10px;
+  letter-spacing: 0.95px;
+  word-spacing: 1.4px;
+  line-height: 1.2;
 }
 
 .eduTitle {
@@ -70,10 +73,15 @@ h1 {
   justify-content: center;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
+  .labelTitle {
+  font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .skillCards__items {
     display: flex;
-    margin-bottom: 2rem;
   }
 }
 

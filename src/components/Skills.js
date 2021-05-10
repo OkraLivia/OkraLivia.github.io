@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import SkillItem from './SkillItem';
 import './Skills.css';
 
@@ -7,6 +7,9 @@ import './Skills.css';
 "Red": "#F77B80",*/
 
 function Skills(props) {
+	useEffect(() => {
+	  window.top.scrollTo(0, 40)
+	}, [])
 
 	return (
 		<div className="skillCards" id='skills'>
