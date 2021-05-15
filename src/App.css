@@ -156,6 +156,10 @@ img.hover-zoom:hover {
    color: #F77B80;
 }
 
+.play-link a:hover {
+  color: #578a8a !important;
+}
+
 @media screen and (max-width: 820px) {
   .img-text {
   margin-top: 35em;

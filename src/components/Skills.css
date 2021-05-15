@@ -73,6 +73,10 @@ h1 {
   justify-content: center;
 }
 
+.flag {
+  font-size: 20px;
+}
+
 @media only screen and (max-width: 1024px) {
   .labelTitle {
   font-size: 32px;

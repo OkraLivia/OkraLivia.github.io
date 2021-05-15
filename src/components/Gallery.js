@@ -5,30 +5,45 @@ const imgUrls = [
   './images/art/fika2.png',
   './images/art/donut.png',
   './images/art/2beer.png',
-  './images/art/ipa_label.png',
+  './images/art/cheers.png',
   './images/art/paverka_industrin.png',
   './images/art/lovehate.png',
-  './images/art/dahlia.png',
+  './images/art/dahlia.png',  
+  './images/art/ipa_label.png',
   './images/art/fish2.png',
+  './images/art/view.png',
+  './images/art/grad_card.png',
+  './images/art/grad_card2.png',
   './images/art/dtiys2.png',
   './images/art/IMG_2499e.jpg',
   './images/art/sangria.png',
   './images/art/Cryptocurrency.png'
 ];
 
+/*var url = <a href='https://untappd.com/b/tomkra-brewing-tomkra-ipa/4237464'>Untappd</a>;
+var beer = url;
+console.log('yo', beer);
+  ${name}
+
+😎🍻'.replace("{Untappd}", beer)*/
+
 const imgTexts = [
   'This image I have created from scratch in Blender.',
   'Here is a close up of the donut that I made in Blender.',
   'I made Mikkeller inspired beer labels for my friends who moved to Australia.',
-  'Me and my boyfriend brewed our own IPA and together we designed the label and graphic profile for our home brewery.',
-  'Illustration in Osqledaren #4 19/20 for the article Även stora företag behöver ställas till svars för sina handlingar.',
-  'Illustration in Osqledaren #3 18/19 for the article Sektionerna tycker till om THS.',
+  'This I made in Illustrator and it is inspired by my illustration for the Osqledaren article "M i Madrid".',
+  'Illustration in Osqledaren #4 19/20 for the article "Även stora företag behöver ställas till svars för sina handlingar".',
+  'Illustration in Osqledaren #3 18/19 for the article "Sektionerna tycker till om THS".',
   'Illustration made with Promarkers-pens.',
+  'Me and my boyfriend brewed our own IPA and together we designed the label and graphic profile for our home brewery, Tomkra Brewing. Our beer can be found on Untappd, just search for "Tomkra Brewing" 😎🍻',
   'Illustration made with aquarelle colors and pen.',
+  'This illustration I made in Illustratior and it is a entry in a color palette challenge where the task is to create an artwork only using a predetermined and limited color palette.',
+  'This is the invitation I made with pen and aquarelle for the celebration of me graduating from high school.',
+  'This is the invitation I made with pen and aquarelle for the celebration of my brother graduating from high school.',
   'This is a draw this in your style-challenge piece. The image to the left is my version of the original image to the right.',
   'This is another piece for a draw this in your style-challenge.',
-  'Illustration in Osqledaren #4 17/18 for the article M i Madrid.',
-  'Illustration in Osqledaren #2 19/20 for the article Utmanarna till Bitcoin.'
+  'Illustration in Osqledaren #4 17/18 for the article "M i Madrid".',
+  'Illustration in Osqledaren #2 19/20 for the article "Utmanarna till Bitcoin".'
 ];
 
 class Gallery extends React.Component {
@@ -127,7 +142,7 @@ class GalleryModal extends React.Component {
             {hasPrev && <a href="/" className='modal-prev' onClick={findPrev} onKeyDown={this.handleKeyDown}>&lsaquo;</a>}
             {hasNext && <a href="/" className='modal-next' onClick={findNext} onKeyDown={this.handleKeyDown}>&rsaquo;</a>}
             <img className='gallery-img-open' src={src} alt='gallery-img' /><br/>
-            <span style={{color:'#fff'}}>{imgText}</span>
+            <span style={{color:'#fff', textAlign:'center'}}>{imgText}</span>
           </div>
         </div>
       </div>

@@ -9,9 +9,17 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/Edge Aacademy-08.png',
+      './images/nl/templates.png',
     index: 
     '2',
+    text:
+    "Update of Netlight's presentation templates adding a report and proposal deck along with the speaker template. The new design has a lighter and airier feel and introduces complimentary colors to the classic Netlight purple."
+  },
+  {
+    image:
+      './images/nl/Edge Aacademy-08.png',
+    index: 
+    '3',
     text:
     'The logo for Edge Academy 2020 where the theme was Connecting the dots. I created material for both printing and digital use, such as schedules and presentation backdrops.'
       },
@@ -19,17 +27,9 @@ export const NlImages = [
     image:
       './images/nl/christmas_card_3.png',
     index: 
-    '3',
-    text:
-    "I created this christmas card using Adobe Illustrator, the gingerbreads have Netlight's logo on them, that is the stylized bird. The christmas cards are usually sent to Netlight's clients."
-  },
-  {
-    image:
-      './images/nl/global talent night.png',
-    index: 
     '4',
     text:
-    'The logo for the online event Global Talent night that was hosted in spring 2020. It was used to market the event on social media as well as in the sign up form.' 
+    "I created this christmas card using Adobe Illustrator, the gingerbreads have Netlight's logo on them, that is the stylized bird. The christmas cards are usually sent to Netlight's clients."
   },
   {
     image:
@@ -65,9 +65,17 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/Show&Tell-Logo.png',
+      './images/nl/global talent night.png',
     index: 
     '9',
+    text:
+    'The logo for the online event Global Talent night that was hosted in spring 2020. It was used to market the event on social media as well as in the sign up form.' 
+  },
+  {
+    image:
+      './images/nl/Show&Tell-Logo.png',
+    index: 
+    '10',
     text:
     'A logo for the weekly show and tell.'
   },
@@ -75,7 +83,7 @@ export const NlImages = [
     image:
       './images/nl/Fredagsmys-goes-live-neon.png',
     index: 
-    '10',
+    '11',
     text:
     'When the Covid-19 pandemic hit the Fredagsmys shifted from being at the Stockholm office to being broadcasted live.'
   }

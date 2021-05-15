@@ -31,7 +31,7 @@ function About(props) {
 	          </div>
 	          <div style={{marginTop: '5em'}}>
 	             <embed className='bedtimePDF' title="Bedtime presentation" src="images/Bedtime - Okra Livia Inkeri Dimle.pdf#toolbar=0&navpanes=0&scrollbar=0"  width="550px" 
-	             height="100%" frameborder="0" type="application/pdf" scrolling='no' ></embed>
+	             height="80%" frameborder="0" type="application/pdf" scrolling='no' ></embed>
 	          </div>
 	        </div>
 	      </div>

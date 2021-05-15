@@ -91,6 +91,11 @@
   padding-right: 2.5em;
   text-decoration: none;
   font-size: 14px;
+  margin-right: 1vw;
+}
+
+.txt {
+  margin-top: 1.8em;
 }
 
 @media screen and (max-width: 1024px) {

@@ -19,10 +19,10 @@ function Skills(props) {
 					<ul className="skillCards__items">
 						<div className='skillGroup'>
 							<SkillItem backgroundColor="#FDC3BB"
-							text= {[<span style={{fontWeight: "900"}}>Finnish -</span>, " native, ", 
-							<span style={{fontWeight: "900"}}>Swedish -</span>, 
-							" native, ", <span style={{fontWeight: "900"}}>English -</span>, 
-							" fluent, ", <span style={{fontWeight: "900"}}>Spanish -</span>, " basic"]}
+							text= {[<p style={{marginBottom:'0.2em'}}><span className='flag'>🇫🇮</span><span style={{fontWeight: "900"}}> Finnish </span> - native</p>, 
+							<p style={{marginBottom:'0.2em'}}><span className='flag'>🇸🇪</span><span style={{fontWeight: "900"}}> Swedish </span> 
+							 - native</p>, <p style={{marginBottom:'0.2em'}}><span className='flag'>🇬🇧</span><span style={{fontWeight: "900"}}> English </span> 
+							 - fluent</p>,<span className='flag'>🇪🇸</span>,<span style={{fontWeight: "900"}}> Spanish </span>,<span> - basic</span>]}
 							label="Languages"
 							index="1"
 							/>

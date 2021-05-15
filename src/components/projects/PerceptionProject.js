@@ -27,7 +27,7 @@ function About(props) {
 	          </div>
 	          <div className='about-link-items'>
 	            <embed title="Perception" src="images/DT2350_PerceptionPoster.pdf" frameborder="0" 
-	            width='500px' height='650px' className='perceptionPDF'></embed>
+	            width='500px' height='100%' className='perceptionPDF'></embed>
 	          </div>
 	        </div>
 	      </div>
