@@ -20,13 +20,6 @@ const imgUrls = [
   './images/art/Cryptocurrency.png'
 ];
 
-/*var url = <a href='https://untappd.com/b/tomkra-brewing-tomkra-ipa/4237464'>Untappd</a>;
-var beer = url;
-console.log('yo', beer);
-  ${name}
-
-😎🍻'.replace("{Untappd}", beer)*/
-
 const imgTexts = [
   'This image I have created from scratch in Blender.',
   'Here is a close up of the donut that I made in Blender.',
