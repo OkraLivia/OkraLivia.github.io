@@ -159,7 +159,7 @@ export const StudyPlacesData = [
 export const ClueData = [
   {
     image:
-      './images/clue_1.png',
+      './images/clue_img_1.png',
       text:
       'The landing page before and after. It visualizes your current cycle: where in the cycle you are, the period, when your fertile window is and what days you have tracked something on, which is represented by the small dots.',
       index:
@@ -167,7 +167,7 @@ export const ClueData = [
   },
   {
     image:
-      './images/clue_2.png',
+      './images/clue_img_2.png',
       text:
       'The tracking page before and after. From the top row you can choose what day you want to add content to. It is possible to track several different categories, such as bleeding, pain and emotions. You can also read information about each category.',
       index:
@@ -175,11 +175,19 @@ export const ClueData = [
       },
   {
     image:
-      './images/clue_3.png',
+      './images/clue_img_3.png',
       text:
       'The calendar page before and after. Get an overview of your cycles, click on a day in the calendar to see what has been tracked that day. In my version I added the possibility to track the intensity of the pain category since it is a function I have missed in the existing application.',
       index:
-      '21'
+      '22'
+  },
+  {
+    image:
+      './images/clue_img_4.png',
+      text:
+      'The cycle analysis page before and after. This page displays a summary of your cycles and lets you overview them quickly.',
+      index:
+      '23'
   }
 ];
 
@@ -190,7 +198,7 @@ export const CozyCorners = [
       text:
       'The splash screen. The color theme for this app is green, because according to color theory green is related to positivity, trust and peacefulness, qualities that suit the objective of this app.',
       index:
-      '22'
+      '24'
   },
   {
     image:
@@ -198,7 +206,7 @@ export const CozyCorners = [
       text:
       'The home page. Google Maps API was used for the map where all cozy corners are displayed, click on an image to get more info and if you are logged in, save the place to your list. Search for a place by address and tags, or filter the places by the same parameters.',
       index:
-      '23'
+      '25'
       },
   {
     image:
@@ -206,7 +214,7 @@ export const CozyCorners = [
       text:
       'The hamburger menu in the top left corner of the map displays the log in or sign up page.',
       index:
-      '24'
+      '26'
   },
    {
     image:
@@ -214,7 +222,7 @@ export const CozyCorners = [
       text:
       "The same view when logged in. From here it is possible to view one's saved cozy corners or add a new place.",
       index:
-      '25'
+      '27'
   },
    {
     image:
@@ -222,7 +230,7 @@ export const CozyCorners = [
       text:
       'Add a new cozy corner and provide some information about it. The new cozy corner gets placed on the map by filling in the longitude and latitude of it (not visible in the image above).',
       index:
-      '26'
+      '28'
   },
    {
     image:
@@ -230,6 +238,6 @@ export const CozyCorners = [
       text:
       'All saved places are displayed in a list containing an image, the name, the address and a comment about the place. Remove a saved place from the list by pressing the save icon.',
       index:
-      '27'
+      '29'
   }
 ];
