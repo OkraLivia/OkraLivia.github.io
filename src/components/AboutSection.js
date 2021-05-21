@@ -38,7 +38,7 @@ function AboutSection() {
 
 					<p><span style={{fontWeight: "bold", color: "#F77B80"}}> Email: </span><a href = "mailto: okralivia@gmail.com">
 					okralivia@gmail.com</a> </p>
-					<p><span style={{fontWeight: "bold", color: "#F77B80"}}> Phone: </span>+46707443660 </p>
+					<p><span style={{fontWeight: "bold", color: "#F77B80"}}> Phone: </span>+46 70 744 36 60 </p>
 					
 					<p style={{marginTop:"20px"}}>
 					<Link to="/CV_OkraLivia_2021.pdf" target="_blank" className='cv'>Open CV</Link>
