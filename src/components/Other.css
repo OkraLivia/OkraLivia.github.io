@@ -83,12 +83,13 @@
 }
 
 .netlight {
-  max-height: 230px;
+  max-height: 260px;
   width: auto;
 }
 
 .NLtext {
-  margin-top: 24em;
+  /*margin-top: 26em;*/
+  margin-bottom: 12em;
 }
 
 .img-menu {
@@ -125,7 +126,7 @@
 .work-right {
   position: absolute;
   top: 50%;
-  left: 95%;
+  left: 100%;
   font-size: 1rem;
   color: #262626;
   z-index: 10;
@@ -136,7 +137,7 @@
 .work-left {
   position: absolute;
   top: 50%;
-  right: 95%;
+  right: 100%;
   font-size: 1rem;
   color: #262626;
   z-index: 10;
