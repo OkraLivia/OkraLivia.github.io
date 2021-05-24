@@ -17,8 +17,8 @@ function Introduction() {
 				target='_blank' rel="noreferrer">
 				M.Sc. in Interactive Media Technology </a> 
 				at KTH in Stockholm. I have a specialisation in physical interaction 
-				design and I enjoy building experiences for IoT and AR and understanding 
-				the psychology behind user interaction.</p>
+				design and I enjoy building beautiful user experiences for both digital and physical 
+				products as well as understanding the psychology behind user interactions.</p>
 				<Link to="/about" style={{fontWeight: "bold"}}>Read more</Link>
 			</div>
 		</div>

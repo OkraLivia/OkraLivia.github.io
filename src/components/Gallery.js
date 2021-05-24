@@ -135,7 +135,7 @@ class GalleryModal extends React.Component {
             {hasPrev && <a href="/" className='modal-prev' onClick={findPrev} onKeyDown={this.handleKeyDown}>&lsaquo;</a>}
             {hasNext && <a href="/" className='modal-next' onClick={findNext} onKeyDown={this.handleKeyDown}>&rsaquo;</a>}
             <img className='gallery-img-open' src={src} alt='gallery-img' /><br/>
-            <span style={{color:'#fff', textAlign:'center'}}>{imgText}</span>
+            <span className='img_caption'>{imgText}</span>
           </div>
         </div>
       </div>

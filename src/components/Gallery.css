@@ -126,7 +126,7 @@
   line-height: 36px;
   font-size: 30px;
   font-weight: lighter;
-  background: #fff;
+  background: #E4F2F2;
   border-radius: 5px;
   height: 40px; width: 40px;
   text-align: center;
@@ -164,6 +164,10 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.img_caption {
+  color: #fff;
 }
 
 @media screen and (max-width: 414px) {

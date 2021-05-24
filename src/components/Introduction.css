@@ -16,7 +16,7 @@
 }
 
 .me-img {
-  margin-left: 26em;
+  margin-left: 27em;
 }
 
 .title {
@@ -28,12 +28,12 @@
   background-color: #E4F2F2;
   color: #262626;
   padding: 20px;
-  width: 33em;
+  width: 38em;
   font-size: 14px;
   font-family: 'Sofia Pro', 'Spartan', sans-serif;
   font-weight: 400;
   font-style: normal;
-  left: 18vw; /*24em*/
+  left: 14vw; /*24em*/
   font-size: 16px;
 }
 

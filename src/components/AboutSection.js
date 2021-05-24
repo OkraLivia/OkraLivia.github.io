@@ -24,16 +24,16 @@ function AboutSection() {
 					target='_blank' rel="noreferrer">
 				M.Sc. in Interactive Media Technology </a> with a specialization in 
 					Physical Interaction Design at KTH in Stockholm. I have experience in designing interactive prototypes with multimodality 
-					in focus as well as HCI, UX design and research, web development and graphic design from my time at KTH, personal side projects and 
+					in focus as well as HCI, UX design and UX research, web development and graphic design from my time at KTH, personal side projects and 
 					from working as a designer at <a href="https://www.netlight.com/" target="_blank" rel="noreferrer" className="nl-link">Netlight</a>. 
-					This portfolio that I have programmed in React is an example of a personal side project. 
+					This portfolio is an example of a personal side project that I have programmed in React. 
 					</p><br/>
 
-					<p>I'm passionate about designing creative solutions where the user is in focus. Design is something 
-					that I've always been interested in, both for shaping physical as well as digital products and I enjoy 
-					building beautiful user experiences for IoT and AR. I also like working with rapid prototyping, 
-					investigating different materials and creating interesting aesthetics. It's really important for 
-					me to feel that my work is of importance. 
+					<p>I'm passionate about designing creative solutions where the user is in focus. I have always been interested in design 
+					and beautiful and interesting aesthetics in both physical as well as digital products. I really enjoy building beautiful 
+					user experiences, understanding the psychology behind user interactions and I’m always eager to try out new UX/UI trends. 
+					I also like experimenting with different materials and coming up with interesting aesthetics. It's really important for me 
+					to feel that my work is of importance.  
 					Feel free to contact me, I'm always up for a fika!</p><br/>
 
 					<p><span style={{fontWeight: "bold", color: "#F77B80"}}> Email: </span><a href = "mailto: okralivia@gmail.com">
