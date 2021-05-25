@@ -12,7 +12,7 @@ const imgUrls = [
   './images/art/ipa_label.png',
   './images/art/fish2.png',
   './images/art/view.png',
-  './images/art/grad_card.png',
+  './images/art/yo2015.png',
   './images/art/grad_card2.png',
   './images/art/dtiys2.png',
   './images/art/IMG_2499e.jpg',
