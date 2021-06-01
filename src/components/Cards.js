@@ -32,7 +32,7 @@ function Cards() {
 						text="Clue Redesign"
 						path="/clue"
 						/>
-						<CardItem src="images/studyPlaces.png"
+						<CardItem src="images/study_spots.png"
 						text="Study Places"
 						path="/studyplaces"
 						/>
