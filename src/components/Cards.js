@@ -40,10 +40,10 @@ function Cards() {
 						text="Bedtime"
 						path="/bedtime"
 						/>
-						<CardItem src="images/cozyCorners.png"
+						{/*<CardItem src="images/cozyCorners.png"
 						text="Cozy Corners"
 						path="/cozycorners"
-						/>
+						/>*/}
 						<CardItem src="images/PerceptionPoster.png"
 						text="Perception Project"
 						path="/perceptionproject"

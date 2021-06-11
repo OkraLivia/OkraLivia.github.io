@@ -14,10 +14,12 @@ function About(props) {
 	          <div className='about-link-items'>
 	          <h4 className='technologies'>AR | UNITY | ENTERTAINMENT</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>OsqledARen</h1>
-				   <p>OsqledARen is a project in which we created a mobile 
-				   experience combining AR technology and a printed magazine. The AR functions extends the printed 
+				   <p>Since all members of this project group were engaged in the student union's paper, Osqledaren, 
+				   it felt natural for us to create a multimodal concept involving the magazine. OsqledARen is a project in which we created a mobile 
+				   experience combining AR technology and a printed Osqledaren magazine. The AR functions extends the printed 
 				   information and gives the reader the possibility to interact with the content in new and 
-				   exciting ways, for example by watching videos and listening to music referred to in articles.</p>
+				   exciting ways, for example by watching videos and listening to music referred to in articles. Watch the video to 
+				   see how it works.</p>
 				   <br/>
 				   <p>OsqledARen is the outcome from a group project of four people in the course Multimodal Interaction and 
 				   Interfaces at KTH. In this project we used Unity and Android smartphones. My part of the project was to create 

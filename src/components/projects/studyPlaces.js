@@ -21,8 +21,9 @@ function About(props) {
 				   user journey workshops to find out what a relevant target group and its pain points are. What we decided to work 
 				   with was students at universities and the struggle of finding suitable study spots. A survey conducted in this 
 				   study showed that students had a strong interest in finding new study spots in the city, but with no good means 
-				   to do so. The problem  was thereby defined as a lack of help in discovering study spaces in Stockholm. As a 
-				   solution to this problem we developed a prototype in Figma to help local and international students find proper 
+				   to do so. The problem  was thereby defined as a lack of help in discovering study spaces in Stockholm. All team members
+				   engaged in lo-fi sketching to explore the features to be implemented in the app. As a 
+				   solution to the problem we developed a prototype in Figma to help local and international students find proper 
 				   study places.</p>
 				   <br/>
 				   <p>This app is the outcome from a group project of four people in the course Media Lab at KTH. My responsibility 

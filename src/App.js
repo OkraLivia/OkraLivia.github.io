@@ -13,7 +13,7 @@ import studyPlaces from './components/projects/studyPlaces';
 import Clue from './components/projects/Clue';
 import Bedtime from './components/projects/Bedtime';
 import PerceptionProject from './components/projects/PerceptionProject';
-import CozyCorners from './components/projects/CozyCorners';
+/*import CozyCorners from './components/projects/CozyCorners';*/
 
 
 function App() { 
@@ -35,7 +35,6 @@ return (
         <Route path='/clue' component={Clue}/>
         <Route path='/bedtime' component={Bedtime}/>
         <Route path='/perceptionproject' component={PerceptionProject}/>
-        <Route path='/cozycorners' component={CozyCorners}/>
 
         <Route path='/:section' component={Home}/>
 

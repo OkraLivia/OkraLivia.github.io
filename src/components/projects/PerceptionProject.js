@@ -12,7 +12,7 @@ function About(props) {
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
-	          <h4 className='technologies'>COLOR COMBINATIONS | USER RESEARCH | UX DESIGN</h4>
+	          <h4 className='technologies'>COLOR COMBINATIONS | USER RESEARCH | UI DESIGN</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Perception Project</h1>
 				   <p>Different colors can be used for evoking different emotions and associations and is an important factor when
 				    creating a product or service. In this study we researched which emotions are related to which color combinations, 

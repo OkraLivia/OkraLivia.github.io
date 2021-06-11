@@ -17,7 +17,8 @@ function About(props) {
 				   <p>The Swedish winters are dark, cold and wet. This however does not affect children’s 
 				   excitement to play outside. Therefore, we created the Interactive Light Forest. A project 
 				   made for the concept of the Winter Playground. The concept is a prototype of an interactive 
-				   Light Forest where four sensors trigger different types of lights patterns.</p>
+				   Light Forest where four sensors trigger different types of lights patterns. Watch the video to
+				   learn more about how we created this project.</p>
 				   <br/>
 				   <p>This project is the outcome from a group project of four people in the course Physical 
 				   Interaction Design at KTH. In this project I did the construction of the physical forest as 

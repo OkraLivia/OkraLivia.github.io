@@ -15,7 +15,7 @@ function About(props) {
 	          <h4 className='technologies'>SOUNDSCAPE | MAX/MSP | MOTION CAPTURE</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Sonified Map</h1>
 				   <p>In this project we used Max/MSP and a motion capture system to create a sonified map of 
-				   the KTH campus Valhallavägen with two scenarios. One displays the sounds of the present and 
+				   the KTH campus Valhallavägen that had two scenarios. One displays the sounds of the present and 
 				   the other the possible sounds of the future. By exploring this map you can follow a day in the 
 				   life of a KTH student, the sounds create an immersive experience and provide a concept of time 
 				   passing.</p>
