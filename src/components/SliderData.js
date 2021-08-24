@@ -53,7 +53,7 @@ export const NlImages = [
     index: 
     '7',
     text:
-    "The Personal Development Flower visualizes the different responsibilities that consultants and senior consultants have at Netlight where each petal represents a different area."
+    "The Personal Development Flower visualizes the different responsibilities that consultants and senior consultants have at Netlight where each petal represents a different area. This work is completely made in Photoshop."
   },
   {
     image:

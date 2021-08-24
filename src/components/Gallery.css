@@ -43,7 +43,8 @@
 .gallery-grid div {
   position: relative;
   cursor: pointer;
-  &:before, &:after {
+  align-self: center;
+  /*&:before, &:after {
     transition: .3s opacity ease;
     opacity: 0;
   }
@@ -73,12 +74,12 @@
       opacity: 1;
       transition: .3s opacity ease;
     }
-  }
+  }*/
 }
 
 .modal {
   position: fixed;
-  z-index: 999;
+  z-index: 1000; /*999*/
   width: 70%;
   max-width: 800px;
   top: 50%;
@@ -110,7 +111,7 @@
 
 .modal-overlay {
   position: fixed;
-  z-index: 1;
+  z-index: 1000; /*1*/
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
