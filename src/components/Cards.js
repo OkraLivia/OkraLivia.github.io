@@ -48,10 +48,6 @@ function Cards() {
 						text="Perception Project"
 						path="/perceptionproject"
 						/>
-						/*<CardItem src="images/dailyUI.png"
-						text="Daily UI"
-						path="/dailyUi"
-						/>*/
 					</ul>
 				</div>
 			</div>
