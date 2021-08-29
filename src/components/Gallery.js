@@ -18,6 +18,7 @@ const imgUrls = [
   './images/art/grad_card2.png',
   './images/art/window.png',
   './images/art/stilleben.png',
+  './images/art/my_bike.png',
   './images/art/IMG_2499e.jpg',
   './images/art/sangria.png',
   './images/art/Cryptocurrency.png'
@@ -40,6 +41,7 @@ const imgTexts = [
   'This is the invitation I made with and Uni Pin fineliners and aquarelle for the celebration of my brother graduating from high school.',
   'This is made in Procreate on an iPad using an Apple pencil, a completely new medium for me. It shows the view from the dining room at our summer cottage.',
   'I like drawing everyday things in my surrounding, this painting is of an after work beer and behing the glasses is a box of Domino-cookies, the Finnish version of Oreos which I find much better 😎 The painting is made with acrylics.',
+  'This is probably my biggest project and one that I really enjoyed working with. My red leopard bike. With the help from my boyfriend we took the bike apart and I spray painted it red and drew leopard spots on it with an oil based marker. It took HOURS but it was totally worth it.',
   'This is a draw this in your style-challenge piece. The image to the left is my version of the original image to the right.',
   'Illustration in Osqledaren #4 17/18 for the article "M i Madrid".',
   'Illustration in Osqledaren #2 19/20 for the article "Utmanarna till Bitcoin".'

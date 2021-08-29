@@ -1,14 +1,9 @@
 import React from 'react';
 import './Footer.css';
-/*import ScrollArrow from './ScrollUp';*/
 
 function Footer() {
 	return (
 		<>
-		{/*<Link to="/" className="up">
-				<img src="/images/up.svg" alt='uparrow' width="50" className='up_arrow'/>
-				<ScrollArrow />
-		</Link>*/}
 		<div className="footer-container">
 			<div>
 				<h4>
