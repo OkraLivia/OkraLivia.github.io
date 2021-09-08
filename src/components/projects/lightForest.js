@@ -28,7 +28,7 @@ function About(props) {
 	          	<iframe title="Light Forest video" src="https://drive.google.com/file/d/15AXryTpEiGn8IqukKAG0wD3YNczVnjry/preview" 
 	          	frameBorder="0" style={{width:'‪1 920px', height:'1 080px'}} allow="autoplay; fullscreen" allowfullscreen></iframe>
 	          	<p className='play-link'>Problem playing the video? Click <a href="https://drive.google.com/file/d/15AXryTpEiGn8IqukKAG0wD3YNczVnjry/view" 
-	          	target='_blank' rel="noreferrer"> here</a>to watch the video.</p>
+	          	target='_blank' rel="noreferrer"> here</a> to watch it.</p>
 	          </div>
 	        </div>
 	      </div>
