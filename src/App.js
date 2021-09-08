@@ -15,7 +15,6 @@ import Bedtime from './components/projects/Bedtime';
 import PerceptionProject from './components/projects/PerceptionProject';
 /*import CozyCorners from './components/projects/CozyCorners';*/
 
-
 function App() { 
 return (
 <>
@@ -24,7 +23,6 @@ return (
   		<Navbar />
   		<Switch>
   			<Route path='/' exact component={Home}/>
-
   			<Route path='/about' component={About}/>
 
   			<Route path='/osqledaren' component={OsqledARen}/>
@@ -37,7 +35,6 @@ return (
         <Route path='/perceptionproject' component={PerceptionProject}/>
 
         <Route path='/:section' component={Home}/>
-
   		</Switch>
   	</Router>
 </>
