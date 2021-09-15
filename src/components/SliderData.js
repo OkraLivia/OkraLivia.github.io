@@ -5,7 +5,7 @@ export const NlImages = [
     index:
       '1',
     text:
-    'This is the invitation to the housewarming party at the Stockholm office when Netlight moved into Urban Escape.'
+    'This is the invitation to the housewarming party at the Stockholm office when Netlight moved into Urban Escape. It is one of my first deliveries as a designer at Netlight, the client asked for something with a mysterious feel.'
   },
   {
     image:
@@ -61,7 +61,7 @@ export const NlImages = [
     index: 
     '8',
     text:
-    'This is the Certificate of Climate Action that explains how Netlight compensate for its employees personal carbon footprint.'
+    'This is the Certificate of Climate Action that explains how Netlight compensate for its employees personal carbon footprint. The lead words for the design was luxury and green.'
   },
   {
     image:
@@ -77,7 +77,7 @@ export const NlImages = [
     index: 
     '10',
     text:
-    'A logo for the weekly show and tell.'
+    'A logo for the weekly show and tell. A casual event that called for a fun and light feeling logo.'
   },
   {
     image:
@@ -85,7 +85,7 @@ export const NlImages = [
     index: 
     '11',
     text:
-    'When the Covid-19 pandemic hit the Fredagsmys shifted from being at the Stockholm office to being broadcasted live.'
+    'When the Covid-19 pandemic hit the Fredagsmys shifted from being at the Stockholm office to being broadcasted live. The client wanted a logo that had a Late Night Show vibe.'
   }
 ];
 
