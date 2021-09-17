@@ -28,8 +28,6 @@ class Gallery extends React.Component {
     super(props);
     this.state = { currentIndex: null };
     this.closeModal = this.closeModal.bind(this);
-    this.findNext = this.findNext.bind(this);
-    this.findPrev = this.findPrev.bind(this);
     this.renderImageContent = this.renderImageContent.bind(this);
   }
   renderImageContent(src, index) {
@@ -48,22 +46,6 @@ class Gallery extends React.Component {
     }
     this.setState ({ currentIndex: null });
   }
-  findPrev(e) {
-    if (e !== undefined) {
-      e.preventDefault();
-    }
-    this.setState(prevState => ({
-      currentIndex: prevState.currentIndex -1
-    }));
-  }
-  findNext(e) {
-    if (e !== undefined) {
-      e.preventDefault();
-    }
-    this.setState(prevState => ({
-      currentIndex: prevState.currentIndex + 1
-    }));
-  }
   render() {
     return (
       <div className="gallery-container" id='art'>
@@ -73,10 +55,6 @@ class Gallery extends React.Component {
         </div>
         <GalleryModal 
           closeModal={this.closeModal} 
-          findPrev={this.findPrev} 
-          findNext={this.findNext} 
-          hasPrev={this.state.currentIndex > 0} 
-          hasNext={this.state.currentIndex + 1 < imgUrls.length} 
           src={imgUrls[this.state.currentIndex]}
           imgText={imgTexts[this.state.currentIndex]}
         />
@@ -88,7 +66,7 @@ class Gallery extends React.Component {
 class GalleryModal extends React.Component {
   
   render () {
-    const { closeModal, hasNext, hasPrev, findNext, findPrev, src, imgText } = this.props;
+    const { closeModal, src, imgText } = this.props;
     if (!src) {
       return null;
     }
