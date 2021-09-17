@@ -14,6 +14,7 @@ import Clue from './components/projects/Clue';
 import Bedtime from './components/projects/Bedtime';
 import PerceptionProject from './components/projects/PerceptionProject';
 /*import CozyCorners from './components/projects/CozyCorners';*/
+import DailyUi from './components/projects/DailyUi';
 
 function App() { 
 return (
@@ -33,6 +34,7 @@ return (
         <Route path='/clue' component={Clue}/>
         <Route path='/bedtime' component={Bedtime}/>
         <Route path='/perceptionproject' component={PerceptionProject}/>
+        <Route path='/dailyui' component={DailyUi}/>
 
         <Route path='/:section' component={Home}/>
   		</Switch>
