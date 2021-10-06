@@ -26,17 +26,17 @@ function Skills(props) {
 							label="Languages"
 							index="1"
 							/>
-							<SkillItem backgroundColor="#F77B80"
-							text="Illustrator, Photoshop, XD, After Effects, Audition, InDesign, Lightroom"
-							label="Adobe Creative Suite"
-							index="2"
+							<SkillItem backgroundColor="#F77B80" 
+							text="I have experience working with HTML, CSS, JavaScript, React, Python, XML, PHP, SQL"
+							label="Programming"
+							index="3"
 							/>
 						</div>
 						<div className='skillGroup'>
 							<SkillItem backgroundColor="#E4F2F2"
-							text="I have experience working with HTML, CSS, JavaScript, React, Python, XML, PHP, SQL"
-							label="Programming"
-							index="3"
+								text="Illustrator, Photoshop, XD, After Effects, Audition, InDesign, Lightroom"
+								label="Adobe Creative Suite"
+								index="2"
 							/>
 							<SkillItem backgroundColor="#FDC3BB"
 							text="Figma, Blender, Unity, traditional and digital art"

@@ -10,7 +10,7 @@ const imgUrls = [
   './images/ui/daily_ui-06.png',
   './images/ui/daily_ui-07.png',
   './images/ui/daily_ui-03.png',
-  './images/ui/daily_ui-08.png'
+  './images/ui/404-page.gif'
 ];
 
 const imgTexts = [
