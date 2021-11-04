@@ -144,7 +144,7 @@ h1 {
     font-weight: 600;
     font-size: 18px !important;
     line-height: 24px;
-}
+  }
 }
 
 @media screen and (max-width: 768px) {

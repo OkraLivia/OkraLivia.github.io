@@ -17,10 +17,12 @@ h1 {
 }
 
 .eduTitle {
-  font-family: 'Sofia Pro', 'Spartan', sans-serif;
-  font-weight: 900;
+  /*font-family: 'Sofia Pro', 'Spartan', sans-serif;*/
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
   font-style: normal;
   color: #262626;
+  width: inherit;
 }
 
 /*.skillCards__container {
@@ -58,6 +60,7 @@ h1 {
 
 .title {
   margin-bottom: 1em;
+  margin-top: revert;
 }
 
 .skillCards__items {
@@ -140,8 +143,9 @@ h1 {
 @media screen and (-webkit-min-device-pixel-ratio: 0) 
 { _::-webkit-full-page-media, _:future, 
   .eduTitle {
-  font-family: 'Sofia Pro', 'Spartan', sans-serif;
-  font-weight: 900;
+  /*font-family: 'Sofia Pro', 'Spartan', sans-serif;*/
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
   }
 
   .otherCards__item__info {
