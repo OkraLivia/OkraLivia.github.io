@@ -24,6 +24,7 @@ const imgUrls = [
   './images/art/dtiys.png',
   './images/art/frogscene.png',
   './images/art/marimekko_portrait.png',
+  './images/art/dtiys3.png',
   './images/art/sangria.png',
   './images/art/Cryptocurrency.png'
 ];
@@ -51,6 +52,7 @@ const imgTexts = [
   'This is another draw this in your style-challenge piece. The image to the left is my version of the original image to the right. It is made with pen and aquarelle.',
   'This little scene is of a couple of frogs picking blueberries in the forest. The inspiration for this came from one of many trips to the forest my family and I make during the autumn to pick berries and mushrooms. It is made in Procreate.',
   "I've been wanting to get better at drawing people so I painted this Marimekko-appreciation kind of self portrait using aquarelles and pen.",
+  'Yet another draw this in your style-challenge piece. I really like the concept of these challenged, that you take a piece of art that someone else has made and think about how you can redo it in your own style. It is also perfect for when you want to draw but do not know what. Mine is on the left and I made it in Procreate on an iPad.',
   'This is made in Illustrator and it is inspired by, or a remake of if you will, an illustration I made for the article "M i Madrid" in Osqledaren #4 17/18. It was part of the “Mat” section of the article, sangria feels like a must-do when visiting Spain 💃',
   'This is an illustration in Osqledaren #2 19/20 for the article "Utmanarna till Bitcoin".'
   ];
