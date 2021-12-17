@@ -1,7 +1,7 @@
 export const NlImages = [
   {
     image:
-      './images/nl/Housewarming Party.png',
+      './images/nl/Housewarming-Party-web.png',
     index:
       '1',
     text:
@@ -9,7 +9,7 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/templates.png',
+      './images/nl/templates-web.png',
     index: 
     '2',
     text:
@@ -17,7 +17,7 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/Edge Aacademy-08.png',
+      './images/nl/Edge-Aacademy-web.png',
     index: 
     '3',
     text:
@@ -25,7 +25,7 @@ export const NlImages = [
       },
   {
     image:
-      './images/nl/christmas_card_3.png',
+      './images/nl/christmas_card-web.png',
     index: 
     '4',
     text:
@@ -33,7 +33,7 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/winter_breakfast.png',
+      './images/nl/winter_breakfast-web.png',
     index: 
     '5',
     text:
@@ -41,7 +41,7 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/Boid-Nest-Logo.png',
+      './images/nl/Boid-Nest-Logo-web.png',
     index: 
     '6',
     text:
@@ -49,7 +49,7 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/personal_dev_Flower.png',
+      './images/nl/personal_dev_Flower-web.png',
     index: 
     '7',
     text:
@@ -57,7 +57,7 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/Climate_Compensation.png',
+      './images/nl/Climate_Compensation-web.png',
     index: 
     '8',
     text:
@@ -65,7 +65,7 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/global talent night.png',
+      './images/nl/global-talent-night-web.png',
     index: 
     '9',
     text:
@@ -73,7 +73,7 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/Show&Tell-Logo.png',
+      './images/nl/Show&Tell-Logo-web.png',
     index: 
     '10',
     text:
@@ -81,7 +81,7 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/Fredagsmys-goes-live-neon.png',
+      './images/nl/Fredagsmys-goes-live-web.png',
     index: 
     '11',
     text:
@@ -159,7 +159,7 @@ export const StudyPlacesData = [
 export const ClueData = [
   {
     image:
-      './images/clue_img_1.png',
+      './images/clue_img_1-web.png',
       text:
       'The landing page before and after. It visualizes your current cycle: where in the cycle you are, the period, when your fertile window is and what days you have tracked something on, which is represented by the small dots.',
       index:
@@ -167,7 +167,7 @@ export const ClueData = [
   },
   {
     image:
-      './images/clue_img_2.png',
+      './images/clue_img_2-web.png',
       text:
       'The tracking page before and after. From the top row you can choose what day you want to add content to. It is possible to track several different categories, such as bleeding, pain and emotions. You can also read information about each category.',
       index:
@@ -175,7 +175,7 @@ export const ClueData = [
       },
   {
     image:
-      './images/clue_img_3.png',
+      './images/clue_img_3-web.png',
       text:
       'The calendar page before and after. Get an overview of your cycles, click on a day in the calendar to see what has been tracked that day. In my version I added the possibility to track the intensity of the pain category since it is a function I have missed in the existing application.',
       index:
@@ -183,7 +183,7 @@ export const ClueData = [
   },
   {
     image:
-      './images/clue_img_4.png',
+      './images/clue_img_4-web.png',
       text:
       'The cycle analysis page before and after. This page displays a summary of your cycles and lets you overview them quickly.',
       index:
@@ -191,7 +191,7 @@ export const ClueData = [
   }
 ];
 
-export const CozyCorners = [
+/*export const CozyCorners = [
   {
     image:
       './images/cozyCornersImg.png',
@@ -240,4 +240,4 @@ export const CozyCorners = [
       index:
       '29'
   }
-];
+];*/

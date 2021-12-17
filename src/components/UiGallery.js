@@ -2,14 +2,14 @@ import React from 'react';
 import './Gallery.css';
 
 const imgUrls = [
-  './images/ui/daily_ui-01.png',
-  './images/ui/daily_ui-02.png',
-  './images/ui/daily_ui-09.png',
-  './images/ui/daily_ui-04.png',
-  './images/ui/daily_ui-05.png',
-  './images/ui/daily_ui-06.png',
-  './images/ui/daily_ui-07.png',
-  './images/ui/daily_ui-03.png',
+  './images/ui/daily_ui-01-web.png',
+  './images/ui/daily_ui-02-web.png',
+  './images/ui/daily_ui-09-web.png',
+  './images/ui/daily_ui-04-web.png',
+  './images/ui/daily_ui-05-web.png',
+  './images/ui/daily_ui-06-web.png',
+  './images/ui/daily_ui-07-web.png',
+  './images/ui/daily_ui-03-web.png',
   './images/ui/404-page.gif'
 ];
 

@@ -17,7 +17,7 @@ function Cards() {
 						text="Hunt the Thimble"
 						path="/huntthethimble"
 						/>
-						<CardItem src="images/LightForest.png"
+						<CardItem src="images/LightForest-web.png"
 						text="Light Forest"
 						path="/lightforest"
 						/>
