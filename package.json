@@ -61,7 +61,7 @@
     "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining": "^7.13.12",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
     "a": "^2.1.2",
-    "gh-pages": "^3.2.1",
+    "gh-pages": "3.2.2",
     "jquery": "^3.6.0",
     "of": "^1.0.0",
     "peer": "^0.6.1",
