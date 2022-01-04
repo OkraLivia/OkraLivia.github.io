@@ -3,10 +3,10 @@ import './Gallery.css';
 
 const imgUrls = [
   './images/art/du_ar_min_sol.png',
+  './images/art/my_bike-web.png',
   './images/art/fika2-web.png',
   './images/art/donut-web.png',
   './images/art/CALM-both-web.png',
-  './images/art/my_bike-web.png',
   './images/art/ipa_label.png',
   './images/art/mango_ipa_label.png',
   './images/art/paverka_industrin-web.png',
@@ -32,10 +32,10 @@ const imgUrls = [
 
 const imgTexts = [
   'This is one of five winners in the "Årests kärlekshälsning 2022" contest held by Swish. My design will be available as a card in the Swish app the entire year 2022. It is called "Du är min sol" (You are my sun) as a homage to all the people in your life who makes your day a little bit sunnier.',
+  'This is probably my biggest project ever and one that I really enjoyed working with, my red leopard bike. With the help from my boyfriend we took the bike apart and I spray painted it red and drew leopard spots on it with an oil based marker. It took HOURS but it was totally worth it.',
   "This image I have created from scratch in Blender. The rendering isn't perfect, I made it on my MacBook Air, a computer that isn't exactly optimized for such tasks to say the least...",
   'Here is a close up of the donut that I made in Blender.',
   'The inspiration for this piece comes from an Instagram post I saw, it is a poster of things that I appreciate: sauna, swimming in the ocean, art, plants, coffee, strawberry cake and craft beer. It says "Enjoyt the little things" in Finnish and "A collection of moments" in Swedish. The left one is made in Adobe Illustrator after which I got feeling and decided to make a painted version of it (on the right) using acrylic colors.',
-  'This is probably my biggest project ever and one that I really enjoyed working with, my red leopard bike. With the help from my boyfriend we took the bike apart and I spray painted it red and drew leopard spots on it with an oil based marker. It took HOURS but it was totally worth it.',
   'My boyfriend and I brewed our own IPA and together we designed the label and graphic profile for our home brewery, Tomkra Brewing. Our beer can be found on Untappd, just search for "Tomkra Brewing" 😎🍻',
   'The second brew from Tomkra Brewing, this time we made a dry hopped mango IPA and designed the label accordingly 🥭🍻',
   'This is an illustration in Osqledaren #4 19/20 for the article "Även stora företag behöver ställas till svars för sina handlingar". Each segment of the magazine has its own color, this article was the segment divider in the "Bransch" segment which is orange. This illustration is created in Illustrator and I only used colors of different segments. The blue corresponds to the segment "English" and the green to "OL gräver".',

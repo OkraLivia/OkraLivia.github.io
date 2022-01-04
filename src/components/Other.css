@@ -234,8 +234,10 @@
   }
 
   .netlight {
-    max-height: 180px;
-    width: auto;
+    /*max-height: 180px;
+    width: auto;*/
+    max-width: 380px;
+    height: auto;
 }
 
   .work-right {
@@ -251,7 +253,8 @@
   }
 
   .NLtext {
-    margin-top: 42vw !important;
+    /*margin-top: 42vw !important;*/
+    padding-top: 2em;
     padding-left: 2em;
     width: 26em;
   }
@@ -259,7 +262,8 @@
   .otherCards__nl__info {
     padding: 0 20px;
     width: 400px;
-    margin-bottom: 2.5em;
+    height: 22em; /*340px*/
+    /*margin-bottom: 4em; 2.5em*/
   }
 }
 
