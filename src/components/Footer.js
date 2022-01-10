@@ -12,7 +12,7 @@ function Footer() {
 				</h4>
 			</div>
 			<div>
-				<small className='website-rights'>Okra Livia Inkeri-Dimle © 2021</small>
+				<small className='website-rights'>Okra Livia Inkeri-Dimle © 2022</small>
 			</div>
 		</div>
 		</>
