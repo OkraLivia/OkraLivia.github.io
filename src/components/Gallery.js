@@ -31,7 +31,7 @@ const imgUrls = [
 ];
 
 const imgTexts = [
-  'This is one of five winners in the "Årests kärlekshälsning 2022" contest held by Swish. My design will be available as a card in the Swish app the entire year 2022. It is called "Du är min sol" (You are my sun) as a homage to all the people in your life who makes your day a little bit sunnier.',
+  'This is one of five winners in the Årets Kärlekshälsning contest held by Swish. My design will be available as a card in the Swish app the entire year 2022. It is called "Du är min sol" (You are my sun) as a homage to all the people in your life who makes your day a little bit sunnier.',
   'This is probably my biggest project ever and one that I really enjoyed working with, my red leopard bike. With the help from my boyfriend we took the bike apart and I spray painted it red and drew leopard spots on it with an oil based marker. It took HOURS but it was totally worth it.',
   "This image I have created from scratch in Blender. The rendering isn't perfect, I made it on my MacBook Air, a computer that isn't exactly optimized for such tasks to say the least...",
   'Here is a close up of the donut that I made in Blender.',

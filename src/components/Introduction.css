@@ -21,7 +21,7 @@
 
 .title {
   font-family: 'Opake Heavy', 'Modak', cursive;
-  margin-top: auto !important;
+  margin-top: auto; /*!important*/
 }
 
 .text-block {

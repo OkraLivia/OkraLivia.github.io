@@ -22,7 +22,8 @@ function Skills(props) {
 							text= {[<p style={{marginBottom:'0.2em'}}><span className='flag'>🇫🇮</span><span style={{fontWeight: "800"}}> Finnish </span> (native tongue)</p>, 
 							<p style={{marginBottom:'0.2em'}}><span className='flag'>🇸🇪</span><span style={{fontWeight: "800"}}> Swedish </span> 
 							 (native tongue)</p>, <p style={{marginBottom:'0.2em'}}><span className='flag'>🇬🇧</span><span style={{fontWeight: "800"}}> English </span> 
-							(fluent)</p>,<span className='flag'>🇪🇸</span>,<span style={{fontWeight: "800"}}> Spanish </span>,<span> (limited)</span>]}
+							(fluent)</p>,<p style={{marginBottom:'0.2em'}}><span className='flag'>🇪🇸</span><span style={{fontWeight: "800"}}> Spanish </span><span> (limited)</span></p>,
+							<span className='flag'>🇮🇹</span>,<span style={{fontWeight: "800"}}> Italian </span>,<span> (limited)</span>]}
 							label="Languages"
 							index="1"
 							/>
@@ -47,7 +48,7 @@ function Skills(props) {
 					</ul>
 				</div>
 			</div>
-			<h1 className="title" style={{marginTop: '1.25em'}}>Education</h1>
+			<h1 className="title">Education</h1>
 			<div className="skillCards__container">
 				<div className="skillCards__wrapper">
 					<ul className="skillCards__items">

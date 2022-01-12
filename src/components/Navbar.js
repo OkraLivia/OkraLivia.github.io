@@ -16,7 +16,8 @@ function Navbar() {
 			    		<img src="/images/logo.png" alt='navimg' width="60" className='logo' style={{marginRight:"20px"}}/>
 			    	</Link>
 			    	
-			    	<div style={{float:'left'}}><div className="menu-icon" onClick={handleClick}>
+			    	<div style={{float:'left'}}>
+			    	<div className="menu-icon" onClick={handleClick}>
 			    		<i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
 			    	</div>
 			    	<ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -42,7 +43,9 @@ function Navbar() {
 			    		</li>
 			    	</ul>
 			    	</div>
-			    	<h1 className='title-name'>Okra Livia Inkeri-Dimle</h1>
+			    	<a href = "mailto: okralivia@gmail.com" style={{textDecoration:"none"}}>
+			    	<h1 className='title-name'>Okra Livia </h1></a>
+
 				</div>
 			</nav>
 		</>

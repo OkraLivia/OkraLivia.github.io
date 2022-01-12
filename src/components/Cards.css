@@ -147,10 +147,15 @@ h1 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 726px) and (max-width: 850px) /*(max-width: 768)*/{
   .cards__items {
       flex-direction: column;
       display: grid;
+      grid-template-columns: repeat(2, auto);
+    }
+
+    .cards__item {
+      width: 300px;
     }
 }
 

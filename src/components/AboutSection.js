@@ -15,7 +15,7 @@ function AboutSection() {
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items txt'>
 	            <h1 className="title" style={{marginBottom: "10px"}}>So, who am I?</h1>
-				    <p>My name is Okra Livia, I'm born and raised on Södermalm in Stockholm. My mother is from Finland and my father is from Sweden
+				    <p>My name is Okra Livia Inkeri-Dimle, most people call me Okra, I'm born and raised on Södermalm in Stockholm. My mother is from Finland and my father is from Sweden
 					so I have grown up with both the Finnish and Swedish culture which has been great and given me different perspectives on things. 
 					My friends would describe me as a calm and fun-loving person. My freetime I like to spend drawing, taking care of 
 					my plants and drinking craft beer.</p> <br/>
@@ -34,15 +34,15 @@ function AboutSection() {
 					and beautiful and interesting aesthetics in both physical as well as digital products. I really enjoy building beautiful 
 					user experiences, understanding the psychology behind user interactions and I’m always eager to try out new UX/UI trends. 
 					I also like experimenting with different materials and coming up with interesting aesthetics. It's really important for me 
-					to feel that my work is of importance.  
-					Feel free to contact me, I'm always up for a fika!</p><br/>
+					to feel that my work is of importance.
+					Feel free to contact me, I'm always up for a fika!</p>
 
 					<p><span style={{fontWeight: "bold", color: "#F77B80"}}> Email: </span><a href = "mailto: okralivia@gmail.com">
 					okralivia@gmail.com</a> </p>
 					<p><span style={{fontWeight: "bold", color: "#F77B80"}}> Phone: </span>+46 70 744 36 60 </p>
 					
 					<p style={{marginTop:"20px"}}>
-					<Link to="/CV_OkraLivia_2021.pdf" target="_blank" className='cv'>Open CV</Link>
+					<Link to="/CV_OkraLivia_2022.pdf" target="_blank" className='cv'>Open CV</Link>
 					<a href='https://www.linkedin.com/in/okralivia-inkeri-dimle/' target="_blank" 
 					className="fa fa-linkedin" rel="noopener noreferrer">
 					</a>
