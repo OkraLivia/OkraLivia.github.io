@@ -22,16 +22,18 @@ const imgUrls = [
   './images/art/dtiys3.png',
   './images/art/dahlia-web.png',
   './images/art/window.png',
+  './images/art/beer_poster.png',
+  './images/art/my_plants.png',
+  './images/art/his_plants.png',
   './images/art/frogscene.png',
   './images/art/view-web.png',
   './images/art/fish2-web.png',
   './images/art/sangria-web.png',
-  './images/art/2beer-web.png',
-  './images/art/Cryptocurrency-web.png'
+  './images/art/2beer-web.png'
 ];
 
 const imgTexts = [
-  'This is one of five winners in the Årets Kärlekshälsning contest held by Swish. My design will be available as a card in the Swish app the entire year 2022. It is called "Du är min sol" (You are my sun) as a homage to all the people in your life who makes your day a little bit sunnier.',
+  'This is one of five winners in the Årets Kärlekshälsning contest held by Swish. My design will be available as a card in the Swish app during the entire year 2022. It is called "Du är min sol" (You are my sun) and is a homage to all the people in your life who makes your day a little bit sunnier.',
   'This is probably my biggest project ever and one that I really enjoyed working with, my red leopard bike. With the help from my boyfriend we took the bike apart and I spray painted it red and drew leopard spots on it with an oil based marker. It took HOURS but it was totally worth it.',
   "This image I have created from scratch in Blender. The rendering isn't perfect, I made it on my MacBook Air, a computer that isn't exactly optimized for such tasks to say the least...",
   'Here is a close up of the donut that I made in Blender.',
@@ -51,13 +53,17 @@ const imgTexts = [
   'Yet another draw this in your style-challenge piece. I really like the concept of these challenges, you take a piece of art that someone else has made and think about how you can redo it in your own style. It is perfect for when you want to draw but do not know what. Mine is on the left and I made it in Procreate on an iPad.',
   'This is an illustration made with Promarkers-pens and Uni Pin fineliners. Dahlias are one of my favourite flowers.',
   'This is made in Procreate on an iPad using an Apple pencil, a completely new medium for me. It shows the view from the dining room at our summer cottage.',
+  'I wanted to create an artwork only using a very limited color palette. The result is this poster that is an ode to beer 🍻',
+  'I thought it would be a fun idea to create a picture of all of my houseplants placed in a greenhouse. The idea developed as a worked on the piece and it ended up containing plants and things from my home that would contribute to a cozy environment.',
+  'Since I had so much fun creating the greenhouse related to my home, I wanted to do the same thing but with things that remind me of my boyfriend - and his plants of course! 🪴',
   'This little scene is of a couple of frogs picking blueberries in the forest. The inspiration for this came from one of many trips to the forest my family and I make during the autumn to pick berries and mushrooms. It is made in Procreate.',
   'This illustration I have made in Illustratior and it is an entry in a color palette challenge where the task is to create an artwork only using a predetermined and limited color palette.',
   'This is an illustration made with aquarelle colors and and Uni Pin fineliners.',
   'This is made in Illustrator and it is inspired by, or a remake of if you will, an illustration I made for the article "M i Madrid" in Osqledaren #4 17/18. It was part of the “Mat” section of the article, sangria feels like a must-do when visiting Spain 💃',
-  'I made Mikkeller inspired beer labels for my friends who moved to Australia.',
-  'This is an illustration in Osqledaren #2 19/20 for the article "Utmanarna till Bitcoin".'
+  'I made Mikkeller inspired beer labels for my friends who moved to Australia.'
   ];
+
+  // 'This is an illustration in Osqledaren #2 19/20 for the article "Utmanarna till Bitcoin".'
 
 class Gallery extends React.Component {
   constructor(props) {
