@@ -19,7 +19,7 @@ function Skills(props) {
 									consulting company, <a href="https://www.netlight.com/" target="_blank" rel="noreferrer">Netlight</a>. 
 									As a graphic designer I'm part of the design studio which is a self driven part of the company where us designers 
 									have the ownership and a big impact on how the Netlight brand should look like. Since we are self driven there is 
-									a lot of responsibility and being resourceful involved which has enabled me to grow a lot as a designer and person. In my role I consult 
+									a lot of responsibility and being resourceful which has enabled me to grow a lot as a designer and person. In my role I consult 
 									stakeholders about what their vision is for a certain design, do research on the subject, handle feedback and 
 									motivate my design decisions and deliver to a deadline. We work with all parts of Netlight and support the nine 
 									offices around Europe both locally and remotely, from sales and recruitment to event experiences and professional 

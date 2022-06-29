@@ -9,29 +9,28 @@ function Cards() {
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
-						<CardItem src="images/AR.png"
-						text="OsqledARen"
-						path="/osqledaren"
-						/>
-						<CardItem src="images/hunt_the_thimble.png"
-						text="Hunt the Thimble"
-						path="/huntthethimble"
-						/>
-						<CardItem src="images/LightForest-web.png"
-						text="Light Forest"
-						path="/lightforest"
+						<CardItem src="images/electrolux-logo.png"
+						text="Electrolux mobile guidelines"
+						path="/electrolux"
 						/>
 						<CardItem src="images/KTH.png"
 						text="Sonified Map"
 						path="/sonifiedmap"
 						/>
-						
+						<CardItem src="images/AR.png"
+						text="OsqledARen"
+						path="/osqledaren"
+						/>
+						{/*<CardItem src="images/hunt_the_thimble.png"
+						text="Hunt the Thimble"
+						path="/huntthethimble"
+						/>*/}
+						<CardItem src="images/LightForest-web.png"
+						text="Light Forest"
+						path="/lightforest"
+						/>
 					</ul>
 					<ul className="cards__items">
-						<CardItem src="images/clue1.png"
-						text="Clue Redesign"
-						path="/clue"
-						/>
 						<CardItem src="images/study_spots.png"
 						text="Study Places"
 						path="/studyplaces"
@@ -40,17 +39,17 @@ function Cards() {
 						text="Bedtime"
 						path="/bedtime"
 						/>
-						{/*<CardItem src="images/cozyCorners.png"
-						text="Cozy Corners"
-						path="/cozycorners"
-						/>*/}
-						<CardItem src="images/PerceptionPoster.png"
+						{/*<CardItem src="images/PerceptionPoster.png"
 						text="Perception Project"
 						path="/perceptionproject"
-						/>
+						/>*/}
 						<CardItem src="images/dailyUI.png"
 						text="Daily UI"
 						path="/dailyui"
+						/>
+						<CardItem src="images/clue1.png"
+						text="Clue Redesign"
+						path="/clue"
 						/>
 					</ul>
 				</div>

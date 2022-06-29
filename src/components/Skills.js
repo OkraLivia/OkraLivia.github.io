@@ -28,7 +28,7 @@ function Skills(props) {
 							index="1"
 							/>
 							<SkillItem backgroundColor="#F77B80" 
-							text="I have experience working with HTML, CSS, JavaScript, React, Python, XML, PHP, SQL"
+							text="HTML, CSS, JavaScript, React, Python, XML, PHP, SQL"
 							label="Programming"
 							index="3"
 							/>
@@ -64,7 +64,7 @@ function Skills(props) {
 						text="
 						KTH Royal Institute of Technology 
 						Stockholm, Sweden
-						2018-present"
+						2018-2022"
 						title="M.Sc.Eng. Media Technology, 
 						M.Sc. Interactive Media Technology"
 						index="6"

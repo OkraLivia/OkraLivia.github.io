@@ -43,8 +43,7 @@ function Navbar() {
 			    		</li>
 			    	</ul>
 			    	</div>
-			    	<a href = "mailto: okralivia@gmail.com" style={{textDecoration:"none"}}>
-			    	<h1 className='title-name'>Okra Livia </h1></a>
+			    	<h1 className='title-name'>Okra Livia </h1>
 
 				</div>
 			</nav>

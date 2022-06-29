@@ -12,7 +12,7 @@ function About(props) {
 		<div className='about-container'>
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
-	          <div className='about-link-items'>
+	          <div className='about-link-items-text-block'>
 	          <h4 className='technologies'>UI DESIGN | FIGMA | DAILY CHALLENGE</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Daily UI</h1>
 				   <span><a href="https://www.dailyui.co/" target='_blank' rel="noreferrer">Daily UI</a> is a subscription where one is prompted with daily design challenges that are aimed

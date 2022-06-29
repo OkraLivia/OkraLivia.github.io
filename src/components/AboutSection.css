@@ -17,7 +17,7 @@
   display: flex;
 }
 
-.about-link-items {
+.about-link-items, .about-link-items-text-block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -26,6 +26,10 @@
   margin-top: 50px;
   box-sizing: border-box;
   color: #262626;
+}
+
+.about-link-items-text-block {
+  max-width: 900px;
 }
 
 .about-link-items > h2 {
