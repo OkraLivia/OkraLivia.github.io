@@ -54,6 +54,11 @@ img.hover-zoom:hover {
   transform: scale(1.25);
 }
 
+.about-link-items-text-block a:hover {
+  color: #578a8a;
+  transition: 0.3s ease-out;
+}
+
 /*IMAGE SLIDER*/
 
 .slider {

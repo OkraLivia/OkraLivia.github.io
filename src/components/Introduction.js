@@ -13,9 +13,9 @@ function Introduction() {
 			    <p>I am a UX/UI designer from Stockholm, I love design and I’m all about designing multimodal and creative 
 			    solutions where the user is in focus. </p> 
 
-				<p>My background is from KTH where I have studied a <a href='https://www.kth.se/en/studies/master/interactivemediatechnology/description-1.593765' 
+				<p>My background is from KTH where I have studied Media Technology engineering with a <a href='https://www.kth.se/en/studies/master/interactivemediatechnology/description-1.593765' 
 				target='_blank' rel="noreferrer">
-				M.Sc. in Interactive Media Technology </a> with a specialisation in physical interaction design. I truly enjoy 
+				M.Sc. in Interactive Media Technology </a>. I truly enjoy 
 				building beautiful user experiences for both digital and physical products as well as understanding the psychology 
 				behind user interactions.
 				</p>

@@ -15,7 +15,7 @@ function Skills(props) {
 							<div className="otherCards__item__info" style={{backgroundColor:"#FDC3BB"}}>
 								<h1 className="labelTitle">Netlight</h1>
 								<h5 className="otherCards__item__text"><p>
-									I have worked from February 2019 to May 2021 as a graphic designer at IT and management 
+									From 2019 to 2021 I worked as a graphic designer at IT and management 
 									consulting company, <a href="https://www.netlight.com/" target="_blank" rel="noreferrer">Netlight</a>. 
 									As a graphic designer I'm part of the design studio which is a self driven part of the company where us designers 
 									have the ownership and a big impact on how the Netlight brand should look like. Since we are self driven there is 
