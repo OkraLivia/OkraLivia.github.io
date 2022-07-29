@@ -31,7 +31,7 @@ function About(props) {
 	          </div>
 				<div className="projectCard">
 					<div className="cards__wrapper">
-						<img src="images/mobile-guidelines.png" alt="guidelines" style={{maxWidth:'500px', marginBottom:'10px'}}/>
+						<img src="images/mobile-guidelines.png" alt="guidelines" className="guidelines" style={{maxWidth:'500px', marginBottom:'10px'}}/>
 					</div>
 				</div>
 	        </div>

@@ -260,7 +260,7 @@ img.hover-zoom:hover {
     }
 
     .thimble_img_container {
-    max-width: 380px; /*200*/
+      max-width: 380px; /*200*/
   }
 }
 
@@ -284,6 +284,11 @@ img.hover-zoom:hover {
     margin: 0 auto;
     width: 20em;
     margin-top: -1em;
+  }
+
+  .guidelines {
+    margin-top: 1em;
+    width: 21em;
   }
 
   .thimble-img {
