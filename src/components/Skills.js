@@ -19,30 +19,32 @@ function Skills(props) {
 					<ul className="skillCards__items">
 						<div className='skillGroup'>
 							<SkillItem backgroundColor="#FDC3BB"
-							text= {[<p style={{marginBottom:'0.2em'}}><span className='flag'>🇫🇮</span><span style={{fontWeight: "800"}}> Finnish </span> (native tongue)</p>, 
-							<p style={{marginBottom:'0.2em'}}><span className='flag'>🇸🇪</span><span style={{fontWeight: "800"}}> Swedish </span> 
-							 (native tongue)</p>, <p style={{marginBottom:'0.2em'}}><span className='flag'>🇬🇧</span><span style={{fontWeight: "800"}}> English </span> 
-							(fluent)</p>,<p style={{marginBottom:'0.2em'}}><span className='flag'>🇪🇸</span><span style={{fontWeight: "800"}}> Spanish </span><span> (limited)</span></p>,
-							<span className='flag'>🇮🇹</span>,<span style={{fontWeight: "800"}}> Italian </span>,<span> (limited)</span>]}
-							label="Languages"
-							index="1"
+								text="Adobe Creative Suite, Figma, Blender, Unity, Miro, Max/MSP"
+								label="Software"
+								index="1"
 							/>
 							<SkillItem backgroundColor="#F77B80" 
-							text="HTML, CSS, JavaScript, React, Python, XML, PHP, SQL"
-							label="Programming"
-							index="3"
+								text="HTML, CSS, JavaScript, React, Python, XML, PHP, SQL"
+								label="Programming"
+								index="2"
 							/>
 						</div>
 						<div className='skillGroup'>
 							<SkillItem backgroundColor="#E4F2F2"
-								text="Illustrator, Photoshop, XD, After Effects, Audition, InDesign, Lightroom"
-								label="Adobe Creative Suite"
-								index="2"
+								text= {[<p style={{marginBottom:'0.2em'}}><span className='flag'>🇫🇮</span><span style={{fontWeight: "800"}}> Finnish </span> (native tongue)</p>, 
+								<p style={{marginBottom:'0.2em'}}><span className='flag'>🇸🇪</span><span style={{fontWeight: "800"}}> Swedish </span> 
+								 (native tongue)</p>, <p style={{marginBottom:'0.2em'}}><span className='flag'>🇬🇧</span><span style={{fontWeight: "800"}}> English </span> 
+								(fluent)</p>,<p style={{marginBottom:'0.2em'}}><span className='flag'>🇪🇸</span><span style={{fontWeight: "800"}}> Spanish </span><span> (limited)</span></p>,
+								<span className='flag'>🇮🇹</span>,<span style={{fontWeight: "800"}}> Italian </span>,<span> (limited)</span>]}
+								label="Languages"
+								index="3"
 							/>
 							<SkillItem backgroundColor="#FDC3BB"
-							text="Figma, Blender, Unity, traditional and digital art"
-							label="Other"
-							index="4"
+								text={[<p style={{marginBottom:'0.2em'}}><span>🎨</span><span style={{fontWeight: "800"}}> Traditional art </span></p>,<p>
+								 (like drawing, painting, photograpy & sculpting)</p>,<p><span>💻</span><span style={{fontWeight: "800"}}> Digital art </span>
+								 (like illustration & 3D modelling)</p>]}
+								label="Other"
+								index="4"
 							/>
 						</div>
 					</ul>

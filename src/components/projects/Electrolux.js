@@ -14,8 +14,8 @@ function About(props) {
 	          <div className='about-link-items'>
 	          <h4 className='technologies'>UX RESEARCH | BRAND GUIDELINES | BEST PRACTICES</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Electrolux mobile guidelines</h1>
-				   <p>Together with the digital business design studio, <a href='https://www.twain.se/' target='_blank' rel="noreferrer">Twain</a>, 
-				   we researched and developed guidelines with best practices 
+				   <p>As a UX/UI designer at the digital business design studio, <a href='https://www.twain.se/' target='_blank' rel="noreferrer">Twain</a>, 
+				   I researched and developed guidelines with best practices 
 				   regarding mobile first design for the <a href='https://www.electrolux.com/en/' target='_blank' rel="noreferrer">Electrolux brand sites</a>. The aim with the guidelines is to facilitate 
 				   the work for designers and developers working with the Electrolux brand site across the different markets in 
 				   Europe. Another important aspect of the guidelines was to highlight that designing for mobile first should be 
