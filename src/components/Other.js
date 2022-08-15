@@ -71,7 +71,7 @@ function Skills(props) {
 									the planning and execution of the 2,5 weeks long trip for 30 engineering students to the USA. 
 									The travel group consisted of five students and we did everything from researching cities, booking flights and 
 									hotels as well as coming up with fun activities to do at each destination. On the trip we visited five cities in the
-									USA: New York, New Orleans, Fraser in Rocky Mountains CO and San Francisco.
+									USA: New York, New Orleans, Fraser in Rocky Mountains Colorado and San Francisco.
 								</h5>
 							</div>
 						</li>
@@ -82,9 +82,9 @@ function Skills(props) {
 								<h5 className="otherCards__item__text">
 									I was part of the reception at the Media Technology chapter for four years. The aim 
 									of the reception is to make the new students feel welcome to the chapter as well as for them 
-									to get to know their new classmates and how university studies are. I have been part of the group 
+									to get to know their new classmates and how university studies work. I have been part of the group 
 									KPH whose main responsibility is to be group leaders taking care of the new students and be there if they have 
-									questions or other things they need help with. As a KPH I got to develop my leadership skills as well as social skills
+									questions or other things they need help with. As a part of KPH I got to develop my leadership skills as well as social skills
 									since one of our main tasks is to drive the new students to talk to eachother and making sure noone is being left out or feeling 
 									insecure.
 								</h5>

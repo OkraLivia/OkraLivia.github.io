@@ -28,7 +28,7 @@ function About(props) {
 				   	experience. I went through the functionalities of the
 				    existing app, listing the things that I considered as pain points after which I started to implement the 
 				    new design. I have not used personas or feedback from other users because I wanted to design an app that
-				    fit my needs and preferences since the main goal of this project was to become even better at using Adobe XD
+				    fit my needs and preferences since the main goal of this project was to expand my Adobe XD
 				    and to try out redesigning an already existing app.</p>
 	          </div>
 

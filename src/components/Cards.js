@@ -25,15 +25,15 @@ function Cards() {
 						text="Hunt the Thimble"
 						path="/huntthethimble"
 						/>*/}
-						<CardItem src="images/LightForest-web.png"
-						text="Light Forest"
-						path="/lightforest"
-						/>
-					</ul>
-					<ul className="cards__items">
 						<CardItem src="images/study_spots.png"
 						text="Study Places"
 						path="/studyplaces"
+						/>
+					</ul>
+					<ul className="cards__items">
+						<CardItem src="images/LightForest-web.png"
+						text="Light Forest"
+						path="/lightforest"
 						/>
 						<CardItem src="images/night_sky.png"
 						text="Bedtime"
@@ -50,6 +50,10 @@ function Cards() {
 						<CardItem src="images/clue1.png"
 						text="Clue Redesign"
 						path="/clue"
+						/>
+						<CardItem src="images/Untappd-logo.png"
+						text="Untappd Redesign"
+						path="/untappd"
 						/>
 					</ul>
 				</div>
