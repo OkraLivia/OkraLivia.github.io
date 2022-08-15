@@ -13,6 +13,10 @@ function Cards() {
 						text="Electrolux mobile guidelines"
 						path="/electrolux"
 						/>
+						<CardItem src="images/study_spots.png"
+						text="Study Places"
+						path="/studyplaces"
+						/>
 						<CardItem src="images/KTH.png"
 						text="Sonified Map"
 						path="/sonifiedmap"
@@ -25,10 +29,6 @@ function Cards() {
 						text="Hunt the Thimble"
 						path="/huntthethimble"
 						/>*/}
-						<CardItem src="images/study_spots.png"
-						text="Study Places"
-						path="/studyplaces"
-						/>
 					</ul>
 					<ul className="cards__items">
 						<CardItem src="images/LightForest-web.png"
@@ -51,10 +51,10 @@ function Cards() {
 						text="Clue Redesign"
 						path="/clue"
 						/>
-						<CardItem src="images/Untappd-logo.png"
+						{/*<CardItem src="images/Untappd-logo.png"
 						text="Untappd Redesign"
 						path="/untappd"
-						/>
+						/>*/}
 					</ul>
 				</div>
 			</div>
