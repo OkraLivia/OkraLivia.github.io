@@ -9,7 +9,7 @@ function Introduction() {
 		<div className='hero-container' id='hero'>
 			<img className="me-img" alt='okra' src="images/profile_pic-web.png" width="550"/>
 			<div className="text-block">
-			    <h1 className="title" style={{marginBottom: "10px"}}>Hi, I'm Okra Livia!</h1>
+			    <h1 className="title" style={{marginBottom: "10px", marginTop: "0"}}>Hi, I'm Okra Livia!</h1>
 			    <p>I am a UX/UI designer from Stockholm, I love design and I’m all about designing multimodal and creative 
 			    solutions where the user is in focus. </p> 
 
