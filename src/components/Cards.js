@@ -36,25 +36,25 @@ function Cards() {
 						path="/lightforest"
 						/>
 						<CardItem src="images/night_sky.png"
-						text="Bedtime"
+						text="Experience design: Bedtime"
 						path="/bedtime"
 						/>
 						{/*<CardItem src="images/PerceptionPoster.png"
 						text="Perception Project"
 						path="/perceptionproject"
 						/>*/}
+						<CardItem src="images/invitation.png"
+						text="Graphic profile for wedding"
+						path="/wedding"
+						/>
 						<CardItem src="images/dailyUI.png"
 						text="Daily UI"
 						path="/dailyui"
 						/>
 						<CardItem src="images/clue1.png"
-						text="Clue Redesign"
+						text="Clue-app redesign"
 						path="/clue"
 						/>
-						{/*<CardItem src="images/Untappd-logo.png"
-						text="Untappd Redesign"
-						path="/untappd"
-						/>*/}
 					</ul>
 				</div>
 			</div>

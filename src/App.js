@@ -15,6 +15,7 @@ import Bedtime from './components/projects/Bedtime';
 import PerceptionProject from './components/projects/PerceptionProject';
 import DailyUi from './components/projects/DailyUi';
 import Electrolux from './components/projects/Electrolux';
+import Wedding from './components/projects/WeddingGraphicProfile';
 
 function App() { 
 return (
@@ -36,6 +37,7 @@ return (
         <Route path='/perceptionproject' component={PerceptionProject}/>
         <Route path='/dailyui' component={DailyUi}/>
         <Route path='/electrolux' component={Electrolux}/>
+        <Route path='/wedding' component={Wedding}/>
 
         <Route path='/:section' component={Home}/>
   		</Switch>

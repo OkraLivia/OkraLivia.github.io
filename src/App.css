@@ -167,6 +167,10 @@ img.hover-zoom:hover {
   color: #578a8a !important;
 }
 
+.wedding-img:hover, .wedding-img:active {
+    transform:scale(1.5, 1.5);
+}
+
 @media screen and (max-width: 820px) {
   .img-text {
   margin-top: 35em;
@@ -217,11 +221,11 @@ img.hover-zoom:hover {
   }
 }
 
-.thimble-img {
+.wedding-img {
   width: 480px;
 }
 
-.thimble_img_container {
+.wedding_img_container {
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 2em;
@@ -255,17 +259,16 @@ img.hover-zoom:hover {
       margin-top: -1em;
     }
 
-    .thimble-img {
+    .wedding-img {
       width: 330px; /*95*/
     }
 
-    .thimble_img_container {
+    .wedding_img_container {
       max-width: 380px; /*200*/
   }
 }
 
 @media screen and (max-width: 414px) {
-
   
   html {
     scroll-margin-top: 80px;
@@ -291,21 +294,22 @@ img.hover-zoom:hover {
     width: 21em;
   }
 
-  .thimble-img {
+  .wedding-img {
     width: 330px; /*95*/
   }
 
-  .thimble_img_container {
+  .wedding_img_container {
     justify-content: center;
     max-width: 380px;
   }
 
   .img-text {
     margin-top: 38em;
+    padding-bottom: 1em;
     min-width: 350px;
     margin-right: 2em;
     font-size: 15px !important;
-    padding-top: 2em;
+    padding-top: 22em;
   }
 
   .technologies {
@@ -335,7 +339,8 @@ img.hover-zoom:hover {
 
   p {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
+    min-width: 370px;
   }
 
   iframe {
