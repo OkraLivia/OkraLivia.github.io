@@ -21,8 +21,8 @@ function About(props) {
 				   exciting ways, for example by watching videos and listening to music referred to in articles. Watch the video to 
 				   see how it works.</p>
 				   <br/>
-				   <p>OsqledARen is the outcome from a group project of four people in the course Multimodal Interaction and 
-				   Interfaces at KTH. In this project we used Unity and Android smartphones. My part of the project was to create 
+				   <p>OsqledARen is the outcome from a group project of four people in the course <span style={{fontStyle:'italic'}}>Multimodal Interaction and 
+				   Interfaces</span> at KTH. In this project we used Unity and Android smartphones. My part of the project was to create 
 				   the interaction for the sound modality.</p>
 	          </div>
 	          <div>

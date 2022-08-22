@@ -20,8 +20,8 @@ function About(props) {
 				   Light Forest where four sensors trigger different types of lights patterns. Watch the video to
 				   learn more about how we created this project.</p>
 				   <br/>
-				   <p>This project is the outcome from a group project of four people in the course Physical 
-				   Interaction Design at KTH. In this project I did the construction of the physical forest as 
+				   <p>This project is the outcome from a group project of four people in the course <span style={{fontStyle:'italic'}}>Physical 
+				   Interaction Design</span> at KTH. In this project I did the construction of the physical forest as 
 				   well as a lot of the soldering.</p>
 	          </div>
 	          <div>

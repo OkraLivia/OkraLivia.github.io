@@ -26,7 +26,7 @@ function About(props) {
 				   solution to the problem we developed a prototype in Figma to help local and international students find proper 
 				   study places.</p>
 				   <br/>
-				   <p>This app is the outcome from a group project of four people in the course Media Lab at KTH. My responsibility 
+				   <p>This app is the outcome from a group project of four people in the course <span style={{fontStyle:'italic'}}>Media Lab</span> at KTH. My responsibility 
 				   in this project was to conduct user studies and I also created the entire prototype in Figma.</p>
 	          </div>
 

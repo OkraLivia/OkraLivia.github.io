@@ -14,7 +14,7 @@ function About(props) {
 	          <div className='about-link-items'>
 	          <h4 className='technologies'>UX DESIGN | USER RESEARCH | PROBES</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Bedtime</h1>
-				   <p>In this project our task was to create an experience for someone else. The lead word for the experience I was creating was
+				   <p>In this project our task was to design an experience for someone else. The lead word for the experience I was creating was
 				   <span style={{backgroundColor: '#d8f2f2'}}> bedtime</span>. With the help of interviews and probes I gathered that my client usually has a lot on 
 				   their mind when they go to bed in the evening and therefore have a hard time winding down and falling asleep. 
 				   Furthermore, they like warm colors and since they are a exchange student they miss home and their family.  
@@ -25,14 +25,14 @@ function About(props) {
 				    try to take deeper and slower breaths. When the sky is dark and the stars and 
 				   moon are visible one can draw constellations in the sky between the stars using eye tracking.</p>
 				 
-				   <p>This experience is the outcome from a project I did by myself in the course User Experience Design and 
-				   Evaluation at KTH. To create this experience I used interviews, probes, moodboards, hybrid sketching and finally Adobe After 
+				   <p>This experience is the outcome from a project I did by myself in the course <span style={{fontStyle:'italic'}}>User Experience Design and 
+				   Evaluation</span> at KTH. To create this experience I used interviews, probes, moodboards, hybrid sketching and finally Adobe After 
 				   Effects to create a demo.</p>
-				   <a href='images/Bedtime - Okra Livia Inkeri Dimle.pdf' target='_blank' style={{fontWeight:'bold'}}>Link to presentation slides</a>
+				   <a href='images/Bedtime - Okra Livia Inkeri Dimle.pdf' target='_blank' style={{fontWeight:'bold'}}>Link to presentation slides</a><br/>
 	          </div>
 	          <div style={{marginTop: '5em'}}>
 	             <embed className='bedtimePDF' title="Bedtime presentation" src="images/Bedtime - Okra Livia Inkeri Dimle.pdf#toolbar=0&navpanes=0&scrollbar=0"  width="550px" 
-	             height="80%" frameborder="0" type="application/pdf" scrolling='no' ></embed>
+	             height="80%" frameBorder="0" type="application/pdf" scrolling='no' ></embed>
 	          </div>
 	        </div>
 	      </div>

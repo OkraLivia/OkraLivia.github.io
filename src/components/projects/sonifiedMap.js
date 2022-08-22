@@ -20,7 +20,7 @@ function About(props) {
 				   life of a KTH student, the sounds create an immersive experience and provide a concept of time 
 				   passing.</p>
 				   <br/>
-				  <p>This map is the outcome from a group project of two people in the course Sound in Interaction 
+				  <p>This map is the outcome from a group project of two people in the course <span style={{fontStyle:'italic'}}>Sound in Interaction</span> 
 				   at KTH. In this project me and my project partner split the work in half and did one scenario each 
 				   since we had the same set up for the future and present soundscapes.</p>
 	          </div>
