@@ -6,13 +6,6 @@ function About(props) {
 	useEffect(() => {
 	  window.scrollTo(0, 0)
 	}, [])
-
-/*function enlargeImg(img) {
-	img.style.transform = "scale(1.5)";
-	img.style.transition = "transform 0.25s ease";
-
-	onClick={enlargeImg(this)}
-}*/
 	
 	return (
 		<div className='about-container'>
@@ -37,14 +30,6 @@ function About(props) {
 				   think about how to translate a design to work with different use cases.
 				   </p>
 	          </div>
-
-	          {/*<div className="thimble_cards">*/}
-		          	{/*<p>
-			          	This app is the outcome from a group project of two people in the course Haptic, Tactile 
-						and Tangible Interaction at KTH. To create the app we used JavaScript, DeviceOrientationEvent to keep track
-						of how the phone is being tilted, Vibration API to create the vibration patterns and HTML and CSS. In this 
-						project I designed the vibration patterns and the UI.
-					</p>*/}
 					<div className="projectCard">
 						<div className="cards__wrapper">
 							<ul className="wedding_img_container">
@@ -52,7 +37,6 @@ function About(props) {
 								<img src="/images/wedding-website.png" alt="img" className='wedding-img' style={{maxWidth:'500px'}} />
 							</ul>
 						</div>
-					{/*</div>*/}
 				</div>
 	        </div>
 	      </div>
