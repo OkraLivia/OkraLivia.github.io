@@ -43,7 +43,6 @@ function AboutSection() {
 
 					<p><span style={{fontWeight: "bold", color: "#F77B80"}}> Email: </span>
 					okralivia@gmail.com </p>
-					<p><span style={{fontWeight: "bold", color: "#F77B80"}}> Phone: </span>+46 70 744 36 60 </p>
 					
 					<p style={{marginTop:"20px"}}>
 					<Link to="/CV_OkraLivia_2022.pdf" target="_blank" className='cv'>Open CV</Link>

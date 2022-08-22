@@ -17,7 +17,7 @@ function About(props) {
 	          <h4 className='technologies'>ADOBE XD | REDESIGN | IPHONE APP</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Redesign of the Clue-app</h1>
 				   <p>This is a project I did in my freetime using Adobe XD. I thought it would be a fun and 
-				   interesting task to redesign the period tracking app <a href='https://helloclue.com/' target='_blank' rel="noreferrer">Clue</a> giving 
+				   interesting task to redesign the period tracking app <a href='https://helloclue.com/' target='_blank' rel="noreferrer">Clue</a>, giving 
 				   it a more modern look with a new and fresh color scheme as well as some features I have been
 				   missing in the app. Since I have been using this app for quite some time I have had the time
 				   to think about and discover areas that in my opinion need some improvement.</p>
@@ -28,7 +28,7 @@ function About(props) {
 				   	experience. I went through the functionalities of the
 				    existing app, listing the things that I considered as pain points after which I started to implement the 
 				    new design. I have not used personas or feedback from other users because I wanted to design an app that
-				    fit my needs and preferences since the main goal of this project was to expand my Adobe XD
+				    fit my needs and preferences since the main goal of this project was to expand my knowledge of Adobe XD
 				    and to try out redesigning an already existing app.</p>
 	          </div>
 
