@@ -25,10 +25,6 @@ function Cards() {
 						text="OsqledARen"
 						path="/osqledaren"
 						/>
-						{/*<CardItem src="images/hunt_the_thimble.png"
-						text="Hunt the Thimble"
-						path="/huntthethimble"
-						/>*/}
 					</ul>
 					<ul className="cards__items">
 						<CardItem src="images/LightForest-web.png"
@@ -39,10 +35,6 @@ function Cards() {
 						text="Experience design: Bedtime"
 						path="/bedtime"
 						/>
-						{/*<CardItem src="images/PerceptionPoster.png"
-						text="Perception Project"
-						path="/perceptionproject"
-						/>*/}
 						<CardItem src="images/invitation.png"
 						text="Graphic profile for wedding"
 						path="/wedding"
@@ -51,7 +43,7 @@ function Cards() {
 						text="Daily UI"
 						path="/dailyui"
 						/>
-						<CardItem src="images/clue1.png"
+						<CardItem src="images/Clue.png"
 						text="Clue-app redesign"
 						path="/clue"
 						/>

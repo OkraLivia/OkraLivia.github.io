@@ -159,85 +159,42 @@ export const StudyPlacesData = [
 export const ClueData = [
   {
     image:
-      './images/clue_img_1-web.png',
+      './images/Clue-redesign-01.png',
       text:
-      'The landing page before and after. It visualizes your current cycle: where in the cycle you are, the period, when your fertile window is and what days you have tracked something on, which is represented by the small dots.',
+      'The landing page before and after. It visualizes your current cycle: where in the cycle you are, your period, when your fertile window is and what days you have tracked something on, which is represented by the small dots.',
       index:
       '19'
   },
   {
     image:
-      './images/clue_img_2-web.png',
+      './images/Clue-redesign-03.png',
       text:
-      'The tracking page before and after. From the top row you can choose what day you want to add content to. It is possible to track several different categories, such as bleeding, pain and emotions. You can also read information about each category.',
+      'The tracking page before and after. From the top row or the cycle wheel you can choose what day you want to add data to. It is possible to write notes as well as to track several different parameters, such as bleeding, pain, moods and sleep and the intensity of them. One can also read information about each category.',
       index:
       '20'
       },
   {
     image:
-      './images/clue_img_3-web.png',
+      './images/Clue-redesign-02.png',
       text:
-      'The calendar page before and after. Get an overview of your cycles, click on a day in the calendar to see what has been tracked that day. In my version I added the possibility to track the intensity of the pain category since it is a function I have missed in the existing application.',
+      'The calendar page before and after. Get an overview of your cycles, click on a day in the calendar to see what has been tracked that day. In my version I added the possibility to track the intensity of the pain since it is a function I have been missing in the existing app.',
       index:
       '22'
   },
   {
     image:
-      './images/clue_img_4-web.png',
+      './images/Clue-redesign-06.png',
       text:
-      'The cycle analysis page before and after. This page displays a summary of your cycles and lets you overview them quickly.',
+      'The cycle analysis page before and after. This page displays a summary of your cycles. For instance one can see the average length of the last six periods and cycles.',
+      index:
+      '23'
+  },
+  {
+    image:
+      './images/Clue-redesign-04.png',
+      text:
+      'The graphic profile for my redesign.',
       index:
       '23'
   }
 ];
-
-/*export const CozyCorners = [
-  {
-    image:
-      './images/cozyCornersImg.png',
-      text:
-      'The splash screen. The color theme for this app is green, because according to color theory green is related to positivity, trust and peacefulness, qualities that suit the objective of this app.',
-      index:
-      '24'
-  },
-  {
-    image:
-      './images/cozyCornersImg2.png',
-      text:
-      'The home page. Google Maps API was used for the map where all cozy corners are displayed, click on an image to get more info and if you are logged in, save the place to your list. Search for a place by address and tags, or filter the places by the same parameters.',
-      index:
-      '25'
-      },
-  {
-    image:
-      './images/cozyCornersImg3.png',
-      text:
-      'The hamburger menu in the top left corner of the map displays the log in or sign up page.',
-      index:
-      '26'
-  },
-   {
-    image:
-      './images/cozyCornersImg4.png',
-      text:
-      "The same view when logged in. From here it is possible to view one's saved cozy corners or add a new place.",
-      index:
-      '27'
-  },
-   {
-    image:
-      './images/cozyCornersImg5.png',
-      text:
-      'Add a new cozy corner and provide some information about it. The new cozy corner gets placed on the map by filling in the longitude and latitude of it (not visible in the image above).',
-      index:
-      '28'
-  },
-   {
-    image:
-      './images/cozyCornersImg6.png',
-      text:
-      'All saved places are displayed in a list containing an image, the name, the address and a comment about the place. Remove a saved place from the list by pressing the save icon.',
-      index:
-      '29'
-  }
-];*/

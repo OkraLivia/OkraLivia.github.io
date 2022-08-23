@@ -14,22 +14,25 @@ function About(props) {
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
-	          <h4 className='technologies'>ADOBE XD | REDESIGN | IPHONE APP</h4>
+	          <h4 className='technologies'>FIGMA | REDESIGN | IPHONE APP</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Redesign of the Clue-app</h1>
-				   <p>This is a project I did in my freetime using Adobe XD. I thought it would be a fun and 
-				   interesting task to redesign the period tracking app <a href='https://helloclue.com/' target='_blank' rel="noreferrer">Clue</a>, giving 
-				   it a more modern look with a new and fresh color scheme as well as some features I have been
-				   missing in the app. Since I have been using this app for quite some time I have had the time
-				   to think about and discover areas that in my opinion need some improvement.</p>
-				   <p>I started by creating a moodboard for the feeling I was after for the app. I researched what 
-				   the new UI trends were and looked at other apps to get inspiration
-				   for my redesign. I proceeded to create a color scheme that is more energetic and that I thought suited the 
-				   	purpose of the app, that is period tracking, in a nice way. I wanted to make tracking one's period a fun
-				   	experience. I went through the functionalities of the
-				    existing app, listing the things that I considered as pain points after which I started to implement the 
-				    new design. I have not used personas or feedback from other users because I wanted to design an app that
-				    fit my needs and preferences since the main goal of this project was to expand my knowledge of Adobe XD
-				    and to try out redesigning an already existing app.</p>
+				   <p>This is a project I did in my free time using Figma. I thought it would be a fun and interesting task to redesign 
+				   the period tracking app <a href='https://helloclue.com/' target='_blank' rel="noreferrer">Clue</a>, giving it a more 
+				   modern look with a new and fresh color scheme as well as some features I have been missing. I have been 
+				   using this app for quite long, so I have had the time to think about and discover areas that in my opinion need some 
+				   improvement.</p>
+				   <p>I wanted to redesign the app to be more inviting, it should be “fun” to track one’s period. With this in mind 
+				   and with inspiration from UI trends and other period tracking apps, I started by creating a moodboard and a color 
+				   scheme that is more energetic and has brighter colors for my redesign. I went 
+				   through the functionalities of the existing app, listing the things that I considered as pain points, after which I 
+				   started to implement the new design. I wanted to play around in Figma and try 
+				   tp redesign an already existing app, so no personas or other UX research methods were used when designing the 
+				   app.</p>
+				   <p>
+				   	I like tracking things and collecting data, which might be because of my engineering background, so I 
+				   	added some more tracking possibilities. For instance, it is possible to add notes to days as well as to 
+				   	display how much, and what kind of, pain one is experiencing or how heavy one’s flow is.
+				   </p>
 	          </div>
 
 	          <div className="cards">
