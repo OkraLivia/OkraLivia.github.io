@@ -40,12 +40,20 @@ function Skills(props) {
 								index="3"
 							/>
 							<SkillItem backgroundColor="#FDC3BB"
-								text={[<p style={{marginBottom:'0.2em'}}><span>🎨</span><span style={{fontWeight: "800"}}> Traditional art </span></p>,<p>
-								 (like drawing, painting, photograpy & sculpting)</p>,<p><span>💻</span><span style={{fontWeight: "800"}}> Digital art </span>
-								 (like illustration & 3D modelling)</p>]}
+								text= {[<p style={{marginBottom:'0.2em'}}>
+											<span className='flag'>🎨</span>
+											<span style={{fontWeight: "800"}}> Traditional art </span><span className='other-skill'>(like drawing, painting, photography & sculpting)</span>
+										</p>, 
+
+										<p>
+											<span className='flag'>💻</span>
+											<span style={{fontWeight: "800"}}> Digital art </span> <span className='other-skill'>(like illustration & 3D modelling)</span>
+										 </p> 
+								]}
 								label="Other"
 								index="4"
 							/>
+							
 						</div>
 					</ul>
 				</div>

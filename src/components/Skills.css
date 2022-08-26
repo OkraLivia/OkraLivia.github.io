@@ -122,6 +122,10 @@ h1 {
   .title {
     font-size: 28px !important;
   }
+
+  .other-skill {
+    display: block;
+  }
 }
 
 /* Portrait iPhone */
