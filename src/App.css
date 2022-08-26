@@ -275,8 +275,8 @@ img.hover-zoom:hover {
   }
 
   .double {
-    width: auto;
-    height: 330px;
+    max-width: 400px;
+    height: auto;
   }
 
   .bedtimePDF, .perceptionPDF {
@@ -304,12 +304,12 @@ img.hover-zoom:hover {
   }
 
   .img-text {
-    margin-top: 38em;
     padding-bottom: 1em;
-    min-width: 350px;
-    margin-right: 2em;
+    min-width: 380px;
     font-size: 15px !important;
     padding-top: 22em;
+    justify-content: center !important;
+    display: block;
   }
 
   .technologies {
