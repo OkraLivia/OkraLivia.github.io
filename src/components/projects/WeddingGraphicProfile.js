@@ -19,15 +19,14 @@ function About(props) {
 				   and pink being the main colors. The concept I came up with is light and quite simplistic, I arranged flowers and leaves 
 				   along the top and bottom to frame everything in and to give the design a romantic feeling.
 				   </p>
-				   <br/>
 				   <p>The outcome of this project involves everything from physical invitations to signs for the venue as well as a 
-				   responsive webpage. The webpage is a collaboration between me and my partner and is made from scratch. He was 
-				   responsible for the backend while I took care of the frontend and UX. The main thing about the design is the flower 
-				   frame that is used in all the different deliveries to tie them together. 
+				   responsive webpage. The webpage is a collaboration between me and my partner and is made from scratch using React and Firebase 
+				   as the database. He was responsible for the backend while I took care of the frontend and UX. The most prominent design element
+				    is the flower frame that is used in all the different deliveries to tie them all together. 
 				   </p>
-				   <br/>
 				   <p>This was a very fun project to work with since I got the opportunity to work with a lot of different mediums and 
-				   think about how to translate a design to work with different use cases.
+				   think about how to translate a design to work with different use cases as well as to practice my React skills. The images 
+				   display the invitation card on the top and below it is the webpage on both mobile and desktop.
 				   </p>
 	          </div>
 					<div className="projectCard">
