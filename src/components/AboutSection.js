@@ -34,6 +34,9 @@ function AboutSection() {
 					 KTH’s union paper that reaches the roughly 10 000 union members. This portfolio is an example of a personal side project that I have made using React. 
 					</p><br/>
 
+					<p>Currently I am working as a UX/UI designer at <a href="https://www.formulate.app/" target="_blank" rel="noreferrer" className="formulate-link">Formulate</a>, which is an analytics and decision engine that's powered by machine learning algorithms in order to evaluate, predict and plan retail promotions.
+					</p><br/>
+
 					<p>I'm passionate about designing creative solutions where the user is in focus. I have always been interested in design 
 					and beautiful and interesting aesthetics in both digital as well as physical products. I really enjoy building good looking 
 					user experiences and understanding the psychology behind user interactions. I’m always eager to try out new UX/UI trends and 

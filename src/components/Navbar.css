@@ -211,7 +211,8 @@
   }
 
   .navbar-logo {
-    margin-top: -0.7em;
+    /*margin-top: -0.7em;*/
+    margin-top: -0.9em !important;
   }
 }
 

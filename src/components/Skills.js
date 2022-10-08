@@ -24,7 +24,7 @@ function Skills(props) {
 								index="1"
 							/>
 							<SkillItem backgroundColor="#F77B80" 
-								text="HTML, CSS, JavaScript, React, Python, XML, PHP, SQL"
+								text="HTML, CSS, JavaScript, React, Python, XML, SQL"
 								label="Programming"
 								index="2"
 							/>
