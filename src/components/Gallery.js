@@ -5,12 +5,12 @@ const imgUrls = [
   './images/art/du_ar_min_sol.png',
   './images/art/my_bike-web.png',
   './images/art/fika2-web.png',
-  './images/art/donut-web.png',
   './images/art/CALM-both-web.png',
   './images/art/ipa_label.png',
   './images/art/mango_ipa_label.png',
   './images/art/paverka_industrin-web.png',
   './images/art/lovehate-web.png', 
+  './images/art/beer_poster.png',
   './images/art/white_lady-web.png',
   './images/art/stilleben-web.png',
   './images/art/greenhouse-web.png',
@@ -22,7 +22,6 @@ const imgUrls = [
   './images/art/dtiys3.png',
   './images/art/dahlia-web.png',
   './images/art/window.png',
-  './images/art/beer_poster.png',
   './images/art/my_plants.png',
   './images/art/his_plants.png',
   './images/art/frogscene.png',
@@ -31,19 +30,20 @@ const imgUrls = [
   './images/art/fish2-web.png',
   './images/art/tomatosauce.png',
   './images/art/sangria-web.png',
-  './images/art/2beer-web.png'
+  './images/art/2beer-web.png',
+  './images/art/pumpkinhead.png'
 ];
 
 const imgTexts = [
   'This is one of five winners in the Årets Kärlekshälsning contest held by Swish. My design will be available as a card in the Swish app during the entire year 2022. It is called "Du är min sol" (You are my sun) and is a homage to all the people in your life who makes your day a little bit sunnier.',
   'This is probably my biggest project ever and one that I really enjoyed working with, my red leopard bike. With the help from my boyfriend we took the bike apart and I spray painted it red and drew leopard spots on it with an oil based marker. It took HOURS but it was totally worth it.',
   "This image I have created from scratch in Blender. Yes, it is the donut tutorial. The rendering isn't perfect, I made it on my MacBook Air, a computer that isn't exactly optimized for such tasks to say the least... Nonetheless, I'm happy with what I created!",
-  'Here is a close up of the donut that I made in Blender.',
   'The inspiration for this piece comes from an Instagram post I saw, it is a poster of things that I appreciate: sauna, swimming in the ocean, art, plants, coffee, strawberry cake and craft beer. It says "Enjoyt the little things" in Finnish and "A collection of moments" in Swedish. The left one is made in Adobe Illustrator after which I got feeling and decided to make a painted version of it, on the right, using acrylic colors. The painting is a bit wonky, but I like it and it was really fun to recreate the digital piece using physical mediums.',
   'My boyfriend and I brewed our own IPA and together we designed the label and graphic profile for our home brewery, Tomkra Brewing. Our beer can be found on Untappd, just search for "Tomkra Brewing". Cheers! 😎🍻',
   'The second brew from Tomkra Brewing, this time we made a dry hopped mango IPA and designed the label accordingly 🥭🍻',
   'This is an illustration in Osqledaren #4 19/20 for the article "Även stora företag behöver ställas till svars för sina handlingar". Each segment of the magazine has its own color, this article was the segment divider in the "Bransch" segment which is orange. This illustration is created in Illustrator and I only used colors of different segments. The blue corresponds to the segment "English" and the green to "OL gräver".',
   'This is an illustration in Osqledaren #3 18/19 for the article "Sektionerna tycker till om THS". I made the flower blue to represent the logo of THS (Tekniska Högskolans Studentkår) which is a flower-like composition of seven blue circles linked together. I made it with pen and aquarelle.',
+  'I wanted to create an artwork only using a very limited color palette. The result is this comic-style poster that is an ode to beer 🍻',
   'This poster is made in Illustrator and it shows the ingredients that are needed for a White Lady, a drink that has been my favourite lately.',
   'I like drawing everyday things in my surrounding. This painting is of an after work beer and behind the glasses is a box of Domino-cookies, the Finnish version of Oreos, which I prefer 😎 The painting is made with acrylics on 170g drawing paper.',
   'This is made in Illustrator. This one is also of things in my surrounding but placed in a greenhouse. I really like the aesthetics of green plants together with the glass and metal of a greenhouse.',
@@ -55,19 +55,20 @@ const imgTexts = [
   'Yet another draw this in your style-challenge piece. I really like the concept of these challenges, you take a piece of art that someone else has made and think about how you can redo it in your own style. It is perfect for when you want to draw but do not know what. Mine is on the left and I made it in Procreate on an iPad.',
   'This is an illustration made with Promarkers-pens and Uni Pin fineliners. Dahlias are one of my favourite flowers.',
   'This is made in Procreate on an iPad using an Apple pencil, a completely new medium for me. It shows the view from the dining room at our summer cottage.',
-  'I wanted to create an artwork only using a very limited color palette. The result is this comic-style poster that is an ode to beer 🍻',
   'I thought it would be a fun idea to create a picture of all of my houseplants placed in a greenhouse. The idea developed as I worked on the piece and it ended up containing plants and things from my home that would contribute to a cozy environment.',
   'Since I had so much fun creating the greenhouse related to my home, I wanted to do the same thing but with things that remind me of my partner - and his plants of course! 🪴',
   'This little scene is of a couple of frogs picking blueberries in the forest. The inspiration for this came from one of many trips to the forest my family and I make during the autumn to pick berries and mushrooms. It is made in Procreate.',
   'This illustration I have made in Illustratior and it is an entry in a color palette challenge where the task is to create an artwork only using a predetermined and limited color palette.',
   'This is a collage of a flower bouquet I made. I cut out the shapes from paper that I painted with gouach paints.',
   'This is an illustration made with aquarelle colors and and Uni Pin fineliners.',
-  'Ingredients to a very delicious tomato sauce that the food blogger Sofia Wood has created: miso, garlic, tomato paste, passed tomatoes, salt and pepper. Less is more. The sauce has become a staple in our kitchen, so I figured that I would honor it with an illustration. Bon appétit!',
+  'Ingredients to a very delicious tomato sauce that the food blogger Sofia Wood has created: miso, garlic, tomato paste, passed tomatoes, olive oil, salt and pepper. Less is more. The sauce has become a staple in our kitchen, so I figured that I would honor it with an illustration. Bon appétit!',
   'This is made in Illustrator and it is inspired by, or a remake of if you will, an illustration I made for the article "M i Madrid" in Osqledaren #4 17/18. It was part of the “Mat” section of the article, sangria feels like a must-have when visiting Spain 💃',
-  'I made Mikkeller inspired beer labels for my friends who moved to Australia.'
+  'I made Mikkeller inspired beer labels for my friends who moved to Australia.',
+  'I saw the cutest video of a child wearing a pumpkin on his head going by his business, so I just had to draw myself a lil pumpkinhead boy with his froggy friend 🎃'
   ];
 
   // 'This is an illustration in Osqledaren #2 19/20 for the article "Utmanarna till Bitcoin".'
+  //'Here is a close up of the donut that I made in Blender.',
 
 class Gallery extends React.Component {
   constructor(props) {
