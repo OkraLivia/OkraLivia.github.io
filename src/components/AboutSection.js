@@ -10,7 +10,7 @@ function AboutSection() {
 	}, [])
 
 	return (
-		<div className='about-container'>
+		<div className='about-me-container'>
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items txt'>
@@ -34,7 +34,7 @@ function AboutSection() {
 					 KTH’s union paper that reaches the roughly 10 000 union members. This portfolio is an example of a personal side project that I have made using React. 
 					</p><br/>
 
-					<p>Currently I am working as a UX/UI designer at <a href="https://www.formulate.app/" target="_blank" rel="noreferrer" className="formulate-link">Formulate</a>, which is an analytics and decision engine that's powered by machine learning algorithms in order to evaluate, predict and plan retail promotions.
+					<p>Currently I am working as a UX/UI designer at <a href="https://www.relexsolutions.com/solutions/promotion-planning-software/" target="_blank" rel="noreferrer" className="formulate-link">RELEX Solutions</a>. I work with the promotion planning product, which is an analytics and decision engine that's powered by machine learning algorithms in order to evaluate, predict and plan retail promotions.
 					</p><br/>
 
 					<p>I'm passionate about designing creative solutions where the user is in focus. I have always been interested in design 
@@ -44,22 +44,15 @@ function AboutSection() {
 
 					<p>Feel free to contact me, I'm always up for a fika!</p><br/>
 
-					<p><span style={{fontWeight: "bold", color: "#F77B80"}}> Email: </span>
+					<p><span style={{fontWeight: "bold", color: "#087C61"}}> Email: </span>
 					okralivia@gmail.com </p>
-					
-					<p style={{marginTop:"20px"}}>
-					<Link to="/CV_OkraLivia_2022.pdf" target="_blank" className='cv'>Open CV</Link>
-					<a href='https://www.linkedin.com/in/okralivia-inkeri-dimle/' target="_blank" 
-					className="fa fa-linkedin" rel="noopener noreferrer">
-					</a>
-					</p>
 	          </div>
 	          <div className='about-link-items me'>
-	            <img className="about-img" src="images/OkraLiviaNew.png" width="250" alt='okra'/>
-	            <div  className='squares'>
-	            <div className="square"></div>
-	            <div className="square2"></div>
-	            </div>
+	            <img className="about-img" src="images/OkraLivia_about.png" width="400" alt='okra'/>
+	            <p style={{marginTop:"40px"}}>
+					<Link to="/CV_OkraLivia.pdf" target="_blank" className='cv'>Open CV</Link>
+					<a href='https://www.linkedin.com/in/okralivia-inkeri-dimle/' target="_blank" rel="noreferrer" className="linkedin">in</a>
+					</p>
 	          </div>
 	        </div>
 	      </div>
