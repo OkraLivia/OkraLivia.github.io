@@ -2,6 +2,7 @@ import React, { useEffect } from "react"
 import '../../App.css';
 import ImageSlider from '../ImageSlider';
 import { ClueData } from '../SliderData';
+import { Link } from 'react-router-dom';
 
 function About(props) {
 
@@ -13,6 +14,9 @@ function About(props) {
 		<div className='about-container'>
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
+	        <Link to="/" className='back-btn'>
+    			<img src="/images/arrow-left.svg" alt='navimg' width="30" style={{marginTop:"1em"}}/>
+    		</Link>
 	          <div className='about-link-items'>
 	          <h4 className='technologies'>FIGMA | REDESIGN | IPHONE APP</h4>
 	            <h1 className="title" style={{marginBottom: "10px"}}>Redesign of the Clue-app</h1>
@@ -37,7 +41,7 @@ function About(props) {
 
 	          <div className="cards">
 				<div className="cards__container">
-					<div className="cards__wrapper">
+					<div className="cards__wrapper otherCards__nl__info">
 						<ImageSlider slides={ClueData} double={true}/>
 					</div>
 				</div>

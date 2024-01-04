@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import '../../App.css';
+import { Link } from 'react-router-dom';
 
 function About(props) {
 
@@ -9,6 +10,9 @@ function About(props) {
 	
 	return (
 		<div className='about-container'>
+		<Link to="/" className='back-btn'>
+    		<img src="/images/arrow-left.svg" alt='navimg' width="30" style={{marginTop:"1em"}}/>
+    	</Link>
 	      <div className='about-links'>
 	        <div className='about-link-wrapper'>
 	          <div className='about-link-items'>
