@@ -2,8 +2,6 @@ $black: #111;
 $radius: 4px;
 $transition: all .25s ease-in-out;
 
-
-
 .ui-gallery-container {
   padding-top: .9375rem;
 }
@@ -12,12 +10,6 @@ $transition: all .25s ease-in-out;
   position: relative;
   overflow: hidden;
   margin-bottom: 1.875rem;
-}
-
-.ui-gallery-thumbnail {
-  max-width: 100%;
-  height: auto;
-  border-radius: $radius;
 }
 
 .ui-card-icon-open {
