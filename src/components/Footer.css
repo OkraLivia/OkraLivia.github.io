@@ -1,7 +1,6 @@
 
 .footer-container {
-  background-color: #E4F2F2; /*242424*/
-  /*padding: 2rem 0 2rem 0;*/
+  background-color: #FAD167;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,6 +44,6 @@ h4 {
 @media screen and (max-width: 414px) {
   .footer-container {
     justify-content: center;
-    font-size: 14px;
+    font-size: 18px;
   }
 }

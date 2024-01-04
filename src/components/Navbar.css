@@ -1,9 +1,7 @@
 .navbar {
-  background: #fff;
-  height: 5em;
+  background: #fff !important;
+  height: 3.2em;
   display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 1.2rem;
   position: sticky;
   top: 0;
@@ -15,7 +13,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
   max-width: 1500px;
   padding: 5px 0;
 }
@@ -34,13 +31,14 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw; /*50vw*/
-  justify-content: left;
+  width: 66vw; /*50vw, 60vw*/
+  justify-content: right;
   margin-right: 2rem;
 }
 
 .nav-item {
   height: 80px;
+  font-size: 16px;
 }
 
 .nav-links {
@@ -54,8 +52,7 @@
 }
 
 .nav-links:hover {
-  /*border-bottom: 4px solid #fff;*/
-  color: #F77B80;
+  color: #087C61;
   transition: all 0.2s ease-out;
 }
 
@@ -72,27 +69,27 @@
 }
 
 .title-name {
-    font-size: 32px;
-    padding-right: 1.25rem;
-    width: 385.59px;
+  font-size: 16px;
+  padding-right: 1.25rem;
+  width: 385.59px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .logo:hover {
   transform: scale(1.1);
 }
 
-.title-name::after{
-    content:'Inkeri-Dimle';
-    text-decoration: none;
-}
-.title-name:hover::after{
-    content:'@gmail.com';
-    text-decoration: none;
-    /*font-family: 'Poppins', sans-serif;
-    font-size: 24px;*/
+.section-tabs {
+  float: right;
 }
 
 @media screen and (min-width: 960px) and (max-width: 1250px) {
+  .navbar-container {
+    padding: 1em;
+  }
+
   .nav-menu {
     width: 50vw;
 }
@@ -100,7 +97,11 @@
 
 @media screen and (min-width: 960px) and (max-width: 1060px) {
   .title-name {
-    font-size: 30px;
+    font-size: 18px;
+  }
+
+  .navbar-container {
+    padding: 1em;
   }
 }
 
@@ -109,20 +110,25 @@
     position: relative;
   }
 
+  .navbar-container {
+    padding: 1em;
+  }
+
   .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    /*height: 90vh;*/
+    height: 102vh;
     position: absolute;
-    top: 80px;
+    top: 3em;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
   }
 
   .nav-menu.active {
-    background: #E4F2F2;
+    background: #FAD167;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -134,11 +140,10 @@
     padding: 2rem;
     width: 100%;
     display: table;
+    font-size: 24px;
   }
 
   .nav-links:hover {
-    /*background-color: #fff;
-    border-radius: 0;*/
     color: #242424;
   }
 
@@ -146,7 +151,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
   }
 
   .menu-icon {
@@ -154,7 +158,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 35%);
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -186,39 +190,37 @@
   }
 
   .title-name {
-    font-size: 32px;
-    text-align: center;
-    /*width: 200px;*/
+    font-size: 18px;
     color: #262626; 
-    float: right;
   }
 
   .navbar-logo {
-    margin-top: -0.4em;
-    margin-left: -0.2em;
+    margin-top: 0;
+    margin-left: auto;
+    display: contents;
   }
 }
 
 @media screen and (max-width: 414px) {
   .title-name {
-    width: 8em;
-    font-size: 26px;
+    width: 300px;
+    font-size: 18px;
     line-height: 1.2;
   }
   .navbar {
-    width: 414px;
+    width: 100% !important;
     padding: 0 5px;
   }
 
   .navbar-logo {
-    /*margin-top: -0.7em;*/
     margin-top: -0.9em !important;
   }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
   .navbar {
-    width: 422px;
+    /*width: 422px;*/
+    width: 100% !important;
     padding: 0 5px;
   }
 }

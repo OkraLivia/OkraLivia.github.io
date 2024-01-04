@@ -13,22 +13,27 @@ function Navbar() {
 			<nav className="navbar">
 				<div className="navbar-container">
 					<Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-			    		<img src="/images/OL.png" alt='navimg' width="50" className='logo' style={{marginRight:"20px"}}/>
+			    		<img src="/images/OL.png" alt='navimg' width="35" className='logo' style={{marginRight:"20px"}}/>
 			    	</Link>
-			    	
-			    	<div style={{float:'left'}}>
+			    	<div className='title-name'>
+			    		<div style={{fontWeight:"600"}}>Okra Livia Inkeri-Dimle</div>
+			    		<div>UX/UI Designer & illustrator</div>
+			    	</div>
+
+			    	<div className="section-tabs">
 			    	<div className="menu-icon" onClick={handleClick}>
 			    		<i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
 			    	</div>
 			    	<ul className={click ? 'nav-menu active' : 'nav-menu'}>
-			    		<li className='nav-item'>
-			    			<Link to='/skills' className='nav-links' onClick={closeMobileMenu}>
-			    				Skills
-			    			</Link>
-			    		</li>
+			    		
 			    		<li className='nav-item'>
 			    			<Link to='/cards' className='nav-links' onClick={closeMobileMenu}>
 			    				Projects
+			    			</Link>
+			    		</li>
+			    		<li className='nav-item'>
+			    			<Link to='/skills' className='nav-links' onClick={closeMobileMenu}>
+			    				Skills
 			    			</Link>
 			    		</li>
 			    		<li className='nav-item'>
@@ -36,6 +41,7 @@ function Navbar() {
 			    				Artwork
 			    			</Link>
 			    		</li>
+
 			    		<li className='nav-item'>
 			    			<Link to='/about' className='nav-links' onClick={closeMobileMenu}>
 			    				About
@@ -43,7 +49,7 @@ function Navbar() {
 			    		</li>
 			    	</ul>
 			    	</div>
-			    	<h1 className='title-name'>Okra Livia </h1>
+			    	
 
 				</div>
 			</nav>
