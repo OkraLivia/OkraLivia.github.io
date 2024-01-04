@@ -2,7 +2,9 @@ import React from 'react';
 import './Gallery.css';
 
 const imgUrls = [
+  './images/art/joulukortti2023.png',
   './images/art/du_ar_min_sol.png',
+  './images/art/ylifemma_kukat.png',
   './images/art/my_bike-web.png',
   './images/art/fika2-web.png',
   './images/art/CALM-both-web.png',
@@ -17,7 +19,6 @@ const imgUrls = [
   './images/art/yo2015-web.png',
   './images/art/grad_card2-web.png',
   './images/art/marimekko_portrait-web.png',
-  './images/art/dtiys2-web.png',
   './images/art/dtiys-web.png',
   './images/art/dtiys3.png',
   './images/art/dahlia-web.png',
@@ -35,7 +36,9 @@ const imgUrls = [
 ];
 
 const imgTexts = [
+  "I got the privilege to create the 2023 Christmas card for the Finnish embassy in Stockholm. The card was sent by the ambassador to the embassy's connections. Together we looked at some options I had sketched and finally the decision landed on this wintery scene where santa is having a sauna and a swim in the icy lake. The card is made using pen, aquarelle and Adobe Illustrator and was printed on matte paper.",
   'This is one of five winners in the Årets Kärlekshälsning contest held by Swish. My design will be available as a card in the Swish app during the entire year 2022. It is called "Du är min sol" (You are my sun) and is a homage to all the people in your life who makes your day a little bit sunnier.',
+  'Inspired by my Swish card I wanted to continue the series of happy flowers. Here a peony and a pansy are high fiving, next to them is a Swedish saying that I thought would be fun to illustrate: "Blomma, blad, en miljard" which translates to "Flower, leaf, one billion". It rhymes in Swedish and it is a saying jokingly used by children when you have to count really far.',
   'This is probably my biggest project ever and one that I really enjoyed working with, my red leopard bike. With the help from my boyfriend we took the bike apart and I spray painted it red and drew leopard spots on it with an oil based marker. It took HOURS but it was totally worth it.',
   "This image I have created from scratch in Blender. Yes, it is the donut tutorial. The rendering isn't perfect, I made it on my MacBook Air, a computer that isn't exactly optimized for such tasks to say the least... Nonetheless, I'm happy with what I created!",
   'The inspiration for this piece comes from an Instagram post I saw, it is a poster of things that I appreciate: sauna, swimming in the ocean, art, plants, coffee, strawberry cake and craft beer. It says "Enjoyt the little things" in Finnish and "A collection of moments" in Swedish. The left one is made in Adobe Illustrator after which I got feeling and decided to make a painted version of it, on the right, using acrylic colors. The painting is a bit wonky, but I like it and it was really fun to recreate the digital piece using physical mediums.',
@@ -51,8 +54,7 @@ const imgTexts = [
   "Some years later it was my brother's turn to graduate from high school. The invitation is also made with aquarelle and Uni Pin fineliners.",
   "I've been wanting to get better at drawing people so I painted this Marimekko-appreciation kind of self portrait using aquarelles and pen.",
   'This is a draw this in your style-challenge piece. The image to the left is my version of the original image to the right. It is made with pen and aquarelle.',
-  'This is another draw this in your style-challenge piece. The image to the left is my version of the original image to the right. It is made with pen and aquarelle.',
-  'Yet another draw this in your style-challenge piece. I really like the concept of these challenges, you take a piece of art that someone else has made and think about how you can redo it in your own style. It is perfect for when you want to draw but do not know what. Mine is on the left and I made it in Procreate on an iPad.',
+  'This is another draw this in your style-challenge piece. I really like the concept of these challenges, you take a piece of art that someone else has made and think about how you can redo it in your own style. It is perfect for when you want to draw but do not know what. Mine is on the left and I made it in Procreate on an iPad.',
   'This is an illustration made with Promarkers-pens and Uni Pin fineliners. Dahlias are one of my favourite flowers.',
   'This is made in Procreate on an iPad using an Apple pencil, a completely new medium for me. It shows the view from the dining room at our summer cottage.',
   'I thought it would be a fun idea to create a picture of all of my houseplants placed in a greenhouse. The idea developed as I worked on the piece and it ended up containing plants and things from my home that would contribute to a cozy environment.',
@@ -66,9 +68,6 @@ const imgTexts = [
   'I made Mikkeller inspired beer labels for my friends who moved to Australia.',
   'I saw the cutest video of a child wearing a pumpkin on his head going by his business, so I just had to draw myself a lil pumpkinhead boy with his froggy friend 🎃'
   ];
-
-  // 'This is an illustration in Osqledaren #2 19/20 for the article "Utmanarna till Bitcoin".'
-  //'Here is a close up of the donut that I made in Blender.',
 
 class Gallery extends React.Component {
   constructor(props) {
