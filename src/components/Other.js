@@ -1,52 +1,16 @@
 import React from 'react';
 import './Other.css';
-import ImageSlider from './ImageSlider';
-import { NlImages } from './SliderData';
 
 function Skills(props) {
 
 	return (
 		<div className="otherCards" id='other'>
-			<h1 className="title">Other Engagements</h1>
+			<h1 className="title">Other engagements</h1>
 			<div className="otherCards__container">
 				<div className="otherCards__wrapper">
 					<ul className="otherCards__items">
 						<li className="otherCards__item">
-							<div className="otherCards__item__info" style={{backgroundColor:"#FDC3BB"}}>
-								<h1 className="labelTitle">Netlight</h1>
-								<h5 className="otherCards__item__text"><p>
-									From 2019 to 2021 I worked as a graphic designer at IT and management 
-									consulting company, <a href="https://www.netlight.com/" target="_blank" rel="noreferrer">Netlight</a>. 
-									As a graphic designer I'm part of the design studio which is a self driven part of the company where us designers 
-									have the ownership and a big impact on how the Netlight brand should look like. Since we are self driven there is 
-									a lot of responsibility and being resourceful which has enabled me to grow a lot as a designer and person. In my role I consult 
-									stakeholders about what their vision is for a certain design, do research on the subject, handle feedback and 
-									motivate my design decisions and deliver to a deadline. We work with all parts of Netlight and support the nine 
-									offices around Europe both locally and remotely, from sales and recruitment to event experiences and professional 
-									development. In my role I have gained knowledge about Netlight's graphic profile and adapted my design aesthetics 
-									to go with it. I have also had the opportunity to onboard new team members and thereby developed my pedagogic skills. 
-									Through my work I have broadened my knowledge about the Adobe suite, in particular Illustrator, Photoshop, Lightroom, 
-									After Effects and InDesign.</p>
-									<p>Some of the work that I've done at Netlight can be seen in the image gallery.</p>
-								</h5>
-							</div>
-						</li>
-
-						<li className="otherCards__item">
-							<div className="otherCards__nl__info" key={ImageSlider.slides}>
-								<ImageSlider slides={NlImages} work={true} className='NLtext' />
-							</div>
-						</li>
-
-					</ul>
-				</div>
-			</div>
-			
-			<div className="otherCards__container">
-				<div className="otherCards__wrapper">
-					<ul className="otherCards__items">
-						<li className="otherCards__item">
-							<div className="otherCards__item__info2" style={{backgroundColor:"#F77B80"}}>
+							<div className="otherCards__item__info2" style={{backgroundColor:"#FAD167"}}>
 								<h1 className="labelTitle">Osqledaren</h1>
 								<h5 className="otherCards__item__text">
 									I was an illustrator at <a href="https://osqledaren.se/" target="_blank" rel="noreferrer">Osqledaren</a>, 
@@ -62,7 +26,7 @@ function Skills(props) {
 						</li>
 
 						<li className="otherCards__item">
-							<div className="otherCards__item__info2" style={{backgroundColor:"#E4F2F2"}}>
+							<div className="otherCards__item__info2" style={{backgroundColor:"#FAD167"}}>
 								<h1 className="labelTitle">Studs</h1>
 								<h5 className="otherCards__item__text">
 									I was part of <a href='https://studieresan.se/' target='_blank' rel="noreferrer" className='studs'>Studs</a> 2018/2019 which is a student driven 
@@ -77,7 +41,7 @@ function Skills(props) {
 						</li>
 
 						<li className="otherCards__item">
-							<div className="otherCards__item__info2" style={{backgroundColor:"#FDC3BB"}}>
+							<div className="otherCards__item__info2" style={{backgroundColor:"#FAD167"}}>
 								<h1 className="labelTitle">Mottagningen</h1>
 								<h5 className="otherCards__item__text">
 									I was part of the reception at the Media Technology chapter for four years. The aim 
