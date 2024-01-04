@@ -1,55 +1,37 @@
 .skillCards {
   padding: 2rem;
-}
-
-h1 {
-  text-align: center;
-  /*font-size: 24px;*/
-}
+  }
 
 .labelTitle {
-  font-size: 32px;
-  font-family:'Modak', cursive; /*'Opake Heavy', */
+  font-size: 20px;
+  font-family:'Source Sans 3';
   padding-bottom: 10px;
   letter-spacing: 0.95px;
   word-spacing: 1.4px;
   line-height: 1.2;
+  font-weight: 700;
+  text-align: left;
 }
 
 .eduTitle {
-  /*font-family: 'Sofia Pro', 'Spartan', sans-serif;*/
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
+  font-family:'Source Sans 3';
+  font-weight: 700;
   font-style: normal;
   color: #262626;
   width: inherit;
 }
 
-/*.skillCards__container {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  max-width: 1120px;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.skillCards__wrapper {
-  position: relative;
-  margin: 50px 0 45px;
-}*/
-
 .skillCards__item {
   display: flex;
   margin: 0 1rem;
-  border-radius: 5px;
   margin-bottom: 1rem;
   justify-content: center;
 }
 
 .skillCards__item__info {
   padding: 20px 20px 20px;
-  width: 270px;
+  width: 300px;
+  border-radius: 8px;
 }
 
 .skillCards__item__text {
@@ -67,8 +49,9 @@ h1 {
   flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   margin-top: auto;
+  margin-top: 2em;
 }
 
 .skillGroup {
@@ -82,19 +65,21 @@ h1 {
 
 @media only screen and (max-width: 1024px) {
   .labelTitle {
-  font-size: 32px;
+  font-size: 18px; /*32px*/
   }
 }
 
 @media only screen and (min-width: 768px) {
   .skillCards__items {
     display: flex;
+    justify-content: center;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .skillCards__items {
     display: flex;
+    justify-content: center;
   }
 }
 
@@ -110,6 +95,7 @@ h1 {
 
   .skillCards__item {
     margin-bottom: 2em;
+    width: 400px;
   }
 
   .skillCards__item__info {
@@ -126,6 +112,9 @@ h1 {
   .other-skill {
     display: block;
   }
+   .skillCards__item__text p {
+    min-width: 18em;
+}
 }
 
 /* Portrait iPhone */
@@ -147,9 +136,8 @@ h1 {
 @media screen and (-webkit-min-device-pixel-ratio: 0) 
 { _::-webkit-full-page-media, _:future, 
   .eduTitle {
-  /*font-family: 'Sofia Pro', 'Spartan', sans-serif;*/
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
+  font-family:'Source Sans 3';
+  font-weight: 600;
   }
 
   .otherCards__item__info {

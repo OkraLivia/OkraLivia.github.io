@@ -57,30 +57,6 @@ export const NlImages = [
   },
   {
     image:
-      './images/nl/Climate_Compensation-web.png',
-    index: 
-    '8',
-    text:
-    'This is the Certificate of Climate Action that explains how Netlight compensate for its employees personal carbon footprint. The lead words for the design was luxury and green.'
-  },
-  {
-    image:
-      './images/nl/global-talent-night-web.png',
-    index: 
-    '9',
-    text:
-    'The logo for the online event Global Talent night that was hosted in spring 2020. It was used to market the event on social media as well as in the sign up form.' 
-  },
-  {
-    image:
-      './images/nl/Show&Tell-Logo-web.png',
-    index: 
-    '10',
-    text:
-    'A logo for the weekly show and tell. A casual event that called for a fun and light feeling logo.'
-  },
-  {
-    image:
       './images/nl/Fredagsmys-goes-live-web.png',
     index: 
     '11',
