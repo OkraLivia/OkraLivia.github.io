@@ -29,9 +29,9 @@ function Home(props) {
 	return (
 		<>
 			<Introduction />
-			<Skills />
 			<Cards />
 			<Other />
+			<Skills />
 			<Gallery />
 			<Footer />
 		</>
