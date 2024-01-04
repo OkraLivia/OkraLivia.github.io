@@ -1,12 +1,13 @@
 .hero-container {
-  background-color: #fff;
-  height: 50vh;
+  background-color: #FAD167;
+  height: auto;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   object-fit: contain;
+  padding: 4em 0;
 }
 
 .hero-container > p {
@@ -16,40 +17,41 @@
 }
 
 .me-img {
-  margin-left: 27em;
+  position: left;
 }
 
-.title {
-  font-family: 'Opake Heavy', 'Modak', cursive;
-  margin-top: auto; /*!important*/
+.start-title {
+  /*font-family: 'Opake Heavy', 'Modak', cursive;*/
+  font-family: 'Source Sans 3';
+  font-weight: 600;
+  margin-top: auto;
+  text-align: left;
 }
 
 .text-block {
-  position: absolute;
-  background-color: #E4F2F2;
-  color: #262626;
   padding: 20px;
+  margin-left: 2em;
   width: 38em;
   font-size: 14px;
-  /*font-family: 'Sofia Pro', 'Spartan', sans-serif;*/
-  font-family: 'Poppins', sans-serif;
+  font-family:'Source Sans 3';
   font-weight: 400;
   font-style: normal;
-  left: 14vw; /*24em*/
   font-size: 16px;
 }
 
 .text-block a:hover, Link:hover {
-  color: #578a8a;
+  color: #097C61;
   transition: 0.3s ease-out;
+}
+
+.about-link {
+  font-weight: 600;
 }
 
 @media screen and (min-width: 960px) and (max-width: 1140px) {
 
   .text-block {
     left: 10vw;
-    /*width: 400px;
-    margin: auto;*/
   }
 }
 
@@ -65,8 +67,6 @@
 
   .text-block {
     position: inherit;
-    /*width: 400px;
-    margin: auto;*/
   }
 }
 
@@ -96,13 +96,25 @@
 
   .text-block {
     line-height: 1.6;
+    width: 100%;
   }
 
   .hero-container {
     margin-top: 2.5em;
     margin-bottom: 1.25em;
     scroll-margin-top: initial;
+    height: auto;
   }
+
+  .about-link {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .intro-text {
+    font-size: 20px;
+  }
+
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
@@ -115,30 +127,3 @@
     margin-bottom: 1.25em;
   }
 }
-
-/*@media screen and (-webkit-min-device-pixel-ratio: 0) 
-{ _::-webkit-full-page-media, _:future, 
-   .text-block {
-      right: 25%;
-    }
-    @media screen and (min-width: 1024px) {
-      .text-block {
-        right: 10%;
-      }
-
-    }
-
-    @media screen and (max-width: 1024px) {
-      .text-block {
-        right: 0;
-      }
-
-    }
-
-    @media screen and (max-width: 960px) {
-      .text-block {
-        right: auto;
-      }
-    }
-
-  }*/
