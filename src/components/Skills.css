@@ -99,7 +99,7 @@
   }
 
   .skillCards__item__info {
-    width: 22em; /*20em*/
+    width: auto; /*20em*/
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 2em;
@@ -114,7 +114,12 @@
   }
    .skillCards__item__text p {
     min-width: 18em;
-}
+  }
+
+  .skillCards__item__text p {
+    font-size: 24px !important;
+    line-height: 1.2em;
+  }
 }
 
 /* Portrait iPhone */
@@ -130,6 +135,7 @@
 
     .skillCards__items {
       display: flex;
+      justify-content: center;
     }
 }
 

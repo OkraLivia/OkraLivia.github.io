@@ -86,7 +86,7 @@
   }
 
   .text-block {
-    width: 400px;
+    /*width: 400px;*/
     margin: auto;
     position: inherit;
   }
@@ -100,7 +100,6 @@
   }
 
   .hero-container {
-    margin-top: 2.5em;
     margin-bottom: 1.25em;
     scroll-margin-top: initial;
     height: auto;
@@ -115,6 +114,10 @@
     font-size: 20px;
   }
 
+  .hero-container {
+    padding: 2em 0;
+  }
+
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
@@ -123,7 +126,7 @@
   }
 
   .hero-container {
-    margin-top: 2.5em;
+    /*margin-top: 2.5em;*/
     margin-bottom: 1.25em;
   }
 }

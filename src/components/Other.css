@@ -17,10 +17,10 @@
 }
 
 .otherCards {
-  /*padding: 2rem;*/
-  padding-left: 4rem;
-  padding-right: 4rem;
-  padding-top: 2rem;
+  padding: 2rem;
+  /*padding-left: 4rem;
+  padding-right: 4rem;*/
+  /*padding-top: 2rem;*/
 }
 
 .otherCards__container {
@@ -45,7 +45,8 @@
 
 .otherCards__item {
   display: flex;
-  margin: 1rem;
+  /*margin: 1rem;*/
+  padding: 20px;
   border-radius: 5px;
 }
 
@@ -98,7 +99,7 @@
 
 .NLtext {
   margin-bottom: 12em;
-  font-size: 16px !important;
+  /*font-size: 16px !important;*/
 }
 
 .img-menu {
@@ -222,6 +223,7 @@
   .otherCards__item {
     margin-bottom: 2rem;
     width: 414px;
+    /*max-width: 414px;*/
   }
 
   p, a, h5 {
@@ -230,7 +232,8 @@
 }
 
   .otherCards__item__text {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: normal;
   }
 
   .labelTitle {
@@ -238,7 +241,7 @@
   }
 
   .netlight {
-    max-width: 380px;
+    /*max-width: 380px;*/
     height: auto;
 }
 
@@ -257,13 +260,18 @@
   .NLtext {
     padding-top: 24em;
     padding-left: 2em;
-    width: 26em;
+    width: auto;
+    font-size: 18px !important;
   }
 
   .otherCards__nl__info {
     padding: 0 20px;
-    width: 400px;
+    width: auto;
     height: 22em; /*340px*/
+  }
+
+  .back-btn {
+    padding: 0;
   }
 }
 
@@ -272,7 +280,7 @@
 
   .NLtext {
     margin-top: 14em;
-    width: 400px;
-    font-size: 14px !important;
+    width: 100%;
+    /*font-size: 14px !important;*/
   }
 }

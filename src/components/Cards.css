@@ -119,8 +119,13 @@ h1 {
 
 @media screen and (max-width: 414px) {
   
+  .cards {
+    padding: 2rem;
+  }
+
   #root, .cards__item, .cards__item__img {
     width: fit-content;
+    /*width: 100%*/
 
   }
 
@@ -142,12 +147,12 @@ h1 {
   }
 
   .item_summary, .tags {
-    font-size: 18px !important;
+    font-size: 20px !important;
   }
 
   .cards__item__link {
     margin-top: 1em;
-    font-size: 18px !important;
+    font-size: 20px !important;
   }
 }
 

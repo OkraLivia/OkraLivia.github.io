@@ -182,7 +182,13 @@
   }
 
   .modal{
-    width: 400px; /*300px*/
+    width: 100%; /*300px*/
+    padding: 0 2em;
+  }
+
+  .gallery-grid {
+    width: 100%;
+    padding: 0 1rem;
   }
 
   .modal-body .modal-next,
@@ -191,7 +197,7 @@
   }
 
   .img_caption {
-    font-size: 18px;
+    font-size: 24px;
   }
 }
 

@@ -99,6 +99,10 @@
   width: cover;
 }
 
+.link-btns {
+  margin-top: 40px;
+}
+
 @media screen and (max-width: 1024px) {
 
   .about-me-container {
@@ -179,14 +183,18 @@
   margin: 0;
 }
 
-p {
-  font-size: 18px;
+.link-btns {
+  margin-top: 40px;
+  order: 2;
 }
-  .labelTitle {
-  }
+
+.about-link-items p {
+  font-size: 20px;
+}
 
   .about-links {
     padding-top: 2rem;
+    height: 100%;
   }
 
   .about-link-wrapper {

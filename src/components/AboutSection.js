@@ -49,7 +49,7 @@ function AboutSection() {
 	          </div>
 	          <div className='about-link-items me'>
 	            <img className="about-img" src="images/OkraLivia_about.png" width="400" alt='okra'/>
-	            <p style={{marginTop:"40px"}}>
+	            <p className="link-btns">
 					<Link to="/CV_OkraLivia.pdf" target="_blank" className='cv'>Open CV</Link>
 					<a href='https://www.linkedin.com/in/okralivia-inkeri-dimle/' target="_blank" rel="noreferrer" className="linkedin">in</a>
 					</p>
