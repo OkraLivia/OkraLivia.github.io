@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.985ac9d8.css",
+    "main.css": "/static/css/main.6a6d2a75.css",
     "main.js": "/static/js/main.e9520dd7.js",
     "static/js/787.b9ec5bb0.chunk.js": "/static/js/787.b9ec5bb0.chunk.js",
     "static/media/squiggle.png": "/static/media/squiggle.ef3d68a6d1c2a648cdbd.png",
     "index.html": "/index.html",
-    "main.985ac9d8.css.map": "/static/css/main.985ac9d8.css.map",
+    "main.6a6d2a75.css.map": "/static/css/main.6a6d2a75.css.map",
     "main.e9520dd7.js.map": "/static/js/main.e9520dd7.js.map",
     "787.b9ec5bb0.chunk.js.map": "/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.985ac9d8.css",
+    "static/css/main.6a6d2a75.css",
     "static/js/main.e9520dd7.js"
   ]
 }
