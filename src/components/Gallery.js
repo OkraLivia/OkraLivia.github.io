@@ -13,7 +13,6 @@ const imgUrls = [
   './images/art/paverka_industrin-web.png',
   './images/art/lovehate-web.png', 
   './images/art/beer_poster.png',
-  './images/art/white_lady-web.png',
   './images/art/stilleben-web.png',
   './images/art/greenhouse-web.png',
   './images/art/yo2015-web.png',
@@ -31,7 +30,6 @@ const imgUrls = [
   './images/art/fish2-web.png',
   './images/art/tomatosauce.png',
   './images/art/sangria-web.png',
-  './images/art/2beer-web.png',
   './images/art/pumpkinhead.png'
 ];
 
@@ -47,7 +45,6 @@ const imgTexts = [
   'This is an illustration in Osqledaren #4 19/20 for the article "Även stora företag behöver ställas till svars för sina handlingar". Each segment of the magazine has its own color, this article was the segment divider in the "Bransch" segment which is orange. This illustration is created in Illustrator and I only used colors of different segments. The blue corresponds to the segment "English" and the green to "OL gräver".',
   'This is an illustration in Osqledaren #3 18/19 for the article "Sektionerna tycker till om THS". I made the flower blue to represent the logo of THS (Tekniska Högskolans Studentkår) which is a flower-like composition of seven blue circles linked together. I made it with pen and aquarelle.',
   'I wanted to create an artwork only using a very limited color palette. The result is this comic-style poster that is an ode to beer 🍻',
-  'This poster is made in Illustrator and it shows the ingredients that are needed for a White Lady, a drink that has been my favourite lately.',
   'I like drawing everyday things in my surrounding. This painting is of an after work beer and behind the glasses is a box of Domino-cookies, the Finnish version of Oreos, which I prefer 😎 The painting is made with acrylics on 170g drawing paper.',
   'This is made in Illustrator. This one is also of things in my surrounding but placed in a greenhouse. I really like the aesthetics of green plants together with the glass and metal of a greenhouse.',
   'This is the invitation I made with aquarelle and Uni Pin fineliners for the celebration of me graduating from high school.',
@@ -65,7 +62,6 @@ const imgTexts = [
   'This is an illustration made with aquarelle colors and and Uni Pin fineliners.',
   'Ingredients to a very delicious tomato sauce that the food blogger Sofia Wood has created: miso, garlic, tomato paste, passed tomatoes, olive oil, salt and pepper. Less is more. The sauce has become a staple in our kitchen, so I figured that I would honor it with an illustration. Bon appétit!',
   'This is made in Illustrator and it is inspired by, or a remake of if you will, an illustration I made for the article "M i Madrid" in Osqledaren #4 17/18. It was part of the “Mat” section of the article, sangria feels like a must-have when visiting Spain 💃',
-  'I made Mikkeller inspired beer labels for my friends who moved to Australia.',
   'I saw the cutest video of a child wearing a pumpkin on his head going by his business, so I just had to draw myself a lil pumpkinhead boy with his froggy friend 🎃'
   ];
 
