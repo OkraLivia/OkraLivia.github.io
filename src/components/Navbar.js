@@ -13,7 +13,7 @@ function Navbar() {
 			<nav className="navbar">
 				<div className="navbar-container">
 					<Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-			    		<img src="/images/OL.png" alt='navimg' width="35" className='logo' style={{marginRight:"20px"}}/>
+			    		<img src="/images/OL.png" alt='navimg' width="31" className='logo' style={{marginRight:"20px"}}/>
 			    	</Link>
 			    	<div className='title-name'>
 			    		<div style={{fontWeight:"600"}}>Okra Livia Inkeri-Dimle</div>

@@ -54,6 +54,7 @@
 .nav-links:hover {
   color: #087C61;
   transition: all 0.2s ease-out;
+  text-decoration: underline;
 }
 
 .fa-bars {
