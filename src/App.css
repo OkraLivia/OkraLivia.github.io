@@ -7,7 +7,6 @@
   font-style: normal;
   color: #03363D; /*#262626*/
   font-family: 'Source Sans 3';
-  font-weight: 400;
 }
 
 body {
@@ -60,7 +59,7 @@ img.hover-zoom:hover {
 }
 
 .about-link-items-text-block a:hover {
-  color: #578a8a;
+  color: #087C61;
   transition: 0.3s ease-out;
 }
 
@@ -168,7 +167,7 @@ img.hover-zoom:hover {
 }
 
 .play-link a:hover {
-  color: #578a8a !important;
+  color: #087C61 !important;
 }
 
 .wedding-img:hover, .wedding-img:active {
