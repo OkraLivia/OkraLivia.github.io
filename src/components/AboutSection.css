@@ -10,7 +10,7 @@
   background-attachment: fixed;
   background-position: right top;
   z-index: 0;
-  /*height: 100vh;*/ /*1vh = 1% of viewport height*/
+  height: 100vh; /*1vh = 1% of viewport height*/
 }
 
 .about-links {
